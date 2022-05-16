@@ -1,0 +1,968 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#"
+     xml:base="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:elements="http://utc.fr/elements/1.1/"
+     xmlns:elements1="http://utc.fr/dc/elements/1.1/">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://utc.fr/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://utc.fr/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://utc.fr/elements/1.1/date -->
+
+    <owl:AnnotationProperty rdf:about="http://utc.fr/elements/1.1/date"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://utc.fr/uvso/ns#hasDriver -->
+
+    <owl:ObjectProperty rdf:about="http://utc.fr/uvso/ns#hasDriver">
+        <rdfs:domain rdf:resource="http://utc.fr/uvso/ns#Campervan"/>
+        <rdfs:domain rdf:resource="http://utc.fr/uvso/ns#Crossover"/>
+        <rdfs:domain rdf:resource="http://utc.fr/uvso/ns#MiniTruck"/>
+        <rdfs:domain rdf:resource="http://utc.fr/uvso/ns#Minibus"/>
+        <rdfs:domain rdf:resource="http://utc.fr/uvso/ns#Minivan"/>
+        <rdfs:domain rdf:resource="http://utc.fr/uvso/ns#PickupTruck"/>
+        <rdfs:domain rdf:resource="http://utc.fr/uvso/ns#SUV"/>
+        <rdfs:domain rdf:resource="http://utc.fr/uvso/ns#Sedan"/>
+        <rdfs:domain rdf:resource="http://utc.fr/uvso/ns#Van"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Boat"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Bus"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Helicopter"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Vehicle"/>
+        <rdfs:range rdf:resource="http://utc.fr/uvso/ns#Drivers"/>
+        <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
+        <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T07:28:27Z</elements:date>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://utc.fr/uvso/ns#hasGeographicalInformation -->
+
+    <owl:ObjectProperty rdf:about="http://utc.fr/uvso/ns#hasGeographicalInformation">
+        <rdfs:domain rdf:resource="http://utc.fr/uvso/ns#Campervan"/>
+        <rdfs:domain rdf:resource="http://utc.fr/uvso/ns#Crossover"/>
+        <rdfs:domain rdf:resource="http://utc.fr/uvso/ns#Drivers"/>
+        <rdfs:domain rdf:resource="http://utc.fr/uvso/ns#MiniTruck"/>
+        <rdfs:domain rdf:resource="http://utc.fr/uvso/ns#Minibus"/>
+        <rdfs:domain rdf:resource="http://utc.fr/uvso/ns#Minivan"/>
+        <rdfs:domain rdf:resource="http://utc.fr/uvso/ns#MunicipalCouncil"/>
+        <rdfs:domain rdf:resource="http://utc.fr/uvso/ns#PickupTruck"/>
+        <rdfs:domain rdf:resource="http://utc.fr/uvso/ns#RescueLocation"/>
+        <rdfs:domain rdf:resource="http://utc.fr/uvso/ns#Resource"/>
+        <rdfs:domain rdf:resource="http://utc.fr/uvso/ns#SUV"/>
+        <rdfs:domain rdf:resource="http://utc.fr/uvso/ns#Sedan"/>
+        <rdfs:domain rdf:resource="http://utc.fr/uvso/ns#Town"/>
+        <rdfs:domain rdf:resource="http://utc.fr/uvso/ns#Van"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Boat"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Bus"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Ehpad"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Helicopter"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Hospital"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Location"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Shelter"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Vehicle"/>
+        <rdfs:range rdf:resource="http://utc.fr/uvso/ns#GeographicInformation"/>
+        <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
+        <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T07:41:59Z</elements:date>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://utc.fr/uvso/ns#hasHealthState -->
+
+    <owl:ObjectProperty rdf:about="http://utc.fr/uvso/ns#hasHealthState">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Person"/>
+        <rdfs:range rdf:resource="http://utc.fr/uvso/ns#HealthState"/>
+        <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
+        <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-03T12:06:46Z</elements:date>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://utc.fr/uvso/ns#hasVehiculeResource -->
+
+    <owl:ObjectProperty rdf:about="http://utc.fr/uvso/ns#hasVehiculeResource">
+        <rdfs:domain rdf:resource="http://utc.fr/uvso/ns#MunicipalCouncil"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Vehicle"/>
+        <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
+        <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-05T14:59:31Z</elements:date>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://utc.fr/uvso/ns#isAbleToDrive -->
+
+    <owl:ObjectProperty rdf:about="http://utc.fr/uvso/ns#isAbleToDrive">
+        <rdfs:domain rdf:resource="http://utc.fr/uvso/ns#Drivers"/>
+        <rdfs:range rdf:resource="http://utc.fr/uvso/ns#Crossover"/>
+        <rdfs:range rdf:resource="http://utc.fr/uvso/ns#MiniTruck"/>
+        <rdfs:range rdf:resource="http://utc.fr/uvso/ns#PickupTruck"/>
+        <rdfs:range rdf:resource="http://utc.fr/uvso/ns#SUV"/>
+        <rdfs:range rdf:resource="http://utc.fr/uvso/ns#Sedan"/>
+        <rdfs:range rdf:resource="http://utc.fr/uvso/ns#Van"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Boat"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Bus"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Helicopter"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Vehicle"/>
+        <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
+        <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T07:24:45Z</elements:date>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://utc.fr/uvso/ns#isTheTerritoryOf -->
+
+    <owl:ObjectProperty rdf:about="http://utc.fr/uvso/ns#isTheTerritoryOf">
+        <rdfs:domain rdf:resource="http://utc.fr/uvso/ns#RescueLocation"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Ehpad"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Hospital"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Shelter"/>
+        <rdfs:range rdf:resource="http://utc.fr/uvso/ns#Town"/>
+        <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
+        <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-03T12:07:17Z</elements:date>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://utc.fr/uvso/ns#locatedIn -->
+
+    <owl:ObjectProperty rdf:about="http://utc.fr/uvso/ns#locatedIn">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Person"/>
+        <rdfs:range rdf:resource="http://utc.fr/uvso/ns#RescueLocation"/>
+        <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
+        <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-03T12:09:37Z</elements:date>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://utc.fr/uvso/ns#needMovementTo -->
+
+    <owl:ObjectProperty rdf:about="http://utc.fr/uvso/ns#needMovementTo">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Ehpad"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Hospital"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Shelter"/>
+        <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
+        <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-03T12:11:32Z</elements:date>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#hosts -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#hosts">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#locatesIn"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Location"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#locatesIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#locatesIn">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Location"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#mustUse -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#mustUse">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Location"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Vehicle"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://utc.fr/uvso/ns#hasAddress -->
+
+    <owl:DatatypeProperty rdf:about="http://utc.fr/uvso/ns#hasAddress">
+        <rdfs:domain rdf:resource="http://utc.fr/uvso/ns#MunicipalCouncil"/>
+        <rdfs:domain rdf:resource="http://utc.fr/uvso/ns#RescueLocation"/>
+        <rdfs:domain rdf:resource="http://utc.fr/uvso/ns#Town"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Ehpad"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Hospital"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Location"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Shelter"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
+        <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-03T12:03:41Z</elements:date>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://utc.fr/uvso/ns#hasLatitude -->
+
+    <owl:DatatypeProperty rdf:about="http://utc.fr/uvso/ns#hasLatitude">
+        <rdfs:domain rdf:resource="http://utc.fr/uvso/ns#GeographicInformation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
+        <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T07:39:58Z</elements:date>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://utc.fr/uvso/ns#hasLocationName -->
+
+    <owl:DatatypeProperty rdf:about="http://utc.fr/uvso/ns#hasLocationName">
+        <rdfs:domain rdf:resource="http://utc.fr/uvso/ns#GeographicInformation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
+        <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T07:41:17Z</elements:date>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://utc.fr/uvso/ns#hasLongtitude -->
+
+    <owl:DatatypeProperty rdf:about="http://utc.fr/uvso/ns#hasLongtitude">
+        <rdfs:domain rdf:resource="http://utc.fr/uvso/ns#GeographicInformation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
+        <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T07:40:17Z</elements:date>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://utc.fr/uvso/ns#hasNbOfPerson -->
+
+    <owl:DatatypeProperty rdf:about="http://utc.fr/uvso/ns#hasNbOfPerson">
+        <rdfs:domain rdf:resource="http://utc.fr/uvso/ns#RescueLocation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
+        <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-03T12:04:40Z</elements:date>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://utc.fr/uvso/ns#hasNbofAvailablePlace -->
+
+    <owl:DatatypeProperty rdf:about="http://utc.fr/uvso/ns#hasNbofAvailablePlace">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Hospital"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Shelter"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
+        <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-03T12:05:24Z</elements:date>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://utc.fr/uvso/ns#hasPriorityLevel -->
+
+    <owl:DatatypeProperty rdf:about="http://utc.fr/uvso/ns#hasPriorityLevel">
+        <rdfs:domain rdf:resource="http://utc.fr/uvso/ns#RescueLocation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
+        <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-03T12:06:09Z</elements:date>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://utc.fr/uvso/ns#isWaitingAChild -->
+
+    <owl:DatatypeProperty rdf:about="http://utc.fr/uvso/ns#isWaitingAChild">
+        <rdfs:domain rdf:resource="http://utc.fr/uvso/ns#PregnantWoman"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
+        <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-02T14:57:53Z</elements:date>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#hasAge -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#hasAge">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#hasCapacity -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#hasCapacity">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Hospital"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Shelter"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Vehicle"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#hasDangerLevel -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#hasDangerLevel">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Location"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#hasSex -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#hasSex">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Person"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first>M</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>W</rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#moveInTheSky -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#moveInTheSky">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Vehicle"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#moveOnWater -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#moveOnWater">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Vehicle"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#requireMedicalTreatment -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#requireMedicalTreatment">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#useInArea -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#useInArea">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Vehicle"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first>Private</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>Public</rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://utc.fr/uvso/ns#Campervan -->
+
+    <owl:Class rdf:about="http://utc.fr/uvso/ns#Campervan">
+        <rdfs:subClassOf rdf:resource="http://utc.fr/uvso/ns#Van"/>
+        <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
+        <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T07:06:57Z</elements:date>
+    </owl:Class>
+    
+
+
+    <!-- http://utc.fr/uvso/ns#Crossover -->
+
+    <owl:Class rdf:about="http://utc.fr/uvso/ns#Crossover">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Vehicle"/>
+        <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
+        <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T07:10:54Z</elements:date>
+    </owl:Class>
+    
+
+
+    <!-- http://utc.fr/uvso/ns#Drivers -->
+
+    <owl:Class rdf:about="http://utc.fr/uvso/ns#Drivers">
+        <rdfs:subClassOf rdf:resource="http://utc.fr/uvso/ns#Resource"/>
+        <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
+        <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T07:03:21Z</elements:date>
+    </owl:Class>
+    
+
+
+    <!-- http://utc.fr/uvso/ns#GeographicInformation -->
+
+    <owl:Class rdf:about="http://utc.fr/uvso/ns#GeographicInformation">
+        <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
+        <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T07:33:14Z</elements:date>
+    </owl:Class>
+    
+
+
+    <!-- http://utc.fr/uvso/ns#HealthState -->
+
+    <owl:Class rdf:about="http://utc.fr/uvso/ns#HealthState">
+        <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
+        <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-03T12:01:22Z</elements:date>
+    </owl:Class>
+    
+
+
+    <!-- http://utc.fr/uvso/ns#MiniTruck -->
+
+    <owl:Class rdf:about="http://utc.fr/uvso/ns#MiniTruck">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Vehicle"/>
+        <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
+        <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T07:12:41Z</elements:date>
+    </owl:Class>
+    
+
+
+    <!-- http://utc.fr/uvso/ns#Minibus -->
+
+    <owl:Class rdf:about="http://utc.fr/uvso/ns#Minibus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Bus"/>
+        <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
+        <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T07:09:56Z</elements:date>
+    </owl:Class>
+    
+
+
+    <!-- http://utc.fr/uvso/ns#Minivan -->
+
+    <owl:Class rdf:about="http://utc.fr/uvso/ns#Minivan">
+        <rdfs:subClassOf rdf:resource="http://utc.fr/uvso/ns#Van"/>
+        <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
+        <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T07:06:43Z</elements:date>
+        <rdfs:comment>Multi-purpose Vehicle</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://utc.fr/uvso/ns#MunicipalCouncil -->
+
+    <owl:Class rdf:about="http://utc.fr/uvso/ns#MunicipalCouncil">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Location"/>
+        <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
+        <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-03T12:01:42Z</elements:date>
+    </owl:Class>
+    
+
+
+    <!-- http://utc.fr/uvso/ns#NormalWoman -->
+
+    <owl:Class rdf:about="http://utc.fr/uvso/ns#NormalWoman">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Woman"/>
+        <owl:disjointWith rdf:resource="http://utc.fr/uvso/ns#PregnantWoman"/>
+        <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
+        <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-02T14:59:23Z</elements:date>
+    </owl:Class>
+    
+
+
+    <!-- http://utc.fr/uvso/ns#PickupTruck -->
+
+    <owl:Class rdf:about="http://utc.fr/uvso/ns#PickupTruck">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Vehicle"/>
+        <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
+        <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-03T11:48:03Z</elements:date>
+    </owl:Class>
+    
+
+
+    <!-- http://utc.fr/uvso/ns#PregnantWoman -->
+
+    <owl:Class rdf:about="http://utc.fr/uvso/ns#PregnantWoman">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Woman"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://utc.fr/uvso/ns#isWaitingAChild"/>
+                        <owl:allValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:oneOf>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </owl:oneOf>
+                            </rdfs:Datatype>
+                        </owl:allValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Woman"/>
+        <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
+        <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-02T14:56:44Z</elements:date>
+    </owl:Class>
+    
+
+
+    <!-- http://utc.fr/uvso/ns#RescueLocation -->
+
+    <owl:Class rdf:about="http://utc.fr/uvso/ns#RescueLocation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Location"/>
+        <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
+        <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-03T11:51:45Z</elements:date>
+        <rdfs:comment>lieu de sauvetage</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://utc.fr/uvso/ns#Resource -->
+
+    <owl:Class rdf:about="http://utc.fr/uvso/ns#Resource">
+        <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
+        <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-05T14:59:04Z</elements:date>
+    </owl:Class>
+    
+
+
+    <!-- http://utc.fr/uvso/ns#SUV -->
+
+    <owl:Class rdf:about="http://utc.fr/uvso/ns#SUV">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Vehicle"/>
+        <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
+        <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T07:06:14Z</elements:date>
+        <rdfs:comment>Sport Utility Vehicle</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://utc.fr/uvso/ns#Sedan -->
+
+    <owl:Class rdf:about="http://utc.fr/uvso/ns#Sedan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Vehicle"/>
+        <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
+        <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T07:10:48Z</elements:date>
+    </owl:Class>
+    
+
+
+    <!-- http://utc.fr/uvso/ns#Town -->
+
+    <owl:Class rdf:about="http://utc.fr/uvso/ns#Town">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Location"/>
+        <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
+        <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-03T12:01:57Z</elements:date>
+    </owl:Class>
+    
+
+
+    <!-- http://utc.fr/uvso/ns#Van -->
+
+    <owl:Class rdf:about="http://utc.fr/uvso/ns#Van">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Vehicle"/>
+        <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
+        <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T07:02:26Z</elements:date>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Adult -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Adult">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#hasAge"/>
+                <owl:someValuesFrom>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#int">16</xsd:minExclusive>
+                            </rdf:Description>
+                            <rdf:Description>
+                                <xsd:maxExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#int">65</xsd:maxExclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Boat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Boat">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#moveOnWater"/>
+                <owl:allValuesFrom>
+                    <rdfs:Datatype>
+                        <owl:oneOf>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </owl:oneOf>
+                    </rdfs:Datatype>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Vehicle"/>
+        <rdfs:comment>Bateau</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Boy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Boy">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Children"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#hasSex"/>
+                        <owl:allValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:oneOf>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first>M</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </owl:oneOf>
+                            </rdfs:Datatype>
+                        </owl:allValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Children"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Bus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Bus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Vehicle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Children -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Children">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#hasAge"/>
+                <owl:someValuesFrom>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#int">16</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Ehpad -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Ehpad">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#hosts"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Elderly"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Location"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Elderly -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Elderly">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#hasAge"/>
+                <owl:someValuesFrom>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#int">65</xsd:minInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Girl -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Girl">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Children"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#hasSex"/>
+                        <owl:allValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:oneOf>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first>F</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </owl:oneOf>
+                            </rdfs:Datatype>
+                        </owl:allValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Children"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Helicopter -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Helicopter">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#moveInTheSky"/>
+                <owl:allValuesFrom>
+                    <rdfs:Datatype>
+                        <owl:oneOf>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </owl:oneOf>
+                    </rdfs:Datatype>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Vehicle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Hospital -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Hospital">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#hosts"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Patient"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Location"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Location -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Location"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Man -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Man">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Adult"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#hasSex"/>
+                        <owl:allValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:oneOf>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first>M</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </owl:oneOf>
+                            </rdfs:Datatype>
+                        </owl:allValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Adult"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Patient -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Patient">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#requireMedicalTreatment"/>
+                <owl:allValuesFrom>
+                    <rdfs:Datatype>
+                        <owl:oneOf>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </owl:oneOf>
+                    </rdfs:Datatype>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Person"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Shelter -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Shelter">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Location"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Vehicle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Vehicle">
+        <rdfs:subClassOf rdf:resource="http://utc.fr/uvso/ns#Resource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Woman -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Woman">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Adult"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#hasSex"/>
+                        <owl:allValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:oneOf>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first>W</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </owl:oneOf>
+                            </rdfs:Datatype>
+                        </owl:allValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jinfeng/ontologies/2022/4/untitled-ontology-2#Adult"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
