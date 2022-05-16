@@ -1,0 +1,115 @@
+
+	.div-drag
+	{
+		cursor:move;
+		text-align:center;
+		
+		display:inline-block;
+		line-height:100px;
+
+		width:160px;
+		
+		
+	}
+	.div-drop
+	{
+		display:table-cell; 
+		width:160px; 
+		height:140px; 
+		border:dashed 1px black;
+		
+	}
+	.submit{
+		margin-right : 30px;
+		text-align : right;
+		
+	}.div-body {
+		background-color:#FFFFFF;
+		margin: 50px;
+		border: 10px solid rgb(98,187,167);
+		border-radius: 1em;
+		padding: 50px;
+} .div-drop:hover{
+    background:rgb(249,237,216); 
+	width:150px;
+	font-size: 30px;
+	border-radius: 8px;
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+	width: 150px;
+	transition: all 0s;
+}.form-radio
+{
+     -webkit-appearance: none;
+     -moz-appearance: none;
+     appearance: none;
+     display: inline-block;
+     position: relative;
+     background-color: #f1f1f1;
+     color: #888;
+     top: 10px;
+     height: 30px;
+     width: 30px;
+     border: 0;
+     border-radius: 50px;
+     cursor: pointer;     
+     margin-right: 7px;
+     outline: none;
+}
+.form-radio:checked::before
+{
+     position: absolute;
+     font: 13px/1 'Open Sans', sans-serif;
+     left: 11px;
+     top: 7px;
+     content: '\02143';
+     transform: rotate(40deg);
+	 color:#212B2B;
+}
+.form-radio:hover
+{
+     background-color: #C8F3F3;
+}
+.form-radio:checked
+{
+     background-color: #C8F3F3;
+}
+label
+{
+     font: 300 16px/1.7 'Open Sans', sans-serif;
+     color: #666;
+     cursor: pointer;
+} 
+
+
+
+input[type=submit]:hover {
+  background-color: rgb(98,187,167); /* Black */
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  display: inline-block;
+  position: relative;
+}
+
+input[type=submit] {
+	  padding:5px 15px; 
+    background:#989898		; 
+	color: white;
+	font-size: 20px;
+	border-radius: 8px;
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+	width: 150px;
+	transition: all 0s;
+}
+body {
+		width: 1200px;
+		height: auto;
+		margin: 0 auto;
+		background-repeat: repeat;
+		background-image: url(../img/evacuation.png);
+}
