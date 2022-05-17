@@ -82,12 +82,12 @@
         <rdfs:domain rdf:resource="http://www.utc.fr/ovac#MunicipalCouncil"/>
         <rdfs:domain rdf:resource="http://www.utc.fr/ovac#RescueLocation"/>
         <rdfs:domain rdf:resource="http://www.utc.fr/ovac#Resource"/>
+        <rdfs:domain rdf:resource="http://www.utc.fr/ovac#SUV"/>
         <rdfs:domain rdf:resource="http://www.utc.fr/ovac#Sedan"/>
         <rdfs:domain rdf:resource="http://www.utc.fr/ovac#Shelter"/>
         <rdfs:domain rdf:resource="http://www.utc.fr/ovac#Town"/>
         <rdfs:domain rdf:resource="http://www.utc.fr/ovac#Van"/>
         <rdfs:domain rdf:resource="http://www.utc.fr/ovac#Vehicle"/>
-        <rdfs:domain rdf:resource="http://www.utc.fr/ovac#4x4_SUV_Crossover"/>
         <rdfs:range rdf:resource="http://www.utc.fr/ovac#GeographicInformation"/>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
         <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T07:41:59Z</elements:date>
@@ -134,10 +134,10 @@
         <rdfs:range rdf:resource="http://www.utc.fr/ovac#Boat"/>
         <rdfs:range rdf:resource="http://www.utc.fr/ovac#Bus"/>
         <rdfs:range rdf:resource="http://www.utc.fr/ovac#Helicopter"/>
+        <rdfs:range rdf:resource="http://www.utc.fr/ovac#SUV"/>
         <rdfs:range rdf:resource="http://www.utc.fr/ovac#Sedan"/>
         <rdfs:range rdf:resource="http://www.utc.fr/ovac#Van"/>
         <rdfs:range rdf:resource="http://www.utc.fr/ovac#Vehicle"/>
-        <rdfs:range rdf:resource="http://www.utc.fr/ovac#4x4_SUV_Crossover"/>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
         <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T07:24:45Z</elements:date>
     </owl:ObjectProperty>
@@ -153,10 +153,10 @@
         <rdfs:domain rdf:resource="http://www.utc.fr/ovac#Helicopter"/>
         <rdfs:domain rdf:resource="http://www.utc.fr/ovac#Minibus"/>
         <rdfs:domain rdf:resource="http://www.utc.fr/ovac#Minivan"/>
+        <rdfs:domain rdf:resource="http://www.utc.fr/ovac#SUV"/>
         <rdfs:domain rdf:resource="http://www.utc.fr/ovac#Sedan"/>
         <rdfs:domain rdf:resource="http://www.utc.fr/ovac#Van"/>
         <rdfs:domain rdf:resource="http://www.utc.fr/ovac#Vehicle"/>
-        <rdfs:domain rdf:resource="http://www.utc.fr/ovac#4x4_SUV_Crossover"/>
         <rdfs:range rdf:resource="http://www.utc.fr/ovac#Drivers"/>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
         <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T07:28:27Z</elements:date>
@@ -204,10 +204,10 @@
         <rdfs:range rdf:resource="http://www.utc.fr/ovac#Boat"/>
         <rdfs:range rdf:resource="http://www.utc.fr/ovac#Bus"/>
         <rdfs:range rdf:resource="http://www.utc.fr/ovac#Helicopter"/>
+        <rdfs:range rdf:resource="http://www.utc.fr/ovac#SUV"/>
         <rdfs:range rdf:resource="http://www.utc.fr/ovac#Sedan"/>
         <rdfs:range rdf:resource="http://www.utc.fr/ovac#Van"/>
         <rdfs:range rdf:resource="http://www.utc.fr/ovac#Vehicle"/>
-        <rdfs:range rdf:resource="http://www.utc.fr/ovac#4x4_SUV_Crossover"/>
     </owl:ObjectProperty>
     
 
@@ -241,9 +241,9 @@
         <rdfs:domain rdf:resource="http://www.utc.fr/ovac#Boat"/>
         <rdfs:domain rdf:resource="http://www.utc.fr/ovac#Bus"/>
         <rdfs:domain rdf:resource="http://www.utc.fr/ovac#Helicopter"/>
+        <rdfs:domain rdf:resource="http://www.utc.fr/ovac#SUV"/>
         <rdfs:domain rdf:resource="http://www.utc.fr/ovac#Sedan"/>
         <rdfs:domain rdf:resource="http://www.utc.fr/ovac#Van"/>
-        <rdfs:domain rdf:resource="http://www.utc.fr/ovac#4x4_SUV_Crossover"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
         <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T13:06:48Z</elements:date>
@@ -360,10 +360,10 @@
         <rdfs:domain rdf:resource="http://www.utc.fr/ovac#Boat"/>
         <rdfs:domain rdf:resource="http://www.utc.fr/ovac#Bus"/>
         <rdfs:domain rdf:resource="http://www.utc.fr/ovac#Helicopter"/>
+        <rdfs:domain rdf:resource="http://www.utc.fr/ovac#SUV"/>
         <rdfs:domain rdf:resource="http://www.utc.fr/ovac#Sedan"/>
         <rdfs:domain rdf:resource="http://www.utc.fr/ovac#Van"/>
         <rdfs:domain rdf:resource="http://www.utc.fr/ovac#Vehicle"/>
-        <rdfs:domain rdf:resource="http://www.utc.fr/ovac#4x4_SUV_Crossover"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
         <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T11:17:43Z</elements:date>
@@ -389,10 +389,10 @@
         <rdfs:domain rdf:resource="http://www.utc.fr/ovac#Boat"/>
         <rdfs:domain rdf:resource="http://www.utc.fr/ovac#Bus"/>
         <rdfs:domain rdf:resource="http://www.utc.fr/ovac#Helicopter"/>
+        <rdfs:domain rdf:resource="http://www.utc.fr/ovac#SUV"/>
         <rdfs:domain rdf:resource="http://www.utc.fr/ovac#Sedan"/>
         <rdfs:domain rdf:resource="http://www.utc.fr/ovac#Van"/>
         <rdfs:domain rdf:resource="http://www.utc.fr/ovac#Vehicle"/>
-        <rdfs:domain rdf:resource="http://www.utc.fr/ovac#4x4_SUV_Crossover"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
         <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T08:15:59Z</elements:date>
@@ -418,10 +418,10 @@
         <rdfs:domain rdf:resource="http://www.utc.fr/ovac#Boat"/>
         <rdfs:domain rdf:resource="http://www.utc.fr/ovac#Bus"/>
         <rdfs:domain rdf:resource="http://www.utc.fr/ovac#Helicopter"/>
+        <rdfs:domain rdf:resource="http://www.utc.fr/ovac#SUV"/>
         <rdfs:domain rdf:resource="http://www.utc.fr/ovac#Sedan"/>
         <rdfs:domain rdf:resource="http://www.utc.fr/ovac#Van"/>
         <rdfs:domain rdf:resource="http://www.utc.fr/ovac#Vehicle"/>
-        <rdfs:domain rdf:resource="http://www.utc.fr/ovac#4x4_SUV_Crossover"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
         <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T08:21:59Z</elements:date>
@@ -436,11 +436,11 @@
         <rdfs:domain rdf:resource="http://www.utc.fr/ovac#Bus"/>
         <rdfs:domain rdf:resource="http://www.utc.fr/ovac#Helicopter"/>
         <rdfs:domain rdf:resource="http://www.utc.fr/ovac#Hospital"/>
+        <rdfs:domain rdf:resource="http://www.utc.fr/ovac#SUV"/>
         <rdfs:domain rdf:resource="http://www.utc.fr/ovac#Sedan"/>
         <rdfs:domain rdf:resource="http://www.utc.fr/ovac#Shelter"/>
         <rdfs:domain rdf:resource="http://www.utc.fr/ovac#Van"/>
         <rdfs:domain rdf:resource="http://www.utc.fr/ovac#Vehicle"/>
-        <rdfs:domain rdf:resource="http://www.utc.fr/ovac#4x4_SUV_Crossover"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
         <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-03T12:05:24Z</elements:date>
@@ -455,10 +455,10 @@
         <rdfs:domain rdf:resource="http://www.utc.fr/ovac#Boat"/>
         <rdfs:domain rdf:resource="http://www.utc.fr/ovac#Bus"/>
         <rdfs:domain rdf:resource="http://www.utc.fr/ovac#Helicopter"/>
+        <rdfs:domain rdf:resource="http://www.utc.fr/ovac#SUV"/>
         <rdfs:domain rdf:resource="http://www.utc.fr/ovac#Sedan"/>
         <rdfs:domain rdf:resource="http://www.utc.fr/ovac#Van"/>
         <rdfs:domain rdf:resource="http://www.utc.fr/ovac#Vehicle"/>
-        <rdfs:domain rdf:resource="http://www.utc.fr/ovac#4x4_SUV_Crossover"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
         <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T08:16:27Z</elements:date>
@@ -521,10 +521,10 @@
         <rdfs:domain rdf:resource="http://www.utc.fr/ovac#Boat"/>
         <rdfs:domain rdf:resource="http://www.utc.fr/ovac#Bus"/>
         <rdfs:domain rdf:resource="http://www.utc.fr/ovac#Helicopter"/>
+        <rdfs:domain rdf:resource="http://www.utc.fr/ovac#SUV"/>
         <rdfs:domain rdf:resource="http://www.utc.fr/ovac#Sedan"/>
         <rdfs:domain rdf:resource="http://www.utc.fr/ovac#Van"/>
         <rdfs:domain rdf:resource="http://www.utc.fr/ovac#Vehicle"/>
-        <rdfs:domain rdf:resource="http://www.utc.fr/ovac#4x4_SUV_Crossover"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
         <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T11:09:51Z</elements:date>
@@ -538,10 +538,10 @@
         <rdfs:domain rdf:resource="http://www.utc.fr/ovac#Boat"/>
         <rdfs:domain rdf:resource="http://www.utc.fr/ovac#Bus"/>
         <rdfs:domain rdf:resource="http://www.utc.fr/ovac#Helicopter"/>
+        <rdfs:domain rdf:resource="http://www.utc.fr/ovac#SUV"/>
         <rdfs:domain rdf:resource="http://www.utc.fr/ovac#Sedan"/>
         <rdfs:domain rdf:resource="http://www.utc.fr/ovac#Van"/>
         <rdfs:domain rdf:resource="http://www.utc.fr/ovac#Vehicle"/>
-        <rdfs:domain rdf:resource="http://www.utc.fr/ovac#4x4_SUV_Crossover"/>
         <rdfs:range>
             <rdfs:Datatype>
                 <owl:oneOf>
@@ -578,9 +578,9 @@
         <rdfs:domain rdf:resource="http://www.utc.fr/ovac#Boat"/>
         <rdfs:domain rdf:resource="http://www.utc.fr/ovac#Bus"/>
         <rdfs:domain rdf:resource="http://www.utc.fr/ovac#Helicopter"/>
+        <rdfs:domain rdf:resource="http://www.utc.fr/ovac#SUV"/>
         <rdfs:domain rdf:resource="http://www.utc.fr/ovac#Sedan"/>
         <rdfs:domain rdf:resource="http://www.utc.fr/ovac#Van"/>
-        <rdfs:domain rdf:resource="http://www.utc.fr/ovac#4x4_SUV_Crossover"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
         <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T12:08:31Z</elements:date>
@@ -594,9 +594,9 @@
         <rdfs:domain rdf:resource="http://www.utc.fr/ovac#Boat"/>
         <rdfs:domain rdf:resource="http://www.utc.fr/ovac#Bus"/>
         <rdfs:domain rdf:resource="http://www.utc.fr/ovac#Helicopter"/>
+        <rdfs:domain rdf:resource="http://www.utc.fr/ovac#SUV"/>
         <rdfs:domain rdf:resource="http://www.utc.fr/ovac#Sedan"/>
         <rdfs:domain rdf:resource="http://www.utc.fr/ovac#Van"/>
-        <rdfs:domain rdf:resource="http://www.utc.fr/ovac#4x4_SUV_Crossover"/>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
         <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T12:07:10Z</elements:date>
     </owl:DatatypeProperty>
@@ -610,9 +610,9 @@
         <rdfs:domain rdf:resource="http://www.utc.fr/ovac#Boat"/>
         <rdfs:domain rdf:resource="http://www.utc.fr/ovac#Bus"/>
         <rdfs:domain rdf:resource="http://www.utc.fr/ovac#Helicopter"/>
+        <rdfs:domain rdf:resource="http://www.utc.fr/ovac#SUV"/>
         <rdfs:domain rdf:resource="http://www.utc.fr/ovac#Sedan"/>
         <rdfs:domain rdf:resource="http://www.utc.fr/ovac#Van"/>
-        <rdfs:domain rdf:resource="http://www.utc.fr/ovac#4x4_SUV_Crossover"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
         <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T12:09:21Z</elements:date>
@@ -627,9 +627,9 @@
         <rdfs:domain rdf:resource="http://www.utc.fr/ovac#Boat"/>
         <rdfs:domain rdf:resource="http://www.utc.fr/ovac#Bus"/>
         <rdfs:domain rdf:resource="http://www.utc.fr/ovac#Helicopter"/>
+        <rdfs:domain rdf:resource="http://www.utc.fr/ovac#SUV"/>
         <rdfs:domain rdf:resource="http://www.utc.fr/ovac#Sedan"/>
         <rdfs:domain rdf:resource="http://www.utc.fr/ovac#Van"/>
-        <rdfs:domain rdf:resource="http://www.utc.fr/ovac#4x4_SUV_Crossover"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
         <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T12:08:44Z</elements:date>
@@ -1184,6 +1184,17 @@
     
 
 
+    <!-- http://www.utc.fr/ovac#SUV -->
+
+    <owl:Class rdf:about="http://www.utc.fr/ovac#SUV">
+        <rdfs:subClassOf rdf:resource="http://www.utc.fr/ovac#Vehicle"/>
+        <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
+        <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T07:10:54Z</elements:date>
+        <rdfs:comment>SUV, 4x4, Crossover</rdfs:comment>
+    </owl:Class>
+    
+
+
     <!-- http://www.utc.fr/ovac#Sedan -->
 
     <owl:Class rdf:about="http://www.utc.fr/ovac#Sedan">
@@ -1268,16 +1279,6 @@
     
 
 
-    <!-- http://www.utc.fr/ovac#4x4_SUV_Crossover -->
-
-    <owl:Class rdf:about="http://www.utc.fr/ovac#4x4_SUV_Crossover">
-        <rdfs:subClassOf rdf:resource="http://www.utc.fr/ovac#Vehicle"/>
-        <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
-        <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T07:10:54Z</elements:date>
-    </owl:Class>
-    
-
-
     <!-- http://www.utc.fr/ovac#HelicopterCommercialPilot&apos;sLicense -->
 
     <owl:Class rdf:about="http://www.utc.fr/ovac#HelicopterCommercialPilot&apos;sLicense">
@@ -1314,7 +1315,7 @@
     <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Adrien_Quinn">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#Drivers"/>
         <ovac:ObtainedAPermit rdf:resource="http://www.utc.fr/ovac#Adrien_Quinn_PermitB"/>
-        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">100 Rue de Paris, 60200 Compiègne</ovac:hasAddress>
+        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">100 Rue de Paris, 60200 Compiegne</ovac:hasAddress>
         <ovac:hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51</ovac:hasAge>
         <ovac:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adrien Quinn</ovac:hasName>
         <ovac:hasPhoneNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">05 78 25 97 70</ovac:hasPhoneNumber>
@@ -1341,7 +1342,7 @@
     <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Adrien_Sirois">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#Drivers"/>
         <ovac:ObtainedAPermit rdf:resource="http://www.utc.fr/ovac#Adrien_Sirois_PermitB"/>
-        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">70 Rue Saint-Joseph, 60200 Compiègne</ovac:hasAddress>
+        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">70 Rue Saint-Joseph, 60200 Compiegne</ovac:hasAddress>
         <ovac:hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">31</ovac:hasAge>
         <ovac:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adrien Sirois</ovac:hasName>
         <ovac:hasPhoneNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">04 52 83 55 30</ovac:hasPhoneNumber>
@@ -1368,9 +1369,9 @@
     <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Adrien_Theberge">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#Drivers"/>
         <ovac:ObtainedAPermit rdf:resource="http://www.utc.fr/ovac#Adrien_Theberge_PermitB"/>
-        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2 Pl. du 14 Juillet, 60200 Compiègne</ovac:hasAddress>
+        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2 Pl. du 14 Juillet, 60200 Compiegne</ovac:hasAddress>
         <ovac:hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">39</ovac:hasAge>
-        <ovac:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adrien Théberge</ovac:hasName>
+        <ovac:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adrien Theberge</ovac:hasName>
         <ovac:hasPhoneNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">05 88 65 64 44</ovac:hasPhoneNumber>
         <ovac:hasSex rdf:datatype="http://www.w3.org/2001/XMLSchema#string">M</ovac:hasSex>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
@@ -1395,7 +1396,7 @@
     <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Algernon_Casgrain">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#Drivers"/>
         <ovac:ObtainedAPermit rdf:resource="http://www.utc.fr/ovac#Algernon_Casgrain_PermitD1"/>
-        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">45 Rte de Choisy, 60200 Compiègne</ovac:hasAddress>
+        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">45 Rte de Choisy, 60200 Compiegne</ovac:hasAddress>
         <ovac:hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</ovac:hasAge>
         <ovac:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Algernon Casgrain</ovac:hasName>
         <ovac:hasPhoneNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">05 26 99 40 26</ovac:hasPhoneNumber>
@@ -1422,7 +1423,7 @@
     <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Algernon_Lapointe">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#Drivers"/>
         <ovac:ObtainedAPermit rdf:resource="http://www.utc.fr/ovac#Algernon_Lapointe_PermitB"/>
-        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16 Rue de la Sous-Préfecture, 60200 Compiègne</ovac:hasAddress>
+        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16 Rue de la Sous-Prefecture, 60200 Compiegne</ovac:hasAddress>
         <ovac:hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49</ovac:hasAge>
         <ovac:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Algernon Lapointe</ovac:hasName>
         <ovac:hasPhoneNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">01 34 51 85 94</ovac:hasPhoneNumber>
@@ -1449,9 +1450,9 @@
     <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Annot_Laramee">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#Drivers"/>
         <ovac:ObtainedAPermit rdf:resource="http://www.utc.fr/ovac#Annot_Laramee_PermitB"/>
-        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21T Rue Saint-Germain, 60200 Compiègne</ovac:hasAddress>
+        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21T Rue Saint-Germain, 60200 Compiegne</ovac:hasAddress>
         <ovac:hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">38</ovac:hasAge>
-        <ovac:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annot Laramée</ovac:hasName>
+        <ovac:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annot Laramee</ovac:hasName>
         <ovac:hasPhoneNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">05 88 65 64 44</ovac:hasPhoneNumber>
         <ovac:hasSex rdf:datatype="http://www.w3.org/2001/XMLSchema#string">W</ovac:hasSex>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
@@ -1477,7 +1478,7 @@
         <rdf:type rdf:resource="http://www.utc.fr/ovac#GeographicInformation"/>
         <ovac:hasCoordinates rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.424442048455916, 2.8324848203960844</ovac:hasCoordinates>
         <ovac:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.424442048455916</ovac:hasLatitude>
-        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Port de Plaisance de Compiègne, Rue de l&apos;Estacade, 60200 Compiègne</ovac:hasLocationName>
+        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Port de Plaisance de Compiegne, Rue de l&apos;Estacade, 60200 Compiegne</ovac:hasLocationName>
         <ovac:hasLongtitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.8324848203960844</ovac:hasLongtitude>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
         <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T14:51:21Z</elements:date>
@@ -1490,7 +1491,7 @@
     <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Boat_Nouva_Jolly_prince_34">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#Boat"/>
         <ovac:hasGeographicalInformation rdf:resource="http://www.utc.fr/ovac#Boat_Nouva_Jolly_Prince_34_GeoInfo"/>
-        <ovac:isDrivenBy rdf:resource="http://www.utc.fr/ovac#Herve_Clément"/>
+        <ovac:isDrivenBy rdf:resource="http://www.utc.fr/ovac#Herve_Clement"/>
         <ovac:fuelType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">essence</ovac:fuelType>
         <ovac:hasModelName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nuova Jolly Prince 34</ovac:hasModelName>
         <ovac:hasNbofAvaiableLyingPlaces rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</ovac:hasNbofAvaiableLyingPlaces>
@@ -1534,7 +1535,7 @@
         <ovac:hasCoordinates rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.424442048455916, 2.8324848203960844</ovac:hasCoordinates>
         <ovac:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.424442048455916</ovac:hasLatitude>
         <ovac:hasLongtitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.8324848203960844</ovac:hasLongtitude>
-        <ovac:hasLongtitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Port de Plaisance de Compiègne, Rue de l&apos;Estacade, 60200 Compiègne</ovac:hasLongtitude>
+        <ovac:hasLongtitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Port de Plaisance de Compiegne, Rue de l&apos;Estacade, 60200 Compiegne</ovac:hasLongtitude>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
         <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T14:27:02Z</elements:date>
     </owl:NamedIndividual>
@@ -1546,7 +1547,7 @@
     <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Brigliador_Goguen">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#Drivers"/>
         <ovac:ObtainedAPermit rdf:resource="http://www.utc.fr/ovac#Brigliador_Goguen_PermitB"/>
-        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">33 Rue Augustin Thierry, 60200 Compiègne</ovac:hasAddress>
+        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">33 Rue Augustin Thierry, 60200 Compiegne</ovac:hasAddress>
         <ovac:hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52</ovac:hasAge>
         <ovac:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brigliador Goguen</ovac:hasName>
         <ovac:hasPhoneNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">04 36 06 34 86</ovac:hasPhoneNumber>
@@ -1573,7 +1574,7 @@
     <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Channing_Ricard">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#Drivers"/>
         <ovac:ObtainedAPermit rdf:resource="http://www.utc.fr/ovac#Channing_Ricard_PermitB"/>
-        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2 Rue François Claux, 60200 Compiègne</ovac:hasAddress>
+        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2 Rue François Claux, 60200 Compiegne</ovac:hasAddress>
         <ovac:hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">39</ovac:hasAge>
         <ovac:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Channing Ricard</ovac:hasName>
         <ovac:hasPhoneNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">01 90 12 28 78</ovac:hasPhoneNumber>
@@ -1600,7 +1601,7 @@
     <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Christine_Lampard">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#Drivers"/>
         <ovac:ObtainedAPermit rdf:resource="http://www.utc.fr/ovac#Chritine_Lampard_Helicopter_PrivatePilot&apos;sLicences"/>
-        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8 Bis Av. de la Forêt, 60200 Compiègne</ovac:hasAddress>
+        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8 Bis Av. de la Foret, 60200 Compiegne</ovac:hasAddress>
         <ovac:hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">37</ovac:hasAge>
         <ovac:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Christine Lampard</ovac:hasName>
         <ovac:hasPhoneNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0000000000</ovac:hasPhoneNumber>
@@ -1611,9 +1612,9 @@
     
 
 
-    <!-- http://www.utc.fr/ovac#Compiègne -->
+    <!-- http://www.utc.fr/ovac#Compiegne -->
 
-    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Compiègne">
+    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Compiegne">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#Town"/>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
         <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T12:50:35Z</elements:date>
@@ -1621,13 +1622,13 @@
     
 
 
-    <!-- http://www.utc.fr/ovac#Compiègne_MunicialCouncil_GeoInfo -->
+    <!-- http://www.utc.fr/ovac#Compiegne_MunicialCouncil_GeoInfo -->
 
-    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Compiègne_MunicialCouncil_GeoInfo">
+    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Compiegne_MunicialCouncil_GeoInfo">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#GeographicInformation"/>
         <ovac:hasCoordinates rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.41786836627387, 2.8261575626615767</ovac:hasCoordinates>
         <ovac:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.417864004080585</ovac:hasLatitude>
-        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mairie de Compiègne, 28 Pl. de l&apos;Hôtel de ville, 60200 Compiègne</ovac:hasLocationName>
+        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mairie de Compiegne, 28 Pl. de l&apos;Hotel de ville, 60200 Compiegne</ovac:hasLocationName>
         <ovac:hasLongtitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.8261575626615767</ovac:hasLongtitude>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
         <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T13:27:05Z</elements:date>
@@ -1635,22 +1636,22 @@
     
 
 
-    <!-- http://www.utc.fr/ovac#Compiègne_MunicipalCouncil -->
+    <!-- http://www.utc.fr/ovac#Compiegne_MunicipalCouncil -->
 
-    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Compiègne_MunicipalCouncil">
+    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Compiegne_MunicipalCouncil">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#MunicipalCouncil"/>
-        <ovac:hasGeographicalInformation rdf:resource="http://www.utc.fr/ovac#Compiègne_MunicialCouncil_GeoInfo"/>
+        <ovac:hasGeographicalInformation rdf:resource="http://www.utc.fr/ovac#Compiegne_MunicialCouncil_GeoInfo"/>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
         <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T12:51:31Z</elements:date>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.utc.fr/ovac#Compiègne_in_danger_01 -->
+    <!-- http://www.utc.fr/ovac#Compiegne_in_danger_01 -->
 
-    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Compiègne_in_danger_01">
+    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Compiegne_in_danger_01">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#RescueLocation"/>
-        <ovac:hasGeographicalInformation rdf:resource="http://www.utc.fr/ovac#Compiègne_in_danger_01_GeoInfo"/>
+        <ovac:hasGeographicalInformation rdf:resource="http://www.utc.fr/ovac#Compiegne_in_danger_01_GeoInfo"/>
         <ovac:hasNbOfPerson rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35</ovac:hasNbOfPerson>
         <ovac:hasPriorityLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ovac:hasPriorityLevel>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
@@ -1659,13 +1660,13 @@
     
 
 
-    <!-- http://www.utc.fr/ovac#Compiègne_in_danger_01_GeoInfo -->
+    <!-- http://www.utc.fr/ovac#Compiegne_in_danger_01_GeoInfo -->
 
-    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Compiègne_in_danger_01_GeoInfo">
+    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Compiegne_in_danger_01_GeoInfo">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#GeographicInformation"/>
         <ovac:hasCoordinates rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.41106095816603, 2.801979002768671</ovac:hasCoordinates>
         <ovac:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.801979002768671</ovac:hasLatitude>
-        <ovac:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">35-39 Quai du Clos des Roses, 60200 Compiègne</ovac:hasLatitude>
+        <ovac:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">35-39 Quai du Clos des Roses, 60200 Compiegne</ovac:hasLatitude>
         <ovac:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.41106095816603</ovac:hasLatitude>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
         <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-17T07:11:14Z</elements:date>
@@ -1673,11 +1674,11 @@
     
 
 
-    <!-- http://www.utc.fr/ovac#Compiègne_in_danger_02 -->
+    <!-- http://www.utc.fr/ovac#Compiegne_in_danger_02 -->
 
-    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Compiègne_in_danger_02">
+    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Compiegne_in_danger_02">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#RescueLocation"/>
-        <ovac:hasGeographicalInformation rdf:resource="http://www.utc.fr/ovac#Compiègne_in_danger_02_GeoInfo"/>
+        <ovac:hasGeographicalInformation rdf:resource="http://www.utc.fr/ovac#Compiegne_in_danger_02_GeoInfo"/>
         <ovac:hasNbOfPerson rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72</ovac:hasNbOfPerson>
         <ovac:hasPriorityLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ovac:hasPriorityLevel>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
@@ -1686,13 +1687,13 @@
     
 
 
-    <!-- http://www.utc.fr/ovac#Compiègne_in_danger_02_GeoInfo -->
+    <!-- http://www.utc.fr/ovac#Compiegne_in_danger_02_GeoInfo -->
 
-    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Compiègne_in_danger_02_GeoInfo">
+    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Compiegne_in_danger_02_GeoInfo">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#GeographicInformation"/>
         <ovac:hasCoordinates rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.41594975273227, 2.8162510169997867</ovac:hasCoordinates>
         <ovac:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.41594975273227</ovac:hasLatitude>
-        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">46 Rue de l&apos;Oise, 60200 Compiègne</ovac:hasLocationName>
+        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">46 Rue de l&apos;Oise, 60200 Compiegne</ovac:hasLocationName>
         <ovac:hasLongtitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.8162510169997867</ovac:hasLongtitude>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
         <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-17T07:13:54Z</elements:date>
@@ -1700,11 +1701,11 @@
     
 
 
-    <!-- http://www.utc.fr/ovac#Compiègne_in_danger_03 -->
+    <!-- http://www.utc.fr/ovac#Compiegne_in_danger_03 -->
 
-    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Compiègne_in_danger_03">
+    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Compiegne_in_danger_03">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#RescueLocation"/>
-        <ovac:hasGeographicalInformation rdf:resource="http://www.utc.fr/ovac#Compiègne_in_danger_03_GeoInfo"/>
+        <ovac:hasGeographicalInformation rdf:resource="http://www.utc.fr/ovac#Compiegne_in_danger_03_GeoInfo"/>
         <ovac:hasNbOfPerson rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">42</ovac:hasNbOfPerson>
         <ovac:hasPriorityLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ovac:hasPriorityLevel>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
@@ -1713,13 +1714,13 @@
     
 
 
-    <!-- http://www.utc.fr/ovac#Compiègne_in_danger_03_GeoInfo -->
+    <!-- http://www.utc.fr/ovac#Compiegne_in_danger_03_GeoInfo -->
 
-    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Compiègne_in_danger_03_GeoInfo">
+    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Compiegne_in_danger_03_GeoInfo">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#GeographicInformation"/>
         <ovac:hasCoordinates rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.404588142180046, 2.7982604840105183</ovac:hasCoordinates>
         <ovac:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.404588142180046</ovac:hasLatitude>
-        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7 Av. de Landshut, 60200 Compiègne</ovac:hasLocationName>
+        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7 Av. de Landshut, 60200 Compiegne</ovac:hasLocationName>
         <ovac:hasLongtitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.7982604840105183</ovac:hasLongtitude>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
         <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-17T07:17:04Z</elements:date>
@@ -1727,11 +1728,11 @@
     
 
 
-    <!-- http://www.utc.fr/ovac#Compiègne_in_danger_04 -->
+    <!-- http://www.utc.fr/ovac#Compiegne_in_danger_04 -->
 
-    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Compiègne_in_danger_04">
+    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Compiegne_in_danger_04">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#RescueLocation"/>
-        <ovac:hasGeographicalInformation rdf:resource="http://www.utc.fr/ovac#Compiègne_in_danger_04_GeoInfo"/>
+        <ovac:hasGeographicalInformation rdf:resource="http://www.utc.fr/ovac#Compiegne_in_danger_04_GeoInfo"/>
         <ovac:hasNbOfPerson rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">89</ovac:hasNbOfPerson>
         <ovac:hasPriorityLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</ovac:hasPriorityLevel>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
@@ -1740,13 +1741,13 @@
     
 
 
-    <!-- http://www.utc.fr/ovac#Compiègne_in_danger_04_GeoInfo -->
+    <!-- http://www.utc.fr/ovac#Compiegne_in_danger_04_GeoInfo -->
 
-    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Compiègne_in_danger_04_GeoInfo">
+    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Compiegne_in_danger_04_GeoInfo">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#GeographicInformation"/>
         <ovac:hasCoordinates rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.41372539782079, 2.812403230609232</ovac:hasCoordinates>
         <ovac:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.41372539782079</ovac:hasLatitude>
-        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1 Quai du Clos des Roses, 60200 Compiègne</ovac:hasLocationName>
+        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1 Quai du Clos des Roses, 60200 Compiegne</ovac:hasLocationName>
         <ovac:hasLongtitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.812403230609232</ovac:hasLongtitude>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
         <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-17T07:19:57Z</elements:date>
@@ -1754,11 +1755,11 @@
     
 
 
-    <!-- http://www.utc.fr/ovac#Compiègne_in_danger_05 -->
+    <!-- http://www.utc.fr/ovac#Compiegne_in_danger_05 -->
 
-    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Compiègne_in_danger_05">
+    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Compiegne_in_danger_05">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#RescueLocation"/>
-        <ovac:hasGeographicalInformation rdf:resource="http://www.utc.fr/ovac#Compiègne_in_danger_05_GeoInfo"/>
+        <ovac:hasGeographicalInformation rdf:resource="http://www.utc.fr/ovac#Compiegne_in_danger_05_GeoInfo"/>
         <ovac:hasNbOfPerson rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29</ovac:hasNbOfPerson>
         <ovac:hasPriorityLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</ovac:hasPriorityLevel>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
@@ -1767,13 +1768,13 @@
     
 
 
-    <!-- http://www.utc.fr/ovac#Compiègne_in_danger_05_GeoInfo -->
+    <!-- http://www.utc.fr/ovac#Compiegne_in_danger_05_GeoInfo -->
 
-    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Compiègne_in_danger_05_GeoInfo">
+    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Compiegne_in_danger_05_GeoInfo">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#GeographicInformation"/>
         <ovac:hasCoordinates rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.42547796635239, 2.83383808838145</ovac:hasCoordinates>
         <ovac:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.42547796635239</ovac:hasLatitude>
-        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">51 Rue de l&apos;Estacade, 60200 Compiègne</ovac:hasLocationName>
+        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">51 Rue de l&apos;Estacade, 60200 Compiegne</ovac:hasLocationName>
         <ovac:hasLongtitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.83383808838145</ovac:hasLongtitude>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
         <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-17T07:21:45Z</elements:date>
@@ -1786,7 +1787,7 @@
     <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Curtis_Michel">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#Drivers"/>
         <ovac:ObtainedAPermit rdf:resource="http://www.utc.fr/ovac#Curtis_Michel_PermitB"/>
-        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12 Rue Winston Churchill, 60200 Compiègne</ovac:hasAddress>
+        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12 Rue Winston Churchill, 60200 Compiegne</ovac:hasAddress>
         <ovac:hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</ovac:hasAge>
         <ovac:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Curtis Michel</ovac:hasName>
         <ovac:hasPhoneNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">05 08 30 42 23</ovac:hasPhoneNumber>
@@ -1813,7 +1814,7 @@
     <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Daniel_Saucier">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#Drivers"/>
         <ovac:ObtainedAPermit rdf:resource="http://www.utc.fr/ovac#Daniel_Saucier_PermitD1"/>
-        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12 Av. de Verdun, 60200 Compiègne</ovac:hasAddress>
+        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12 Av. de Verdun, 60200 Compiegne</ovac:hasAddress>
         <ovac:hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45</ovac:hasAge>
         <ovac:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Daniel Saucier</ovac:hasName>
         <ovac:hasPhoneNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">01 67 38 55 33</ovac:hasPhoneNumber>
@@ -1840,9 +1841,9 @@
     <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Etienne_Simard">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#Drivers"/>
         <ovac:ObtainedAPermit rdf:resource="http://www.utc.fr/ovac#Etienne_Simard_PermitB"/>
-        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">276 Rue André Royer, 60280 Margny-lès-Compiègne</ovac:hasAddress>
+        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">276 Rue Andre Royer, 60280 Margny-les-Compiegne</ovac:hasAddress>
         <ovac:hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">38</ovac:hasAge>
-        <ovac:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Étienne Simard</ovac:hasName>
+        <ovac:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">etienne Simard</ovac:hasName>
         <ovac:hasPhoneNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">01 73 59 77 42</ovac:hasPhoneNumber>
         <ovac:hasSex rdf:datatype="http://www.w3.org/2001/XMLSchema#string">M</ovac:hasSex>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
@@ -1867,7 +1868,7 @@
     <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Evrard_Desaulniers">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#Drivers"/>
         <ovac:ObtainedAPermit rdf:resource="http://www.utc.fr/ovac#Evrard_Desaulniers_PermitB"/>
-        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6 Rue du Camp de Compiègne, 60200 Compiègne</ovac:hasAddress>
+        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6 Rue du Camp de Compiegne, 60200 Compiegne</ovac:hasAddress>
         <ovac:hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32</ovac:hasAge>
         <ovac:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Evrard Desaulniers</ovac:hasName>
         <ovac:hasPhoneNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">04 56 85 36 26</ovac:hasPhoneNumber>
@@ -1894,7 +1895,7 @@
     <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Ferragus_Godin">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#Drivers"/>
         <ovac:ObtainedAPermit rdf:resource="http://www.utc.fr/ovac#Ferragus_Godin_PermitB"/>
-        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7 Rue de la Bannière du Roi, 60200 Compiègne</ovac:hasAddress>
+        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7 Rue de la Banniere du Roi, 60200 Compiegne</ovac:hasAddress>
         <ovac:hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">36</ovac:hasAge>
         <ovac:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ferragus Godin</ovac:hasName>
         <ovac:hasPhoneNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">05 88 65 64 44</ovac:hasPhoneNumber>
@@ -1921,7 +1922,7 @@
     <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Fortun_Bourgeois">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#Drivers"/>
         <ovac:ObtainedAPermit rdf:resource="http://www.utc.fr/ovac#Fortun_Bourgeois_PermitB"/>
-        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7 All. de la Tilloye, 60200 Compiègne</ovac:hasAddress>
+        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7 All. de la Tilloye, 60200 Compiegne</ovac:hasAddress>
         <ovac:hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">36</ovac:hasAge>
         <ovac:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fortun Bourgeois</ovac:hasName>
         <ovac:hasPhoneNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 94 34 69 36</ovac:hasPhoneNumber>
@@ -1971,7 +1972,7 @@
         <rdf:type rdf:resource="http://www.utc.fr/ovac#Drivers"/>
         <ovac:ObtainedAPermit rdf:resource="http://www.utc.fr/ovac#Françcoi_Artus_Permis_de_Conduire_B"/>
         <ovac:ObtainedAPermit rdf:resource="http://www.utc.fr/ovac#Françcoi_Artus_RiverBoatPermit"/>
-        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">36 Rue Augustin Thierry, 60200 Compiègne</ovac:hasAddress>
+        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">36 Rue Augustin Thierry, 60200 Compiegne</ovac:hasAddress>
         <ovac:hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#string">45</ovac:hasAge>
         <ovac:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Françoi Artus</ovac:hasName>
         <ovac:hasPhoneNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">07 07 08 08 09</ovac:hasPhoneNumber>
@@ -1987,9 +1988,9 @@
     <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Frederique_Marcil">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#Drivers"/>
         <ovac:ObtainedAPermit rdf:resource="http://www.utc.fr/ovac#Frederique_Marcil_PermitB"/>
-        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">191B Rue de Paris, 60200 Compiègne</ovac:hasAddress>
+        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">191B Rue de Paris, 60200 Compiegne</ovac:hasAddress>
         <ovac:hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35</ovac:hasAge>
-        <ovac:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Frédérique Marcil</ovac:hasName>
+        <ovac:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Frederique Marcil</ovac:hasName>
         <ovac:hasPhoneNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">05 88 65 64 44</ovac:hasPhoneNumber>
         <ovac:hasSex rdf:datatype="http://www.w3.org/2001/XMLSchema#string">W</ovac:hasSex>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
@@ -2014,9 +2015,9 @@
     <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Gaetan_Sauve">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#Drivers"/>
         <ovac:ObtainedAPermit rdf:resource="http://www.utc.fr/ovac#Gaetan_Sauve_PermitB"/>
-        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">43 Rue Saint-Germain, 60200 Compiègne</ovac:hasAddress>
+        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">43 Rue Saint-Germain, 60200 Compiegne</ovac:hasAddress>
         <ovac:hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">42</ovac:hasAge>
-        <ovac:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gaetan Sauvé</ovac:hasName>
+        <ovac:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gaetan Sauve</ovac:hasName>
         <ovac:hasPhoneNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">01 90 12 28 78</ovac:hasPhoneNumber>
         <ovac:hasSex rdf:datatype="http://www.w3.org/2001/XMLSchema#string">M</ovac:hasSex>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
@@ -2041,7 +2042,7 @@
     <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Gaston_Lamarre">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#Drivers"/>
         <ovac:ObtainedAPermit rdf:resource="http://www.utc.fr/ovac#Gaston_Lamarre_PermitB"/>
-        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1 Rue du Four, 60200 Compiègne</ovac:hasAddress>
+        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1 Rue du Four, 60200 Compiegne</ovac:hasAddress>
         <ovac:hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46</ovac:hasAge>
         <ovac:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gaston Lamarre</ovac:hasName>
         <ovac:hasPhoneNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">01 34 51 85 94</ovac:hasPhoneNumber>
@@ -2082,7 +2083,7 @@
         <rdf:type rdf:resource="http://www.utc.fr/ovac#GeographicInformation"/>
         <ovac:hasCoordinates rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.417966647139984, 2.825334702446559</ovac:hasCoordinates>
         <ovac:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.41796315739239</ovac:hasLatitude>
-        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gymnasium Des Rose, 60200 Compiègne</ovac:hasLocationName>
+        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gymnasium Des Rose, 60200 Compiegne</ovac:hasLocationName>
         <ovac:hasLongtitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.8253253147156263</ovac:hasLongtitude>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
         <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T13:36:48Z</elements:date>
@@ -2090,26 +2091,26 @@
     
 
 
-    <!-- http://www.utc.fr/ovac#Gymnase_Gaëntan_Denain -->
+    <!-- http://www.utc.fr/ovac#Gymnase_Gaentan_Denain -->
 
-    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Gymnase_Gaëntan_Denain">
+    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Gymnase_Gaentan_Denain">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#Shelter"/>
-        <ovac:hasGeographicalInformation rdf:resource="http://www.utc.fr/ovac#Gymnase_Gaëntan_Denain_GeoInfo"/>
+        <ovac:hasGeographicalInformation rdf:resource="http://www.utc.fr/ovac#Gymnase_Gaentan_Denain_GeoInfo"/>
         <ovac:hasCapacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">120</ovac:hasCapacity>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
         <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T12:52:29Z</elements:date>
-        <rdfs:comment>30 places of parking + 2 places de parking handicapés</rdfs:comment>
+        <rdfs:comment>30 places of parking + 2 places de parking handicapes</rdfs:comment>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.utc.fr/ovac#Gymnase_Gaëntan_Denain_GeoInfo -->
+    <!-- http://www.utc.fr/ovac#Gymnase_Gaentan_Denain_GeoInfo -->
 
-    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Gymnase_Gaëntan_Denain_GeoInfo">
+    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Gymnase_Gaentan_Denain_GeoInfo">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#GeographicInformation"/>
         <ovac:hasCoordinates rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.4110472451646, 2.8207223271525796</ovac:hasCoordinates>
         <ovac:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.4110472451646</ovac:hasLatitude>
-        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30 Rue Saint-Joseph, 60200 Compiègne</ovac:hasLocationName>
+        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30 Rue Saint-Joseph, 60200 Compiegne</ovac:hasLocationName>
         <ovac:hasLongtitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.8207223271525796</ovac:hasLongtitude>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
         <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T13:40:57Z</elements:date>
@@ -2135,11 +2136,11 @@
         <ovac:hasCapacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200</ovac:hasCapacity>
         <ovac:hasCoordinates rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.4126346746237, 2.8289519232147877</ovac:hasCoordinates>
         <ovac:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.4126346746237</ovac:hasLatitude>
-        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gymnase Tainturier, Rue De Clamart, 60200, Compiègne</ovac:hasLocationName>
+        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gymnase Tainturier, Rue De Clamart, 60200, Compiegne</ovac:hasLocationName>
         <ovac:hasLongtitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.8289519232147877</ovac:hasLongtitude>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
         <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T13:48:53Z</elements:date>
-        <rdfs:comment>Nombre d&apos;équipements sportifs : 3 Places de parking : 50</rdfs:comment>
+        <rdfs:comment>Nombre d&apos;equipements sportifs : 3 Places de parking : 50</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -2170,7 +2171,7 @@
         <rdf:type rdf:resource="http://www.utc.fr/ovac#GeographicInformation"/>
         <ovac:hasCoordinates rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.40819847465481, 2.840644047549038</ovac:hasCoordinates>
         <ovac:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.40819847465481</ovac:hasLatitude>
-        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8 Bis Av. de la Forêt, 60200 Compiègne</ovac:hasLocationName>
+        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8 Bis Av. de la Foret, 60200 Compiegne</ovac:hasLocationName>
         <ovac:hasLongtitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.840644047549038</ovac:hasLongtitude>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
         <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T15:03:08Z</elements:date>
@@ -2178,15 +2179,15 @@
     
 
 
-    <!-- http://www.utc.fr/ovac#Herve_Clément -->
+    <!-- http://www.utc.fr/ovac#Herve_Clement -->
 
-    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Herve_Clément">
+    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Herve_Clement">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#Drivers"/>
-        <ovac:ObtainedAPermit rdf:resource="http://www.utc.fr/ovac#Herve_Clément_Permis_de_Conduire_B"/>
-        <ovac:ObtainedAPermit rdf:resource="http://www.utc.fr/ovac#Herve_Clément_RiverBoatPermit"/>
+        <ovac:ObtainedAPermit rdf:resource="http://www.utc.fr/ovac#Herve_Clement_Permis_de_Conduire_B"/>
+        <ovac:ObtainedAPermit rdf:resource="http://www.utc.fr/ovac#Herve_Clement_RiverBoatPermit"/>
         <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10 Winston Churchill, 60200</ovac:hasAddress>
         <ovac:hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">37</ovac:hasAge>
-        <ovac:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Herve Clément</ovac:hasName>
+        <ovac:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Herve Clement</ovac:hasName>
         <ovac:hasPhoneNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">06 06 07 06 06</ovac:hasPhoneNumber>
         <ovac:hasSex rdf:datatype="http://www.w3.org/2001/XMLSchema#string">M</ovac:hasSex>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
@@ -2195,9 +2196,9 @@
     
 
 
-    <!-- http://www.utc.fr/ovac#Herve_Clément_Permis_de_Conduire_B -->
+    <!-- http://www.utc.fr/ovac#Herve_Clement_Permis_de_Conduire_B -->
 
-    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Herve_Clément_Permis_de_Conduire_B">
+    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Herve_Clement_Permis_de_Conduire_B">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#PermitB"/>
         <ovac:permitYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</ovac:permitYear>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
@@ -2206,9 +2207,9 @@
     
 
 
-    <!-- http://www.utc.fr/ovac#Herve_Clément_RiverBoatPermit -->
+    <!-- http://www.utc.fr/ovac#Herve_Clement_RiverBoatPermit -->
 
-    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Herve_Clément_RiverBoatPermit">
+    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Herve_Clement_RiverBoatPermit">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#RiverBoatLicense"/>
         <ovac:permitYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</ovac:permitYear>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
@@ -2222,9 +2223,9 @@
     <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Jacques_Huppe">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#Drivers"/>
         <ovac:ObtainedAPermit rdf:resource="http://www.utc.fr/ovac#Jacques_Huppe_PermitB"/>
-        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25 Sq. Jean Baptiste Clément, 60200 Compiègne</ovac:hasAddress>
+        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25 Sq. Jean Baptiste Clement, 60200 Compiegne</ovac:hasAddress>
         <ovac:hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">36</ovac:hasAge>
-        <ovac:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jacques Huppé</ovac:hasName>
+        <ovac:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jacques Huppe</ovac:hasName>
         <ovac:hasPhoneNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">01 90 12 28 78</ovac:hasPhoneNumber>
         <ovac:hasSex rdf:datatype="http://www.w3.org/2001/XMLSchema#string">M</ovac:hasSex>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
@@ -2249,7 +2250,7 @@
     <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Javier_de_Brisay">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#Drivers"/>
         <ovac:ObtainedAPermit rdf:resource="http://www.utc.fr/ovac#Javier_de_Brisay_PermitB"/>
-        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11B Av. du Maréchal Foch, 60200 Compiègne</ovac:hasAddress>
+        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11B Av. du Marechal Foch, 60200 Compiegne</ovac:hasAddress>
         <ovac:hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</ovac:hasAge>
         <ovac:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Javier de Brisay</ovac:hasName>
         <ovac:hasPhoneNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 94 34 69 36</ovac:hasPhoneNumber>
@@ -2276,9 +2277,9 @@
     <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Jerome_Marleau">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#Drivers"/>
         <ovac:ObtainedAPermit rdf:resource="http://www.utc.fr/ovac#Jerome_Marleau_PermitB"/>
-        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25 Rue Fournier Sarloveze, 60200 Compiègne</ovac:hasAddress>
+        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25 Rue Fournier Sarloveze, 60200 Compiegne</ovac:hasAddress>
         <ovac:hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</ovac:hasAge>
-        <ovac:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jérôme Marleau</ovac:hasName>
+        <ovac:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jerome Marleau</ovac:hasName>
         <ovac:hasPhoneNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">01 90 12 28 78</ovac:hasPhoneNumber>
         <ovac:hasSex rdf:datatype="http://www.w3.org/2001/XMLSchema#string">M</ovac:hasSex>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
@@ -2303,7 +2304,7 @@
     <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Joanna_Ouellet">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#Drivers"/>
         <ovac:ObtainedAPermit rdf:resource="http://www.utc.fr/ovac#Joanna_Ouellet_PermitB"/>
-        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8 Rue Edmond Rostand, 60200 Compiègne</ovac:hasAddress>
+        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8 Rue Edmond Rostand, 60200 Compiegne</ovac:hasAddress>
         <ovac:hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35</ovac:hasAge>
         <ovac:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Joanna Ouellet</ovac:hasName>
         <ovac:hasPhoneNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">01 78 21 86 64</ovac:hasPhoneNumber>
@@ -2330,7 +2331,7 @@
     <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Joseph_Boisvert">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#Drivers"/>
         <ovac:ObtainedAPermit rdf:resource="http://www.utc.fr/ovac#Joseph_Boisvert_PermitB"/>
-        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7 Rue de Stalingrad, 60200 Compiègne</ovac:hasAddress>
+        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7 Rue de Stalingrad, 60200 Compiegne</ovac:hasAddress>
         <ovac:hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44</ovac:hasAge>
         <ovac:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Joseph Boisvert</ovac:hasName>
         <ovac:hasPhoneNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">01 00 87 80 61</ovac:hasPhoneNumber>
@@ -2357,7 +2358,7 @@
     <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Joseph_Brault">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#Drivers"/>
         <ovac:ObtainedAPermit rdf:resource="http://www.utc.fr/ovac#Joseph_Brault_PermitB"/>
-        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1 Place Jean Baptiste Carpeaux, 60200 Compiègne</ovac:hasAddress>
+        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1 Place Jean Baptiste Carpeaux, 60200 Compiegne</ovac:hasAddress>
         <ovac:hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">33</ovac:hasAge>
         <ovac:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Joseph Brault</ovac:hasName>
         <ovac:hasPhoneNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 17 79 90 70</ovac:hasPhoneNumber>
@@ -2384,9 +2385,9 @@
     <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Julien_Laisne">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#Drivers"/>
         <ovac:ObtainedAPermit rdf:resource="http://www.utc.fr/ovac#Julien_Laisne_PermitD1"/>
-        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">771 Av. Octave Butin, 60280 Margny-lès-Compiègne</ovac:hasAddress>
+        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">771 Av. Octave Butin, 60280 Margny-les-Compiegne</ovac:hasAddress>
         <ovac:hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</ovac:hasAge>
-        <ovac:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Julien Laisné</ovac:hasName>
+        <ovac:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Julien Laisne</ovac:hasName>
         <ovac:hasPhoneNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">01 72 98 56 96</ovac:hasPhoneNumber>
         <ovac:hasSex rdf:datatype="http://www.w3.org/2001/XMLSchema#string">M</ovac:hasSex>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
@@ -2411,7 +2412,7 @@
     <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Karel_Parenteau">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#Drivers"/>
         <ovac:ObtainedAPermit rdf:resource="http://www.utc.fr/ovac#Karel_Parenteau_PermitB"/>
-        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9Q Av. de la Forêt, 60200 Compiègne</ovac:hasAddress>
+        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9Q Av. de la Foret, 60200 Compiegne</ovac:hasAddress>
         <ovac:hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">33</ovac:hasAge>
         <ovac:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Karel Parenteau</ovac:hasName>
         <ovac:hasPhoneNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">04 52 83 55 30</ovac:hasPhoneNumber>
@@ -2438,7 +2439,7 @@
     <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Kerman_Lalonde">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#Drivers"/>
         <ovac:ObtainedAPermit rdf:resource="http://www.utc.fr/ovac#Kerman_Lalonde_PermitB"/>
-        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">85 Rue Carnot, 60200 Compiègne</ovac:hasAddress>
+        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">85 Rue Carnot, 60200 Compiegne</ovac:hasAddress>
         <ovac:hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">41</ovac:hasAge>
         <ovac:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kerman Lalonde</ovac:hasName>
         <ovac:hasPhoneNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">04 73 75 06 17</ovac:hasPhoneNumber>
@@ -2465,7 +2466,7 @@
     <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Leal_Gauthier">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#Drivers"/>
         <ovac:ObtainedAPermit rdf:resource="http://www.utc.fr/ovac#Leal_Gauthier_PermitB"/>
-        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4 Sq. Camille Saint-Saëns, 60200 Compiègne</ovac:hasAddress>
+        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4 Sq. Camille Saint-Saens, 60200 Compiegne</ovac:hasAddress>
         <ovac:hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">43</ovac:hasAge>
         <ovac:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leal Gauthier</ovac:hasName>
         <ovac:hasPhoneNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">01 90 12 28 78</ovac:hasPhoneNumber>
@@ -2492,7 +2493,7 @@
     <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Leal_LeBatelier">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#Drivers"/>
         <ovac:ObtainedAPermit rdf:resource="http://www.utc.fr/ovac#Leal_LeBatelier_PermitB"/>
-        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23 Rue de Pierrefonds, 60200 Compiègne</ovac:hasAddress>
+        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23 Rue de Pierrefonds, 60200 Compiegne</ovac:hasAddress>
         <ovac:hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">34</ovac:hasAge>
         <ovac:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leal LeBatelier</ovac:hasName>
         <ovac:hasPhoneNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">01 90 12 28 78</ovac:hasPhoneNumber>
@@ -2519,9 +2520,9 @@
     <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Leon_Boivin">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#Drivers"/>
         <ovac:ObtainedAPermit rdf:resource="http://www.utc.fr/ovac#Leon_Boivin_PermitB"/>
-        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2 Rue Lavoisier, 60200 Compiègne</ovac:hasAddress>
+        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2 Rue Lavoisier, 60200 Compiegne</ovac:hasAddress>
         <ovac:hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">37</ovac:hasAge>
-        <ovac:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Léon Boivin</ovac:hasName>
+        <ovac:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leon Boivin</ovac:hasName>
         <ovac:hasPhoneNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">03 13 75 46 08</ovac:hasPhoneNumber>
         <ovac:hasSex rdf:datatype="http://www.w3.org/2001/XMLSchema#string">M</ovac:hasSex>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
@@ -2546,7 +2547,7 @@
     <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Marjolaine_Rossignol">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#Drivers"/>
         <ovac:ObtainedAPermit rdf:resource="http://www.utc.fr/ovac#Marjolaine_Rossignol_PermitB"/>
-        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6 Rue Jean Lhuillier, 60200 Compiègne</ovac:hasAddress>
+        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6 Rue Jean Lhuillier, 60200 Compiegne</ovac:hasAddress>
         <ovac:hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">42</ovac:hasAge>
         <ovac:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marjolaine Rossignol</ovac:hasName>
         <ovac:hasPhoneNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">03 16 10 46 27</ovac:hasPhoneNumber>
@@ -2614,7 +2615,7 @@
         <rdf:type rdf:resource="http://www.utc.fr/ovac#GeographicInformation"/>
         <ovac:hasCoordinates rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.409117948763125, 2.409117948763125</ovac:hasCoordinates>
         <ovac:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.409117948763125</ovac:hasLatitude>
-        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3 Rue Maurice Barres, 60200 Compiègne</ovac:hasLocationName>
+        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3 Rue Maurice Barres, 60200 Compiegne</ovac:hasLocationName>
         <ovac:hasLongtitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.8272726694930523</ovac:hasLongtitude>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
         <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T15:03:08Z</elements:date>
@@ -2628,7 +2629,7 @@
         <rdf:type rdf:resource="http://www.utc.fr/ovac#GeographicInformation"/>
         <ovac:hasCoordinates rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.39636958311007, 2.7972458560004325</ovac:hasCoordinates>
         <ovac:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.39636958311007</ovac:hasLatitude>
-        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2 Rue Lavoisier, 60200 Compiègne</ovac:hasLocationName>
+        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2 Rue Lavoisier, 60200 Compiegne</ovac:hasLocationName>
         <ovac:hasLongtitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.7972458560004325</ovac:hasLongtitude>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
         <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T15:03:08Z</elements:date>
@@ -2662,7 +2663,7 @@
         <rdf:type rdf:resource="http://www.utc.fr/ovac#GeographicInformation"/>
         <ovac:hasCoordinates rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.40299292822331, 2.827675321414575</ovac:hasCoordinates>
         <ovac:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.40299292822331</ovac:hasLatitude>
-        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12 Av. de Verdun, 60200 Compiègne</ovac:hasLocationName>
+        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12 Av. de Verdun, 60200 Compiegne</ovac:hasLocationName>
         <ovac:hasLongtitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.827675321414575</ovac:hasLongtitude>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
         <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T15:03:08Z</elements:date>
@@ -2716,7 +2717,7 @@
         <rdf:type rdf:resource="http://www.utc.fr/ovac#GeographicInformation"/>
         <ovac:hasCoordinates rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.4280435846229, 2.8495326425091148</ovac:hasCoordinates>
         <ovac:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.4280435846229</ovac:hasLatitude>
-        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">45 Rte de Choisy, 60200 Compiègne</ovac:hasLocationName>
+        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">45 Rte de Choisy, 60200 Compiegne</ovac:hasLocationName>
         <ovac:hasLongtitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.8495326425091148</ovac:hasLongtitude>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
         <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T15:03:08Z</elements:date>
@@ -2730,7 +2731,7 @@
         <rdf:type rdf:resource="http://www.utc.fr/ovac#GeographicInformation"/>
         <ovac:hasCoordinates rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.41117024733655, 2.8272726694930523</ovac:hasCoordinates>
         <ovac:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.41117024733655</ovac:hasLatitude>
-        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">60 Rue Carnot, 60200 Compiègne</ovac:hasLocationName>
+        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">60 Rue Carnot, 60200 Compiegne</ovac:hasLocationName>
         <ovac:hasLongtitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.8272726694930523</ovac:hasLongtitude>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
         <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T15:03:08Z</elements:date>
@@ -2764,7 +2765,7 @@
         <rdf:type rdf:resource="http://www.utc.fr/ovac#GeographicInformation"/>
         <ovac:hasCoordinates rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.42912767015349, 2.815790471345082</ovac:hasCoordinates>
         <ovac:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.42912767015349</ovac:hasLatitude>
-        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">771 Av. Octave Butin, 60280 Margny-lès-Compiègne</ovac:hasLocationName>
+        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">771 Av. Octave Butin, 60280 Margny-les-Compiegne</ovac:hasLocationName>
         <ovac:hasLongtitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.815790471345082</ovac:hasLongtitude>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
         <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T15:03:08Z</elements:date>
@@ -2777,7 +2778,7 @@
     <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Nicholas_Laprise">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#Drivers"/>
         <ovac:ObtainedAPermit rdf:resource="http://www.utc.fr/ovac#Nicholas_Laprise_PermitB"/>
-        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13 Rue Victor Schoelcher, 60200 Compiègne</ovac:hasAddress>
+        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13 Rue Victor Schoelcher, 60200 Compiegne</ovac:hasAddress>
         <ovac:hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48</ovac:hasAge>
         <ovac:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nicholas Laprise</ovac:hasName>
         <ovac:hasPhoneNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 60 63 13 22</ovac:hasPhoneNumber>
@@ -2804,7 +2805,7 @@
     <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Octave_Viens">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#Drivers"/>
         <ovac:ObtainedAPermit rdf:resource="http://www.utc.fr/ovac#Octave_Viens_PermitB"/>
-        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24 TER Rue du Bataillon de France, 60200 Compiègne</ovac:hasAddress>
+        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24 TER Rue du Bataillon de France, 60200 Compiegne</ovac:hasAddress>
         <ovac:hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29</ovac:hasAge>
         <ovac:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Octave Viens</ovac:hasName>
         <ovac:hasPhoneNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">04 56 85 36 26</ovac:hasPhoneNumber>
@@ -2831,7 +2832,7 @@
     <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Olivier_Talon">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#Drivers"/>
         <ovac:ObtainedAPermit rdf:resource="http://www.utc.fr/ovac#Olivier_Talon_PermitB"/>
-        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3 Sq. Camille Saint-Saëns, 60200 Compiègne</ovac:hasAddress>
+        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3 Sq. Camille Saint-Saens, 60200 Compiegne</ovac:hasAddress>
         <ovac:hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49</ovac:hasAge>
         <ovac:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olivier Talon</ovac:hasName>
         <ovac:hasPhoneNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">03 44 58 21 02</ovac:hasPhoneNumber>
@@ -2858,9 +2859,9 @@
     <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Olympia_Rheaume">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#Drivers"/>
         <ovac:ObtainedAPermit rdf:resource="http://www.utc.fr/ovac#Olympia_Rheaume_PermitB"/>
-        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26 Av. des Martyrs de la Liberté, 60200 Compiègne</ovac:hasAddress>
+        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26 Av. des Martyrs de la Liberte, 60200 Compiegne</ovac:hasAddress>
         <ovac:hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</ovac:hasAge>
-        <ovac:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olympia Rhéaume</ovac:hasName>
+        <ovac:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olympia Rheaume</ovac:hasName>
         <ovac:hasPhoneNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">04 54 94 28 86</ovac:hasPhoneNumber>
         <ovac:hasSex rdf:datatype="http://www.w3.org/2001/XMLSchema#string">W</ovac:hasSex>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
@@ -2885,7 +2886,7 @@
     <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Ormazd_Brasseur">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#Drivers"/>
         <ovac:ObtainedAPermit rdf:resource="http://www.utc.fr/ovac#Ormazd_Brasseur_PermitB"/>
-        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18 Rue Marcel Proust, 60200 Compiègne</ovac:hasAddress>
+        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18 Rue Marcel Proust, 60200 Compiegne</ovac:hasAddress>
         <ovac:hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">42</ovac:hasAge>
         <ovac:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ormazd Brasseur</ovac:hasName>
         <ovac:hasPhoneNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">03 16 10 46 27</ovac:hasPhoneNumber>
@@ -2912,7 +2913,7 @@
     <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Quennel_Joly">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#Drivers"/>
         <ovac:ObtainedAPermit rdf:resource="http://www.utc.fr/ovac#Quennel_Joly_PermitB"/>
-        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">104 Rue du Bataillon de France, 60200 Compiègne</ovac:hasAddress>
+        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">104 Rue du Bataillon de France, 60200 Compiegne</ovac:hasAddress>
         <ovac:hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</ovac:hasAge>
         <ovac:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quennel Joly</ovac:hasName>
         <ovac:hasPhoneNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">01 45 16 15 52</ovac:hasPhoneNumber>
@@ -2939,7 +2940,7 @@
     <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Ranger_Brault">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#Drivers"/>
         <ovac:ObtainedAPermit rdf:resource="http://www.utc.fr/ovac#Ranger_Brault_PermitB"/>
-        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6 Rue des Sablons, 60200 Compiègne</ovac:hasAddress>
+        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6 Rue des Sablons, 60200 Compiegne</ovac:hasAddress>
         <ovac:hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">38</ovac:hasAge>
         <ovac:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ranger Brault</ovac:hasName>
         <ovac:hasPhoneNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">01 90 12 28 78</ovac:hasPhoneNumber>
@@ -2966,7 +2967,7 @@
     <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Robert_Alexandre">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#Drivers"/>
         <ovac:ObtainedAPermit rdf:resource="http://www.utc.fr/ovac#Robert_Alexandre_PermitB"/>
-        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2 Rue Lavoisier, 60200 Compiègne</ovac:hasAddress>
+        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2 Rue Lavoisier, 60200 Compiegne</ovac:hasAddress>
         <ovac:hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">47</ovac:hasAge>
         <ovac:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Robert Alexandre</ovac:hasName>
         <ovac:hasPhoneNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">05 88 65 64 44</ovac:hasPhoneNumber>
@@ -2993,7 +2994,7 @@
     <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Roch_Lazure">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#Drivers"/>
         <ovac:ObtainedAPermit rdf:resource="http://www.utc.fr/ovac#Roch_Lazure_PermitB"/>
-        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">37 Av. de Landshut, 60200 Compiègne</ovac:hasAddress>
+        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">37 Av. de Landshut, 60200 Compiegne</ovac:hasAddress>
         <ovac:hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">47</ovac:hasAge>
         <ovac:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Roch Lazure</ovac:hasName>
         <ovac:hasPhoneNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 60 63 13 22</ovac:hasPhoneNumber>
@@ -3020,7 +3021,7 @@
     <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Roger_Charron">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#Drivers"/>
         <ovac:ObtainedAPermit rdf:resource="http://www.utc.fr/ovac#Roger_Charron_PermitB"/>
-        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17 Rue le Féron, 60200 Compiègne</ovac:hasAddress>
+        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17 Rue le Feron, 60200 Compiegne</ovac:hasAddress>
         <ovac:hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">41</ovac:hasAge>
         <ovac:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Roger Charron</ovac:hasName>
         <ovac:hasPhoneNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">01 90 12 28 78</ovac:hasPhoneNumber>
@@ -3047,7 +3048,7 @@
     <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Romain_Deschamps">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#Drivers"/>
         <ovac:ObtainedAPermit rdf:resource="http://www.utc.fr/ovac#Romain_Deschamps_PermitB"/>
-        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">99 Bd des États Unis, 60200 Compiègne</ovac:hasAddress>
+        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">99 Bd des etats Unis, 60200 Compiegne</ovac:hasAddress>
         <ovac:hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35</ovac:hasAge>
         <ovac:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Romain Deschamps</ovac:hasName>
         <ovac:hasPhoneNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">01 90 12 28 78</ovac:hasPhoneNumber>
@@ -3074,7 +3075,7 @@
     <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Sacripant_Houde">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#Drivers"/>
         <ovac:ObtainedAPermit rdf:resource="http://www.utc.fr/ovac#Sacripant_Houde_PermitB"/>
-        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1 Av. du Général Weygand, 60200 Compiègne</ovac:hasAddress>
+        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1 Av. du General Weygand, 60200 Compiegne</ovac:hasAddress>
         <ovac:hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44</ovac:hasAge>
         <ovac:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sacripant Houde</ovac:hasName>
         <ovac:hasPhoneNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 94 34 69 36</ovac:hasPhoneNumber>
@@ -3101,7 +3102,7 @@
     <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Senapus_Paimboeuf">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#Drivers"/>
         <ovac:ObtainedAPermit rdf:resource="http://www.utc.fr/ovac#Senapus_Paimboeuf_PermitB"/>
-        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12 Sq. du Colonel Sutterlin, 60200 Compiègne</ovac:hasAddress>
+        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12 Sq. du Colonel Sutterlin, 60200 Compiegne</ovac:hasAddress>
         <ovac:hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">37</ovac:hasAge>
         <ovac:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Senapus Paimboeuf</ovac:hasName>
         <ovac:hasPhoneNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">01 90 12 28 78</ovac:hasPhoneNumber>
@@ -3128,9 +3129,9 @@
     <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Stephanie_Vadnais">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#Drivers"/>
         <ovac:ObtainedAPermit rdf:resource="http://www.utc.fr/ovac#Stephanie_Vadnais_PermitB"/>
-        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8 Av. des Peupliers, 60200 Compiègne</ovac:hasAddress>
+        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8 Av. des Peupliers, 60200 Compiegne</ovac:hasAddress>
         <ovac:hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">38</ovac:hasAge>
-        <ovac:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stéphanie Vadnais</ovac:hasName>
+        <ovac:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stephanie Vadnais</ovac:hasName>
         <ovac:hasPhoneNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">01 78 21 86 64</ovac:hasPhoneNumber>
         <ovac:hasSex rdf:datatype="http://www.w3.org/2001/XMLSchema#string">W</ovac:hasSex>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
@@ -3155,7 +3156,7 @@
     <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Talbot_DuLin">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#Drivers"/>
         <ovac:ObtainedAPermit rdf:resource="http://www.utc.fr/ovac#Talbot_DuLin_PermitB"/>
-        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17 Rue de la 8éme Division, 60200 Compiègne</ovac:hasAddress>
+        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17 Rue de la 8eme Division, 60200 Compiegne</ovac:hasAddress>
         <ovac:hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48</ovac:hasAge>
         <ovac:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Talbot DuLin</ovac:hasName>
         <ovac:hasPhoneNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 17 42 75 69</ovac:hasPhoneNumber>
@@ -3182,7 +3183,7 @@
     <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Telford_Bernard">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#Drivers"/>
         <ovac:ObtainedAPermit rdf:resource="http://www.utc.fr/ovac#Telford_Bernard_PermitB"/>
-        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8 Rue du Valois, 60200 Compiègne</ovac:hasAddress>
+        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8 Rue du Valois, 60200 Compiegne</ovac:hasAddress>
         <ovac:hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">42</ovac:hasAge>
         <ovac:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Telford Bernard</ovac:hasName>
         <ovac:hasPhoneNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 94 34 69 36</ovac:hasPhoneNumber>
@@ -3209,7 +3210,7 @@
     <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Thomas_Charrette">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#Drivers"/>
         <ovac:ObtainedAPermit rdf:resource="http://www.utc.fr/ovac#Thomas_Charrette_PermitB"/>
-        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">84 Rue Carnot, 60200 Compiègne</ovac:hasAddress>
+        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">84 Rue Carnot, 60200 Compiegne</ovac:hasAddress>
         <ovac:hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32</ovac:hasAge>
         <ovac:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thomas Charrette</ovac:hasName>
         <ovac:hasPhoneNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">04 52 83 55 30</ovac:hasPhoneNumber>
@@ -3236,7 +3237,7 @@
     <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Vaden_Salmons">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#Drivers"/>
         <ovac:ObtainedAPermit rdf:resource="http://www.utc.fr/ovac#Vaden_Salmons_PermitC"/>
-        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10 Sq. Jean Moulin, 60200 Compiègne</ovac:hasAddress>
+        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10 Sq. Jean Moulin, 60200 Compiegne</ovac:hasAddress>
         <ovac:hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">43</ovac:hasAge>
         <ovac:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vaden Salmons</ovac:hasName>
         <ovac:hasPhoneNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">01 90 12 28 78</ovac:hasPhoneNumber>
@@ -3258,16 +3259,56 @@
     
 
 
+    <!-- http://www.utc.fr/ovac#Van_Citroen_Jumpy_Combi -->
+
+    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Van_Citroen_Jumpy_Combi">
+        <rdf:type rdf:resource="http://www.utc.fr/ovac#Van"/>
+        <ovac:hasGeographicalInformation rdf:resource="http://www.utc.fr/ovac#Van_Citroen_Jumpy_Combi_GeoInfo"/>
+        <ovac:isDrivenBy rdf:resource="http://www.utc.fr/ovac#Jerome_Marleau"/>
+        <ovac:fuelType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diesel</ovac:fuelType>
+        <ovac:hasModelName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Citroen Jumpy Combi </ovac:hasModelName>
+        <ovac:hasNbofAvailableSeats rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9</ovac:hasNbofAvailableSeats>
+        <ovac:hasSpeed rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40 km/h</ovac:hasSpeed>
+        <ovac:hasState rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is available</ovac:hasState>
+        <ovac:hasTotalNbofSeats rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9</ovac:hasTotalNbofSeats>
+        <ovac:moveInTheSky rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ovac:moveInTheSky>
+        <ovac:moveOnWater rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ovac:moveOnWater>
+        <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
+        <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T14:55:50Z</elements:date>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.utc.fr/ovac#Van_Citroen_Jumpy_Combi_GeoInfo -->
 
     <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Van_Citroen_Jumpy_Combi_GeoInfo">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#GeographicInformation"/>
         <ovac:hasCoordinates rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.41640273059303, 2.8283178929573056</ovac:hasCoordinates>
         <ovac:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.41640273059303</ovac:hasLatitude>
-        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25 Rue Fournier Sarloveze, 60200 Compiègne</ovac:hasLocationName>
+        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25 Rue Fournier Sarloveze, 60200 Compiegne</ovac:hasLocationName>
         <ovac:hasLongtitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.8283178929573056</ovac:hasLongtitude>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
         <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T15:03:08Z</elements:date>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.utc.fr/ovac#Van_Fiat_Talento_Panorama -->
+
+    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Van_Fiat_Talento_Panorama">
+        <rdf:type rdf:resource="http://www.utc.fr/ovac#Van"/>
+        <ovac:hasGeographicalInformation rdf:resource="http://www.utc.fr/ovac#Van_Fiat_Talento_Panorama_GeoInfo"/>
+        <ovac:isDrivenBy rdf:resource="http://www.utc.fr/ovac#Channing_Ricard"/>
+        <ovac:fuelType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diesel</ovac:fuelType>
+        <ovac:hasModelName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fiat Talento Panorama </ovac:hasModelName>
+        <ovac:hasNbofAvailableSeats rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9</ovac:hasNbofAvailableSeats>
+        <ovac:hasSpeed rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40 km/h</ovac:hasSpeed>
+        <ovac:hasState rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is available</ovac:hasState>
+        <ovac:hasTotalNbofSeats rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9</ovac:hasTotalNbofSeats>
+        <ovac:moveInTheSky rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ovac:moveInTheSky>
+        <ovac:moveOnWater rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ovac:moveOnWater>
+        <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
+        <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T14:55:50Z</elements:date>
     </owl:NamedIndividual>
     
 
@@ -3278,10 +3319,30 @@
         <rdf:type rdf:resource="http://www.utc.fr/ovac#GeographicInformation"/>
         <ovac:hasCoordinates rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.41246601204378, 2.8272235516116226</ovac:hasCoordinates>
         <ovac:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.41246601204378</ovac:hasLatitude>
-        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2 Rue François Claux, 60200 Compiègne</ovac:hasLocationName>
+        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2 Rue François Claux, 60200 Compiegne</ovac:hasLocationName>
         <ovac:hasLongtitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.8272235516116226</ovac:hasLongtitude>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
         <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T15:03:08Z</elements:date>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.utc.fr/ovac#Van_Ford_Transit_Kombi -->
+
+    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Van_Ford_Transit_Kombi">
+        <rdf:type rdf:resource="http://www.utc.fr/ovac#Van"/>
+        <ovac:hasGeographicalInformation rdf:resource="http://www.utc.fr/ovac#Van_Ford_Transit_Kombi_GeoInfo"/>
+        <ovac:isDrivenBy rdf:resource="http://www.utc.fr/ovac#Gaetan_Sauve"/>
+        <ovac:fuelType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diesel</ovac:fuelType>
+        <ovac:hasModelName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ford Transit Kombi </ovac:hasModelName>
+        <ovac:hasNbofAvailableSeats rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9</ovac:hasNbofAvailableSeats>
+        <ovac:hasSpeed rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40 km/h</ovac:hasSpeed>
+        <ovac:hasState rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is available</ovac:hasState>
+        <ovac:hasTotalNbofSeats rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9</ovac:hasTotalNbofSeats>
+        <ovac:moveInTheSky rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ovac:moveInTheSky>
+        <ovac:moveOnWater rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ovac:moveOnWater>
+        <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
+        <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T14:55:50Z</elements:date>
     </owl:NamedIndividual>
     
 
@@ -3292,10 +3353,30 @@
         <rdf:type rdf:resource="http://www.utc.fr/ovac#GeographicInformation"/>
         <ovac:hasCoordinates rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.40815399735399, 2.81190969761262</ovac:hasCoordinates>
         <ovac:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.40815399735399</ovac:hasLatitude>
-        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">43 Rue Saint-Germain, 60200 Compiègne</ovac:hasLocationName>
+        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">43 Rue Saint-Germain, 60200 Compiegne</ovac:hasLocationName>
         <ovac:hasLongtitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.81190969761262</ovac:hasLongtitude>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
         <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T15:03:08Z</elements:date>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.utc.fr/ovac#Van_Renault_Trafic_3_Combi -->
+
+    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Van_Renault_Trafic_3_Combi">
+        <rdf:type rdf:resource="http://www.utc.fr/ovac#Van"/>
+        <ovac:hasGeographicalInformation rdf:resource="http://www.utc.fr/ovac#Van_Renault_Trafic_3_Combi_GeoInfo"/>
+        <ovac:isDrivenBy rdf:resource="http://www.utc.fr/ovac#Leal_Gauthier"/>
+        <ovac:fuelType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diesel</ovac:fuelType>
+        <ovac:hasModelName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Renault Trafic 3 Combi</ovac:hasModelName>
+        <ovac:hasNbofAvailableSeats rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9</ovac:hasNbofAvailableSeats>
+        <ovac:hasSpeed rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40 km/h</ovac:hasSpeed>
+        <ovac:hasState rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is available</ovac:hasState>
+        <ovac:hasTotalNbofSeats rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9</ovac:hasTotalNbofSeats>
+        <ovac:moveInTheSky rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ovac:moveInTheSky>
+        <ovac:moveOnWater rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ovac:moveOnWater>
+        <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
+        <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T14:55:50Z</elements:date>
     </owl:NamedIndividual>
     
 
@@ -3306,10 +3387,30 @@
         <rdf:type rdf:resource="http://www.utc.fr/ovac#GeographicInformation"/>
         <ovac:hasCoordinates rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.40903190647726, 2.8045108899786277</ovac:hasCoordinates>
         <ovac:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.40903190647726</ovac:hasLatitude>
-        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4 Sq. Camille Saint-Saëns, 60200 Compiègne</ovac:hasLocationName>
+        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4 Sq. Camille Saint-Saens, 60200 Compiegne</ovac:hasLocationName>
         <ovac:hasLongtitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.8045108899786277</ovac:hasLongtitude>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
         <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T15:03:08Z</elements:date>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.utc.fr/ovac#Van_Renault_Trafic_Passenger -->
+
+    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Van_Renault_Trafic_Passenger">
+        <rdf:type rdf:resource="http://www.utc.fr/ovac#Van"/>
+        <ovac:hasGeographicalInformation rdf:resource="http://www.utc.fr/ovac#Van_Renault_Trafic_Passenger_GeoInfo"/>
+        <ovac:isDrivenBy rdf:resource="http://www.utc.fr/ovac#Roger_Charron"/>
+        <ovac:fuelType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diesel</ovac:fuelType>
+        <ovac:hasModelName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Renault Trafic Passenger </ovac:hasModelName>
+        <ovac:hasNbofAvailableSeats rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9</ovac:hasNbofAvailableSeats>
+        <ovac:hasSpeed rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40 km/h</ovac:hasSpeed>
+        <ovac:hasState rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is available</ovac:hasState>
+        <ovac:hasTotalNbofSeats rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9</ovac:hasTotalNbofSeats>
+        <ovac:moveInTheSky rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ovac:moveInTheSky>
+        <ovac:moveOnWater rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ovac:moveOnWater>
+        <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
+        <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T14:55:50Z</elements:date>
     </owl:NamedIndividual>
     
 
@@ -3320,7 +3421,7 @@
         <rdf:type rdf:resource="http://www.utc.fr/ovac#GeographicInformation"/>
         <ovac:hasCoordinates rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.418910773005905, 2.827214898152379</ovac:hasCoordinates>
         <ovac:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.418910773005905</ovac:hasLatitude>
-        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17 Rue le Féron, 60200 Compiègne</ovac:hasLocationName>
+        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17 Rue le Feron, 60200 Compiegne</ovac:hasLocationName>
         <ovac:hasLongtitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.827214898152379</ovac:hasLongtitude>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
         <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T15:03:08Z</elements:date>
@@ -3333,7 +3434,7 @@
     <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Verrill_DuLin">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#Drivers"/>
         <ovac:ObtainedAPermit rdf:resource="http://www.utc.fr/ovac#Verrill_DuLin_PermitB"/>
-        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4 Rue Jean Brachard, 60200 Compiègne</ovac:hasAddress>
+        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4 Rue Jean Brachard, 60200 Compiegne</ovac:hasAddress>
         <ovac:hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45</ovac:hasAge>
         <ovac:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Verrill DuLin</ovac:hasName>
         <ovac:hasPhoneNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">01 20 99 69 84</ovac:hasPhoneNumber>
@@ -3360,9 +3461,9 @@
     <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Victor_Bosse">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#Drivers"/>
         <ovac:ObtainedAPermit rdf:resource="http://www.utc.fr/ovac#Victor_Bosse_PermitB"/>
-        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3 Rue Maurice Barres, 60200 Compiègne</ovac:hasAddress>
+        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3 Rue Maurice Barres, 60200 Compiegne</ovac:hasAddress>
         <ovac:hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">55</ovac:hasAge>
-        <ovac:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Victor Bossé</ovac:hasName>
+        <ovac:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Victor Bosse</ovac:hasName>
         <ovac:hasPhoneNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">04 48 80 78 44</ovac:hasPhoneNumber>
         <ovac:hasSex rdf:datatype="http://www.w3.org/2001/XMLSchema#string">M</ovac:hasSex>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
@@ -3387,7 +3488,7 @@
     <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Xavier_Devost">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#Drivers"/>
         <ovac:ObtainedAPermit rdf:resource="http://www.utc.fr/ovac#Xavier_Devost_PermisD1"/>
-        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">60 Rue Carnot, 60200 Compiègne</ovac:hasAddress>
+        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">60 Rue Carnot, 60200 Compiegne</ovac:hasAddress>
         <ovac:hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</ovac:hasAge>
         <ovac:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xavier Devost</ovac:hasName>
         <ovac:hasPhoneNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">01 07 36 63 84</ovac:hasPhoneNumber>
@@ -3414,7 +3515,7 @@
     <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Zdenek_Arcouet">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#Drivers"/>
         <ovac:ObtainedAPermit rdf:resource="http://www.utc.fr/ovac#Zdenek_Arcouet_PermitB"/>
-        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10 Rue de l&apos;Église Saint-Germain, 60200 Compiègne</ovac:hasAddress>
+        <ovac:hasAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10 Rue de l&apos;eglise Saint-Germain, 60200 Compiegne</ovac:hasAddress>
         <ovac:hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">37</ovac:hasAge>
         <ovac:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zdenek Arcouet</ovac:hasName>
         <ovac:hasPhoneNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">01 90 12 28 78</ovac:hasPhoneNumber>
@@ -3443,7 +3544,7 @@
         <ovac:hasGeographicalInformation rdf:resource="http://www.utc.fr/ovac#campervan_Profile_Chausson_Flash_6_GeoInfo"/>
         <ovac:isDrivenBy rdf:resource="http://www.utc.fr/ovac#Vaden_Salmons"/>
         <ovac:fuelType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diesel</ovac:fuelType>
-        <ovac:hasModelName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Profilé Chausson Flash 6</ovac:hasModelName>
+        <ovac:hasModelName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Profile Chausson Flash 6</ovac:hasModelName>
         <ovac:hasNbofAvailableSeats rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</ovac:hasNbofAvailableSeats>
         <ovac:hasSpeed rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30 km/h</ovac:hasSpeed>
         <ovac:hasState rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is available</ovac:hasState>
@@ -3464,7 +3565,7 @@
         <rdf:type rdf:resource="http://www.utc.fr/ovac#GeographicInformation"/>
         <ovac:hasCoordinates rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.40135929855234, 2.8080853828087022</ovac:hasCoordinates>
         <ovac:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.40135929855234</ovac:hasLatitude>
-        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10 Sq. Jean Moulin, 60200 Compiègne</ovac:hasLocationName>
+        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10 Sq. Jean Moulin, 60200 Compiegne</ovac:hasLocationName>
         <ovac:hasLongtitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.8080853828087022</ovac:hasLongtitude>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
         <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T15:03:08Z</elements:date>
@@ -3479,7 +3580,7 @@
         <ovac:hasGeographicalInformation rdf:resource="http://www.utc.fr/ovac#minivan_Citroen_C8_GeoInfo"/>
         <ovac:isDrivenBy rdf:resource="http://www.utc.fr/ovac#Romain_Deschamps"/>
         <ovac:fuelType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diesel</ovac:fuelType>
-        <ovac:hasModelName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Citroën C8</ovac:hasModelName>
+        <ovac:hasModelName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Citroen C8</ovac:hasModelName>
         <ovac:hasNbofAvailableSeats rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</ovac:hasNbofAvailableSeats>
         <ovac:hasSpeed rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30 km/h</ovac:hasSpeed>
         <ovac:hasState rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is available</ovac:hasState>
@@ -3500,7 +3601,7 @@
         <rdf:type rdf:resource="http://www.utc.fr/ovac#GeographicInformation"/>
         <ovac:hasCoordinates rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.40871394914862, 2.8215710711667525</ovac:hasCoordinates>
         <ovac:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.40871394914862</ovac:hasLatitude>
-        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">99 Bd des États Unis, 60200 Compiègne</ovac:hasLocationName>
+        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">99 Bd des etats Unis, 60200 Compiegne</ovac:hasLocationName>
         <ovac:hasLongtitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.8215710711667525</ovac:hasLongtitude>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
         <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T15:03:08Z</elements:date>
@@ -3536,7 +3637,7 @@
         <rdf:type rdf:resource="http://www.utc.fr/ovac#GeographicInformation"/>
         <ovac:hasCoordinates rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.412239446056745, 2.817888227010559</ovac:hasCoordinates>
         <ovac:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.412239446056745</ovac:hasLatitude>
-        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10 Rue de l&apos;Église Saint-Germain, 60200 Compiègne</ovac:hasLocationName>
+        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10 Rue de l&apos;eglise Saint-Germain, 60200 Compiegne</ovac:hasLocationName>
         <ovac:hasLongtitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.817888227010559</ovac:hasLongtitude>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
         <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T15:03:08Z</elements:date>
@@ -3572,7 +3673,7 @@
         <rdf:type rdf:resource="http://www.utc.fr/ovac#GeographicInformation"/>
         <ovac:hasCoordinates rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.40723372112646, 2.812688808483198</ovac:hasCoordinates>
         <ovac:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.40723372112646</ovac:hasLatitude>
-        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25 Sq. Jean Baptiste Clément, 60200 Compiègne</ovac:hasLocationName>
+        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25 Sq. Jean Baptiste Clement, 60200 Compiegne</ovac:hasLocationName>
         <ovac:hasLongtitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.812688808483198</ovac:hasLongtitude>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
         <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T15:03:08Z</elements:date>
@@ -3630,7 +3731,7 @@
         <rdf:type rdf:resource="http://www.utc.fr/ovac#GeographicInformation"/>
         <ovac:hasCoordinates rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.4118447634296, 2.8227281693163584</ovac:hasCoordinates>
         <ovac:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.4118447634296</ovac:hasLatitude>
-        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6 Rue des Sablons, 60200 Compiègne</ovac:hasLocationName>
+        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6 Rue des Sablons, 60200 Compiegne</ovac:hasLocationName>
         <ovac:hasLongtitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.8227281693163584</ovac:hasLongtitude>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
         <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T15:03:08Z</elements:date>
@@ -3644,7 +3745,7 @@
         <rdf:type rdf:resource="http://www.utc.fr/ovac#GeographicInformation"/>
         <ovac:hasCoordinates rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.41062696807618, 2.8101420074372885</ovac:hasCoordinates>
         <ovac:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.41062696807618</ovac:hasLatitude>
-        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12 Sq. du Colonel Sutterlin, 60200 Compiègne</ovac:hasLocationName>
+        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12 Sq. du Colonel Sutterlin, 60200 Compiegne</ovac:hasLocationName>
         <ovac:hasLongtitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.8101420074372885</ovac:hasLongtitude>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
         <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T15:03:08Z</elements:date>
@@ -3678,7 +3779,7 @@
         <rdf:type rdf:resource="http://www.utc.fr/ovac#GeographicInformation"/>
         <ovac:hasCoordinates rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.40363375413737, 2.8236004719248995</ovac:hasCoordinates>
         <ovac:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.40363375413737</ovac:hasLatitude>
-        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11B Av. du Maréchal Foch, 60200 Compiègne</ovac:hasLocationName>
+        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11B Av. du Marechal Foch, 60200 Compiegne</ovac:hasLocationName>
         <ovac:hasLongtitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.8236004719248995</ovac:hasLongtitude>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
         <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T15:03:08Z</elements:date>
@@ -3712,7 +3813,7 @@
         <rdf:type rdf:resource="http://www.utc.fr/ovac#GeographicInformation"/>
         <ovac:hasCoordinates rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.40743139435639, 2.8073171269878174</ovac:hasCoordinates>
         <ovac:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.40743139435639</ovac:hasLatitude>
-        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1 Av. du Général Weygand, 60200 Compiègne</ovac:hasLocationName>
+        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1 Av. du General Weygand, 60200 Compiegne</ovac:hasLocationName>
         <ovac:hasLongtitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.8073171269878174</ovac:hasLongtitude>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
         <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T15:03:08Z</elements:date>
@@ -3727,7 +3828,7 @@
         <ovac:hasGeographicalInformation rdf:resource="http://www.utc.fr/ovac#sedan_Citroen_C4_3e_GeoInfo"/>
         <ovac:isDrivenBy rdf:resource="http://www.utc.fr/ovac#Curtis_Michel"/>
         <ovac:fuelType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Essence</ovac:fuelType>
-        <ovac:hasModelName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Citroën C3 3e</ovac:hasModelName>
+        <ovac:hasModelName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Citroen C3 3e</ovac:hasModelName>
         <ovac:hasNbofAvailableSeats rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</ovac:hasNbofAvailableSeats>
         <ovac:hasSpeed rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40 km/h</ovac:hasSpeed>
         <ovac:hasState rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is available</ovac:hasState>
@@ -3746,7 +3847,7 @@
         <rdf:type rdf:resource="http://www.utc.fr/ovac#GeographicInformation"/>
         <ovac:hasCoordinates rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.41054044603201, 2.8118058981521323</ovac:hasCoordinates>
         <ovac:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.41054044603201</ovac:hasLatitude>
-        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12 Rue Winston Churchill, 60200 Compiègne</ovac:hasLocationName>
+        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12 Rue Winston Churchill, 60200 Compiegne</ovac:hasLocationName>
         <ovac:hasLongtitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.8118058981521323</ovac:hasLongtitude>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
         <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T15:03:08Z</elements:date>
@@ -3754,14 +3855,14 @@
     
 
 
-    <!-- http://www.utc.fr/ovac#sedan_Citroën_C5_2e -->
+    <!-- http://www.utc.fr/ovac#sedan_Citroen_C5_2e -->
 
-    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#sedan_Citroën_C5_2e">
+    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#sedan_Citroen_C5_2e">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#Sedan"/>
-        <ovac:hasGeographicalInformation rdf:resource="http://www.utc.fr/ovac#sedan_Citroën_C5_2e_GeoInfo"/>
+        <ovac:hasGeographicalInformation rdf:resource="http://www.utc.fr/ovac#sedan_Citroen_C5_2e_GeoInfo"/>
         <ovac:isDrivenBy rdf:resource="http://www.utc.fr/ovac#Telford_Bernard"/>
         <ovac:fuelType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diesel</ovac:fuelType>
-        <ovac:hasModelName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Citroën C5 2e</ovac:hasModelName>
+        <ovac:hasModelName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Citroen C5 2e</ovac:hasModelName>
         <ovac:hasNbofAvailableSeats rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</ovac:hasNbofAvailableSeats>
         <ovac:hasSpeed rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40 km/h</ovac:hasSpeed>
         <ovac:hasState rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is available</ovac:hasState>
@@ -3774,13 +3875,13 @@
     
 
 
-    <!-- http://www.utc.fr/ovac#sedan_Citroën_C5_2e_GeoInfo -->
+    <!-- http://www.utc.fr/ovac#sedan_Citroen_C5_2e_GeoInfo -->
 
-    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#sedan_Citroën_C5_2e_GeoInfo">
+    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#sedan_Citroen_C5_2e_GeoInfo">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#GeographicInformation"/>
         <ovac:hasCoordinates rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.40313119326202, 2.818582069316131</ovac:hasCoordinates>
         <ovac:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.40313119326202</ovac:hasLatitude>
-        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8 Rue du Valois, 60200 Compiègne</ovac:hasLocationName>
+        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8 Rue du Valois, 60200 Compiegne</ovac:hasLocationName>
         <ovac:hasLongtitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.818582069316131</ovac:hasLongtitude>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
         <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T15:03:08Z</elements:date>
@@ -3814,7 +3915,7 @@
         <rdf:type rdf:resource="http://www.utc.fr/ovac#GeographicInformation"/>
         <ovac:hasCoordinates rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.40926966307579, 2.805301510146455</ovac:hasCoordinates>
         <ovac:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.40926966307579</ovac:hasLatitude>
-        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3 Sq. Camille Saint-Saëns, 60200 Compiègne</ovac:hasLocationName>
+        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3 Sq. Camille Saint-Saens, 60200 Compiegne</ovac:hasLocationName>
         <ovac:hasLongtitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.805301510146455</ovac:hasLongtitude>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
         <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T15:03:08Z</elements:date>
@@ -3848,7 +3949,7 @@
         <rdf:type rdf:resource="http://www.utc.fr/ovac#GeographicInformation"/>
         <ovac:hasCoordinates rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.4088805528716, 2.8405264423309764</ovac:hasCoordinates>
         <ovac:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.4088805528716</ovac:hasLatitude>
-        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9Q Av. de la Forêt, 60200 Compiègne</ovac:hasLocationName>
+        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9Q Av. de la Foret, 60200 Compiegne</ovac:hasLocationName>
         <ovac:hasLongtitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.8405264423309764</ovac:hasLongtitude>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
         <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T15:03:08Z</elements:date>
@@ -3902,7 +4003,7 @@
         <rdf:type rdf:resource="http://www.utc.fr/ovac#GeographicInformation"/>
         <ovac:hasCoordinates rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.40843073049505, 2.8194341846594084</ovac:hasCoordinates>
         <ovac:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.40843073049505</ovac:hasLatitude>
-        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">70 Rue Saint-Joseph, 60200 Compiègne</ovac:hasLocationName>
+        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">70 Rue Saint-Joseph, 60200 Compiegne</ovac:hasLocationName>
         <ovac:hasLongtitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.8194341846594084</ovac:hasLongtitude>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
         <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T15:03:08Z</elements:date>
@@ -3916,7 +4017,7 @@
         <rdf:type rdf:resource="http://www.utc.fr/ovac#GeographicInformation"/>
         <ovac:hasCoordinates rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.40704760519295, 2.8331169495614215</ovac:hasCoordinates>
         <ovac:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.40704760519295</ovac:hasLatitude>
-        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">85 Rue Carnot, 60200 Compiègne</ovac:hasLocationName>
+        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">85 Rue Carnot, 60200 Compiegne</ovac:hasLocationName>
         <ovac:hasLongtitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.8331169495614215</ovac:hasLongtitude>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
         <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T15:03:08Z</elements:date>
@@ -3950,7 +4051,7 @@
         <rdf:type rdf:resource="http://www.utc.fr/ovac#GeographicInformation"/>
         <ovac:hasCoordinates rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.40313789588897, 2.7977255476237572</ovac:hasCoordinates>
         <ovac:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.40313789588897</ovac:hasLatitude>
-        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">37 Av. de Landshut, 60200 Compiègne</ovac:hasLocationName>
+        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">37 Av. de Landshut, 60200 Compiegne</ovac:hasLocationName>
         <ovac:hasLongtitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.7977255476237572</ovac:hasLongtitude>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
         <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T15:03:08Z</elements:date>
@@ -3984,7 +4085,7 @@
         <rdf:type rdf:resource="http://www.utc.fr/ovac#GeographicInformation"/>
         <ovac:hasCoordinates rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.40266314451904, 2.803819526519282</ovac:hasCoordinates>
         <ovac:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.40266314451904</ovac:hasLatitude>
-        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4 Rue Jean Brachard, 60200 Compiègne</ovac:hasLocationName>
+        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4 Rue Jean Brachard, 60200 Compiegne</ovac:hasLocationName>
         <ovac:hasLongtitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.803819526519282</ovac:hasLongtitude>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
         <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T15:03:08Z</elements:date>
@@ -4038,7 +4139,7 @@
         <rdf:type rdf:resource="http://www.utc.fr/ovac#GeographicInformation"/>
         <ovac:hasCoordinates rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.40963994668945, 2.8154966176605223</ovac:hasCoordinates>
         <ovac:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.40963994668945</ovac:hasLatitude>
-        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">100 Rue de Paris, 60200 Compiègne</ovac:hasLocationName>
+        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">100 Rue de Paris, 60200 Compiegne</ovac:hasLocationName>
         <ovac:hasLongtitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.8154966176605223</ovac:hasLongtitude>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
         <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T15:03:08Z</elements:date>
@@ -4052,7 +4153,7 @@
         <rdf:type rdf:resource="http://www.utc.fr/ovac#GeographicInformation"/>
         <ovac:hasCoordinates rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.40326373148855, 2.830134332915043</ovac:hasCoordinates>
         <ovac:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.40326373148855</ovac:hasLatitude>
-        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7 All. de la Tilloye, 60200 Compiègne</ovac:hasLocationName>
+        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7 All. de la Tilloye, 60200 Compiegne</ovac:hasLocationName>
         <ovac:hasLongtitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.830134332915043</ovac:hasLongtitude>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
         <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T15:03:08Z</elements:date>
@@ -4086,7 +4187,7 @@
         <rdf:type rdf:resource="http://www.utc.fr/ovac#GeographicInformation"/>
         <ovac:hasCoordinates rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.41531312911645, 2.8282303660898664</ovac:hasCoordinates>
         <ovac:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.41531312911645</ovac:hasLatitude>
-        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23 Rue de Pierrefonds, 60200 Compiègne</ovac:hasLocationName>
+        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23 Rue de Pierrefonds, 60200 Compiegne</ovac:hasLocationName>
         <ovac:hasLongtitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.8282303660898664</ovac:hasLongtitude>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
         <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T15:03:08Z</elements:date>
@@ -4140,7 +4241,7 @@
         <rdf:type rdf:resource="http://www.utc.fr/ovac#GeographicInformation"/>
         <ovac:hasCoordinates rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.41012704799811, 2.82896139104259</ovac:hasCoordinates>
         <ovac:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.41012704799811</ovac:hasLatitude>
-        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">84 Rue Carnot, 60200 Compiègne</ovac:hasLocationName>
+        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">84 Rue Carnot, 60200 Compiegne</ovac:hasLocationName>
         <ovac:hasLongtitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.82896139104259</ovac:hasLongtitude>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
         <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T15:03:08Z</elements:date>
@@ -4154,7 +4255,7 @@
         <rdf:type rdf:resource="http://www.utc.fr/ovac#GeographicInformation"/>
         <ovac:hasCoordinates rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.40557671704075, 2.803541980958373</ovac:hasCoordinates>
         <ovac:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.40557671704075</ovac:hasLatitude>
-        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13 Rue Victor Schoelcher, 60200 Compiègne</ovac:hasLocationName>
+        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13 Rue Victor Schoelcher, 60200 Compiegne</ovac:hasLocationName>
         <ovac:hasLongtitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.803541980958373</ovac:hasLongtitude>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
         <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T15:03:08Z</elements:date>
@@ -4162,117 +4263,11 @@
     
 
 
-    <!-- http://www.utc.fr/ovac#Van_Citroen_Jumpy_Combi -->
+    <!-- http://www.utc.fr/ovac#suv_Alfa_Romeo_Stelvio -->
 
-    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Van_Citroen_Jumpy_Combi">
-        <rdf:type rdf:resource="http://www.utc.fr/ovac#Van"/>
-        <ovac:hasGeographicalInformation rdf:resource="http://www.utc.fr/ovac#Van_Citroen_Jumpy_Combi_GeoInfo"/>
-        <ovac:isDrivenBy rdf:resource="http://www.utc.fr/ovac#Jerome_Marleau"/>
-        <ovac:fuelType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diesel</ovac:fuelType>
-        <ovac:hasModelName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Citroen Jumpy Combi </ovac:hasModelName>
-        <ovac:hasNbofAvailableSeats rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9</ovac:hasNbofAvailableSeats>
-        <ovac:hasSpeed rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40 km/h</ovac:hasSpeed>
-        <ovac:hasState rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is available</ovac:hasState>
-        <ovac:hasTotalNbofSeats rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9</ovac:hasTotalNbofSeats>
-        <ovac:moveInTheSky rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ovac:moveInTheSky>
-        <ovac:moveOnWater rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ovac:moveOnWater>
-        <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
-        <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T14:55:50Z</elements:date>
-    </owl:NamedIndividual>
-    
-    
-
-
-    <!-- http://www.utc.fr/ovac#Van_Fiat_Talento_Panorama -->
-
-    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Van_Fiat_Talento_Panorama">
-        <rdf:type rdf:resource="http://www.utc.fr/ovac#Van"/>
-        <ovac:hasGeographicalInformation rdf:resource="http://www.utc.fr/ovac#Van_Fiat_Talento_Panorama_GeoInfo"/>
-        <ovac:isDrivenBy rdf:resource="http://www.utc.fr/ovac#Channing_Ricard"/>
-        <ovac:fuelType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diesel</ovac:fuelType>
-        <ovac:hasModelName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fiat Talento Panorama </ovac:hasModelName>
-        <ovac:hasNbofAvailableSeats rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9</ovac:hasNbofAvailableSeats>
-        <ovac:hasSpeed rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40 km/h</ovac:hasSpeed>
-        <ovac:hasState rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is available</ovac:hasState>
-        <ovac:hasTotalNbofSeats rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9</ovac:hasTotalNbofSeats>
-        <ovac:moveInTheSky rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ovac:moveInTheSky>
-        <ovac:moveOnWater rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ovac:moveOnWater>
-        <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
-        <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T14:55:50Z</elements:date>
-    </owl:NamedIndividual>
-    
-    
-
-
-    <!-- http://www.utc.fr/ovac#Van_Ford_Transit_Kombi -->
-
-    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Van_Ford_Transit_Kombi">
-        <rdf:type rdf:resource="http://www.utc.fr/ovac#Van"/>
-        <ovac:hasGeographicalInformation rdf:resource="http://www.utc.fr/ovac#Van_Ford_Transit_Kombi_GeoInfo"/>
-        <ovac:isDrivenBy rdf:resource="http://www.utc.fr/ovac#Gaetan_Sauve"/>
-        <ovac:fuelType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diesel</ovac:fuelType>
-        <ovac:hasModelName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ford Transit Kombi </ovac:hasModelName>
-        <ovac:hasNbofAvailableSeats rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9</ovac:hasNbofAvailableSeats>
-        <ovac:hasSpeed rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40 km/h</ovac:hasSpeed>
-        <ovac:hasState rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is available</ovac:hasState>
-        <ovac:hasTotalNbofSeats rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9</ovac:hasTotalNbofSeats>
-        <ovac:moveInTheSky rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ovac:moveInTheSky>
-        <ovac:moveOnWater rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ovac:moveOnWater>
-        <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
-        <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T14:55:50Z</elements:date>
-    </owl:NamedIndividual>
-    
-
-    
-
-
-    <!-- http://www.utc.fr/ovac#Van_Renault_Trafic_3_Combi -->
-
-    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Van_Renault_Trafic_3_Combi">
-        <rdf:type rdf:resource="http://www.utc.fr/ovac#Van"/>
-        <ovac:hasGeographicalInformation rdf:resource="http://www.utc.fr/ovac#Van_Renault_Trafic_3_Combi_GeoInfo"/>
-        <ovac:isDrivenBy rdf:resource="http://www.utc.fr/ovac#Leal_Gauthier"/>
-        <ovac:fuelType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diesel</ovac:fuelType>
-        <ovac:hasModelName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Renault Trafic 3 Combi</ovac:hasModelName>
-        <ovac:hasNbofAvailableSeats rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9</ovac:hasNbofAvailableSeats>
-        <ovac:hasSpeed rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40 km/h</ovac:hasSpeed>
-        <ovac:hasState rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is available</ovac:hasState>
-        <ovac:hasTotalNbofSeats rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9</ovac:hasTotalNbofSeats>
-        <ovac:moveInTheSky rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ovac:moveInTheSky>
-        <ovac:moveOnWater rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ovac:moveOnWater>
-        <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
-        <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T14:55:50Z</elements:date>
-    </owl:NamedIndividual>
-    
-    
-
-
-    <!-- http://www.utc.fr/ovac#Van_Renault_Trafic_Passenger -->
-
-    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Van_Renault_Trafic_Passenger">
-        <rdf:type rdf:resource="http://www.utc.fr/ovac#Van"/>
-        <ovac:hasGeographicalInformation rdf:resource="http://www.utc.fr/ovac#Van_Renault_Trafic_Passenger_GeoInfo"/>
-        <ovac:isDrivenBy rdf:resource="http://www.utc.fr/ovac#Roger_Charron"/>
-        <ovac:fuelType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diesel</ovac:fuelType>
-        <ovac:hasModelName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Renault Trafic Passenger </ovac:hasModelName>
-        <ovac:hasNbofAvailableSeats rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9</ovac:hasNbofAvailableSeats>
-        <ovac:hasSpeed rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40 km/h</ovac:hasSpeed>
-        <ovac:hasState rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is available</ovac:hasState>
-        <ovac:hasTotalNbofSeats rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9</ovac:hasTotalNbofSeats>
-        <ovac:moveInTheSky rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ovac:moveInTheSky>
-        <ovac:moveOnWater rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ovac:moveOnWater>
-        <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
-        <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T14:55:50Z</elements:date>
-    </owl:NamedIndividual>
-    
-    
-
-
-    <!-- http://www.utc.fr/ovac#4x4_Alfa_Romeo_Stelvio -->
-
-    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#4x4_Alfa_Romeo_Stelvio">
-        <rdf:type rdf:resource="http://www.utc.fr/ovac#4x4_SUV_Crossover"/>
-        <ovac:hasGeographicalInformation rdf:resource="http://www.utc.fr/ovac#4x4_Alfa_Romeo_Stelvio_GeoInfo"/>
+    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#suv_Alfa_Romeo_Stelvio">
+        <rdf:type rdf:resource="http://www.utc.fr/ovac#SUV"/>
+        <ovac:hasGeographicalInformation rdf:resource="http://www.utc.fr/ovac#suv_Alfa_Romeo_Stelvio_GeoInfo"/>
         <ovac:isDrivenBy rdf:resource="http://www.utc.fr/ovac#Adrien_Theberge"/>
         <ovac:fuelType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diesel</ovac:fuelType>
         <ovac:hasModelName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alfa Romeo Stelvio</ovac:hasModelName>
@@ -4288,13 +4283,13 @@
     
 
 
-    <!-- http://www.utc.fr/ovac#4x4_Alfa_Romeo_Stelvio_GeoInfo -->
+    <!-- http://www.utc.fr/ovac#suv_Alfa_Romeo_Stelvio_GeoInfo -->
 
-    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#4x4_Alfa_Romeo_Stelvio_GeoInfo">
+    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#suv_Alfa_Romeo_Stelvio_GeoInfo">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#GeographicInformation"/>
         <ovac:hasCoordinates rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.41312172085212, 2.8171490693164354</ovac:hasCoordinates>
         <ovac:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.41312172085212</ovac:hasLatitude>
-        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2 Pl. du 14 Juillet, 60200 Compiègne</ovac:hasLocationName>
+        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2 Pl. du 14 Juillet, 60200 Compiegne</ovac:hasLocationName>
         <ovac:hasLongtitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.8171490693164354</ovac:hasLongtitude>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
         <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T15:03:08Z</elements:date>
@@ -4302,11 +4297,11 @@
     
 
 
-    <!-- http://www.utc.fr/ovac#4x4_Audi_Q3 -->
+    <!-- http://www.utc.fr/ovac#suv_Audi_Q3 -->
 
-    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#4x4_Audi_Q3">
-        <rdf:type rdf:resource="http://www.utc.fr/ovac#4x4_SUV_Crossover"/>
-        <ovac:hasGeographicalInformation rdf:resource="http://www.utc.fr/ovac#4x4_Audi_Q3_GeoInfo"/>
+    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#suv_Audi_Q3">
+        <rdf:type rdf:resource="http://www.utc.fr/ovac#SUV"/>
+        <ovac:hasGeographicalInformation rdf:resource="http://www.utc.fr/ovac#suv_Audi_Q3_GeoInfo"/>
         <ovac:isDrivenBy rdf:resource="http://www.utc.fr/ovac#Octave_Viens"/>
         <ovac:fuelType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Essence</ovac:fuelType>
         <ovac:hasModelName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Audi Q3</ovac:hasModelName>
@@ -4322,13 +4317,13 @@
     
 
 
-    <!-- http://www.utc.fr/ovac#4x4_Audi_Q3_GeoInfo -->
+    <!-- http://www.utc.fr/ovac#suv_Audi_Q3_GeoInfo -->
 
-    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#4x4_Audi_Q3_GeoInfo">
+    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#suv_Audi_Q3_GeoInfo">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#GeographicInformation"/>
         <ovac:hasCoordinates rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.42582546317233, 2.8436104000030737</ovac:hasCoordinates>
         <ovac:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.42582546317233</ovac:hasLatitude>
-        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24 TER Rue du Bataillon de France, 60200 Compiègne</ovac:hasLocationName>
+        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24 TER Rue du Bataillon de France, 60200 Compiegne</ovac:hasLocationName>
         <ovac:hasLongtitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.8436104000030737</ovac:hasLongtitude>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
         <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T15:03:08Z</elements:date>
@@ -4336,11 +4331,11 @@
     
 
 
-    <!-- http://www.utc.fr/ovac#4x4_Citroen_C4_Cactus -->
+    <!-- http://www.utc.fr/ovac#suv_Citroen_C4_Cactus -->
 
-    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#4x4_Citroen_C4_Cactus">
-        <rdf:type rdf:resource="http://www.utc.fr/ovac#4x4_SUV_Crossover"/>
-        <ovac:hasGeographicalInformation rdf:resource="http://www.utc.fr/ovac#4x4_Citroen_C4_Cactus_GeoInfo"/>
+    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#suv_Citroen_C4_Cactus">
+        <rdf:type rdf:resource="http://www.utc.fr/ovac#SUV"/>
+        <ovac:hasGeographicalInformation rdf:resource="http://www.utc.fr/ovac#suv_Citroen_C4_Cactus_GeoInfo"/>
         <ovac:isDrivenBy rdf:resource="http://www.utc.fr/ovac#Annot_Laramee"/>
         <ovac:fuelType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Essence</ovac:fuelType>
         <ovac:hasModelName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Citroen C4 Cactus</ovac:hasModelName>
@@ -4356,13 +4351,13 @@
     
 
 
-    <!-- http://www.utc.fr/ovac#4x4_Citroen_C4_Cactus_GeoInfo -->
+    <!-- http://www.utc.fr/ovac#suv_Citroen_C4_Cactus_GeoInfo -->
 
-    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#4x4_Citroen_C4_Cactus_GeoInfo">
+    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#suv_Citroen_C4_Cactus_GeoInfo">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#GeographicInformation"/>
         <ovac:hasCoordinates rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.41019360785042, 2.8138894116447863</ovac:hasCoordinates>
         <ovac:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.41019360785042</ovac:hasLatitude>
-        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21T Rue Saint-Germain, 60200 Compiègne</ovac:hasLocationName>
+        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21T Rue Saint-Germain, 60200 Compiegne</ovac:hasLocationName>
         <ovac:hasLongtitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.8138894116447863</ovac:hasLongtitude>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
         <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T15:03:08Z</elements:date>
@@ -4370,14 +4365,14 @@
     
 
 
-    <!-- http://www.utc.fr/ovac#4x4_Citroen_c3_Aircross -->
+    <!-- http://www.utc.fr/ovac#suv_Citroen_c3_Aircross -->
 
-    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#4x4_Citroen_c3_Aircross">
-        <rdf:type rdf:resource="http://www.utc.fr/ovac#4x4_SUV_Crossover"/>
-        <ovac:hasGeographicalInformation rdf:resource="http://www.utc.fr/ovac#4x4_Citroen_c3_Aircross_GeoInfo"/>
+    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#suv_Citroen_c3_Aircross">
+        <rdf:type rdf:resource="http://www.utc.fr/ovac#SUV"/>
+        <ovac:hasGeographicalInformation rdf:resource="http://www.utc.fr/ovac#suv_Citroen_c3_Aircross_GeoInfo"/>
         <ovac:isDrivenBy rdf:resource="http://www.utc.fr/ovac#Joseph_Brault"/>
         <ovac:fuelType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Essence</ovac:fuelType>
-        <ovac:hasModelName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Citroën C3 Aircross</ovac:hasModelName>
+        <ovac:hasModelName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Citroen C3 Aircross</ovac:hasModelName>
         <ovac:hasNbofAvailableSeats rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</ovac:hasNbofAvailableSeats>
         <ovac:hasSpeed rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40 km/h</ovac:hasSpeed>
         <ovac:hasState rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is available</ovac:hasState>
@@ -4390,13 +4385,13 @@
     
 
 
-    <!-- http://www.utc.fr/ovac#4x4_Citroen_c3_Aircross_GeoInfo -->
+    <!-- http://www.utc.fr/ovac#suv_Citroen_c3_Aircross_GeoInfo -->
 
-    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#4x4_Citroen_c3_Aircross_GeoInfo">
+    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#suv_Citroen_c3_Aircross_GeoInfo">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#GeographicInformation"/>
         <ovac:hasCoordinates rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.39910017651095, 2.791061055823333</ovac:hasCoordinates>
         <ovac:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.39910017651095</ovac:hasLatitude>
-        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1 Place Jean Baptiste Carpeaux, 60200 Compiègne</ovac:hasLocationName>
+        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1 Place Jean Baptiste Carpeaux, 60200 Compiegne</ovac:hasLocationName>
         <ovac:hasLongtitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.791061055823333</ovac:hasLongtitude>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
         <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T15:03:08Z</elements:date>
@@ -4404,13 +4399,13 @@
     
 
 
-    <!-- http://www.utc.fr/ovac#4x4_DS_7_Crossback -->
+    <!-- http://www.utc.fr/ovac#suv_DS_7_Crossback -->
 
-    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#4x4_DS_7_Crossback">
-        <rdf:type rdf:resource="http://www.utc.fr/ovac#4x4_SUV_Crossover"/>
-        <ovac:hasGeographicalInformation rdf:resource="http://www.utc.fr/ovac#4x4_DS_7_Crossback_GeoInfo"/>
+    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#suv_DS_7_Crossback">
+        <rdf:type rdf:resource="http://www.utc.fr/ovac#SUV"/>
+        <ovac:hasGeographicalInformation rdf:resource="http://www.utc.fr/ovac#suv_DS_7_Crossback_GeoInfo"/>
         <ovac:isDrivenBy rdf:resource="http://www.utc.fr/ovac#Joanna_Ouellet"/>
-        <ovac:fuelType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hybride essence électrique</ovac:fuelType>
+        <ovac:fuelType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hybride essence electrique</ovac:fuelType>
         <ovac:hasModelName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DS 7 Crossback</ovac:hasModelName>
         <ovac:hasNbofAvailableSeats rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</ovac:hasNbofAvailableSeats>
         <ovac:hasSpeed rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40 km/h</ovac:hasSpeed>
@@ -4424,11 +4419,11 @@
     
 
 
-    <!-- http://www.utc.fr/ovac#4x4_DS_7_Crossback_02 -->
+    <!-- http://www.utc.fr/ovac#suv_DS_7_Crossback_02 -->
 
-    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#4x4_DS_7_Crossback_02">
-        <rdf:type rdf:resource="http://www.utc.fr/ovac#4x4_SUV_Crossover"/>
-        <ovac:hasGeographicalInformation rdf:resource="http://www.utc.fr/ovac#4x4_DS_7_Crossback_02_GeoInfo"/>
+    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#suv_DS_7_Crossback_02">
+        <rdf:type rdf:resource="http://www.utc.fr/ovac#SUV"/>
+        <ovac:hasGeographicalInformation rdf:resource="http://www.utc.fr/ovac#suv_DS_7_Crossback_02_GeoInfo"/>
         <ovac:isDrivenBy rdf:resource="http://www.utc.fr/ovac#Etienne_Simard"/>
         <ovac:fuelType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diesel</ovac:fuelType>
         <ovac:hasModelName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DS 7 Crossback</ovac:hasModelName>
@@ -4444,13 +4439,13 @@
     
 
 
-    <!-- http://www.utc.fr/ovac#4x4_DS_7_Crossback_02_GeoInfo -->
+    <!-- http://www.utc.fr/ovac#suv_DS_7_Crossback_02_GeoInfo -->
 
-    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#4x4_DS_7_Crossback_02_GeoInfo">
+    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#suv_DS_7_Crossback_02_GeoInfo">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#GeographicInformation"/>
         <ovac:hasCoordinates rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.42822955338351, 2.829261513773559</ovac:hasCoordinates>
         <ovac:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.42822955338351</ovac:hasLatitude>
-        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">276 Rue André Royer, 60280 Margny-lès-Compiègne</ovac:hasLocationName>
+        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">276 Rue Andre Royer, 60280 Margny-les-Compiegne</ovac:hasLocationName>
         <ovac:hasLongtitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.829261513773559</ovac:hasLongtitude>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
         <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T15:03:08Z</elements:date>
@@ -4458,13 +4453,13 @@
     
 
 
-    <!-- http://www.utc.fr/ovac#4x4_DS_7_Crossback_GeoInfo -->
+    <!-- http://www.utc.fr/ovac#suv_DS_7_Crossback_GeoInfo -->
 
-    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#4x4_DS_7_Crossback_GeoInfo">
+    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#suv_DS_7_Crossback_GeoInfo">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#GeographicInformation"/>
         <ovac:hasCoordinates rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.40455763765257, 2.8019166274256078</ovac:hasCoordinates>
         <ovac:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.40455763765257</ovac:hasLatitude>
-        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8 Rue Edmond Rostand, 60200 Compiègne</ovac:hasLocationName>
+        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8 Rue Edmond Rostand, 60200 Compiegne</ovac:hasLocationName>
         <ovac:hasLongtitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.8019166274256078</ovac:hasLongtitude>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
         <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T15:03:08Z</elements:date>
@@ -4472,11 +4467,11 @@
     
 
 
-    <!-- http://www.utc.fr/ovac#4x4_Fiat_500_X -->
+    <!-- http://www.utc.fr/ovac#suv_Fiat_500_X -->
 
-    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#4x4_Fiat_500_X">
-        <rdf:type rdf:resource="http://www.utc.fr/ovac#4x4_SUV_Crossover"/>
-        <ovac:hasGeographicalInformation rdf:resource="http://www.utc.fr/ovac#4x4_Fiat_500_X_GeoInfo"/>
+    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#suv_Fiat_500_X">
+        <rdf:type rdf:resource="http://www.utc.fr/ovac#SUV"/>
+        <ovac:hasGeographicalInformation rdf:resource="http://www.utc.fr/ovac#suv_Fiat_500_X_GeoInfo"/>
         <ovac:isDrivenBy rdf:resource="http://www.utc.fr/ovac#Quennel_Joly"/>
         <ovac:fuelType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Essence</ovac:fuelType>
         <ovac:hasModelName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fiat 500 X</ovac:hasModelName>
@@ -4492,13 +4487,13 @@
     
 
 
-    <!-- http://www.utc.fr/ovac#4x4_Fiat_500_X_GeoInfo -->
+    <!-- http://www.utc.fr/ovac#suv_Fiat_500_X_GeoInfo -->
 
-    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#4x4_Fiat_500_X_GeoInfo">
+    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#suv_Fiat_500_X_GeoInfo">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#GeographicInformation"/>
         <ovac:hasCoordinates rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.421942957787174, 2.8357047402655895</ovac:hasCoordinates>
         <ovac:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.421942957787174</ovac:hasLatitude>
-        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">104 Rue du Bataillon de France, 60200 Compiègne</ovac:hasLocationName>
+        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">104 Rue du Bataillon de France, 60200 Compiegne</ovac:hasLocationName>
         <ovac:hasLongtitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.8357047402655895</ovac:hasLongtitude>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
         <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T15:03:08Z</elements:date>
@@ -4506,13 +4501,13 @@
     
 
 
-    <!-- http://www.utc.fr/ovac#4x4_Kia_Niro -->
+    <!-- http://www.utc.fr/ovac#suv_Kia_Niro -->
 
-    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#4x4_Kia_Niro">
-        <rdf:type rdf:resource="http://www.utc.fr/ovac#4x4_SUV_Crossover"/>
-        <ovac:hasGeographicalInformation rdf:resource="http://www.utc.fr/ovac#4x4_Kia_Niro_GeoInfo"/>
+    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#suv_Kia_Niro">
+        <rdf:type rdf:resource="http://www.utc.fr/ovac#SUV"/>
+        <ovac:hasGeographicalInformation rdf:resource="http://www.utc.fr/ovac#suv_Kia_Niro_GeoInfo"/>
         <ovac:isDrivenBy rdf:resource="http://www.utc.fr/ovac#Robert_Alexandre"/>
-        <ovac:fuelType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hybride essence électrique</ovac:fuelType>
+        <ovac:fuelType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hybride essence electrique</ovac:fuelType>
         <ovac:hasModelName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kia Niro</ovac:hasModelName>
         <ovac:hasNbofAvailableSeats rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</ovac:hasNbofAvailableSeats>
         <ovac:hasSpeed rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40 km/h</ovac:hasSpeed>
@@ -4526,13 +4521,13 @@
     
 
 
-    <!-- http://www.utc.fr/ovac#4x4_Kia_Niro_GeoInfo -->
+    <!-- http://www.utc.fr/ovac#suv_Kia_Niro_GeoInfo -->
 
-    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#4x4_Kia_Niro_GeoInfo">
+    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#suv_Kia_Niro_GeoInfo">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#GeographicInformation"/>
         <ovac:hasCoordinates rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.414555721806224, 2.83270470928853</ovac:hasCoordinates>
         <ovac:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.414555721806224</ovac:hasLatitude>
-        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2 Rue Lavoisier, 60200 Compiègne</ovac:hasLocationName>
+        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2 Rue Lavoisier, 60200 Compiegne</ovac:hasLocationName>
         <ovac:hasLongtitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.83270470928853</ovac:hasLongtitude>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
         <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T15:03:08Z</elements:date>
@@ -4540,11 +4535,11 @@
     
 
 
-    <!-- http://www.utc.fr/ovac#4x4_Kia_Sportage_4 -->
+    <!-- http://www.utc.fr/ovac#suv_Kia_Sportage_4 -->
 
-    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#4x4_Kia_Sportage_4">
-        <rdf:type rdf:resource="http://www.utc.fr/ovac#4x4_SUV_Crossover"/>
-        <ovac:hasGeographicalInformation rdf:resource="http://www.utc.fr/ovac#4x4_Kia_Sportage_4_GeoInfo"/>
+    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#suv_Kia_Sportage_4">
+        <rdf:type rdf:resource="http://www.utc.fr/ovac#SUV"/>
+        <ovac:hasGeographicalInformation rdf:resource="http://www.utc.fr/ovac#suv_Kia_Sportage_4_GeoInfo"/>
         <ovac:isDrivenBy rdf:resource="http://www.utc.fr/ovac#Frederique_Marcil"/>
         <ovac:fuelType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diesel</ovac:fuelType>
         <ovac:hasModelName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kia Sportage 4</ovac:hasModelName>
@@ -4560,13 +4555,13 @@
     
 
 
-    <!-- http://www.utc.fr/ovac#4x4_Kia_Sportage_4_GeoInfo -->
+    <!-- http://www.utc.fr/ovac#suv_Kia_Sportage_4_GeoInfo -->
 
-    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#4x4_Kia_Sportage_4_GeoInfo">
+    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#suv_Kia_Sportage_4_GeoInfo">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#GeographicInformation"/>
         <ovac:hasCoordinates rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.40556835451563, 2.812284615345541</ovac:hasCoordinates>
         <ovac:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.40556835451563</ovac:hasLatitude>
-        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">191B Rue de Paris, 60200 Compiègne</ovac:hasLocationName>
+        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">191B Rue de Paris, 60200 Compiegne</ovac:hasLocationName>
         <ovac:hasLongtitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.812284615345541</ovac:hasLongtitude>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
         <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T15:03:08Z</elements:date>
@@ -4574,11 +4569,11 @@
     
 
 
-    <!-- http://www.utc.fr/ovac#4x4_Nissan_QASHQAI_2 -->
+    <!-- http://www.utc.fr/ovac#suv_Nissan_QASHQAI_2 -->
 
-    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#4x4_Nissan_QASHQAI_2">
-        <rdf:type rdf:resource="http://www.utc.fr/ovac#4x4_SUV_Crossover"/>
-        <ovac:hasGeographicalInformation rdf:resource="http://www.utc.fr/ovac#4x4_Nissan_QASHQAI_2_GeoInfo"/>
+    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#suv_Nissan_QASHQAI_2">
+        <rdf:type rdf:resource="http://www.utc.fr/ovac#SUV"/>
+        <ovac:hasGeographicalInformation rdf:resource="http://www.utc.fr/ovac#suv_Nissan_QASHQAI_2_GeoInfo"/>
         <ovac:isDrivenBy rdf:resource="http://www.utc.fr/ovac#Evrard_Desaulniers"/>
         <ovac:fuelType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Essence</ovac:fuelType>
         <ovac:hasModelName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nissan QASHQAI 2</ovac:hasModelName>
@@ -4594,13 +4589,13 @@
     
 
 
-    <!-- http://www.utc.fr/ovac#4x4_Nissan_QASHQAI_2_GeoInfo -->
+    <!-- http://www.utc.fr/ovac#suv_Nissan_QASHQAI_2_GeoInfo -->
 
-    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#4x4_Nissan_QASHQAI_2_GeoInfo">
+    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#suv_Nissan_QASHQAI_2_GeoInfo">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#GeographicInformation"/>
         <ovac:hasCoordinates rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.42693173982934, 2.838922236240702</ovac:hasCoordinates>
         <ovac:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.42693173982934</ovac:hasLatitude>
-        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6 Rue du Camp de Compiègne, 60200 Compiègne</ovac:hasLocationName>
+        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6 Rue du Camp de Compiegne, 60200 Compiegne</ovac:hasLocationName>
         <ovac:hasLongtitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.838922236240702</ovac:hasLongtitude>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
         <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T15:03:08Z</elements:date>
@@ -4608,11 +4603,11 @@
     
 
 
-    <!-- http://www.utc.fr/ovac#4x4_Opel_Grandland_X -->
+    <!-- http://www.utc.fr/ovac#suv_Opel_Grandland_X -->
 
-    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#4x4_Opel_Grandland_X">
-        <rdf:type rdf:resource="http://www.utc.fr/ovac#4x4_SUV_Crossover"/>
-        <ovac:hasGeographicalInformation rdf:resource="http://www.utc.fr/ovac#4x4_Opel_Grandland_X_GeoInfo"/>
+    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#suv_Opel_Grandland_X">
+        <rdf:type rdf:resource="http://www.utc.fr/ovac#SUV"/>
+        <ovac:hasGeographicalInformation rdf:resource="http://www.utc.fr/ovac#suv_Opel_Grandland_X_GeoInfo"/>
         <ovac:isDrivenBy rdf:resource="http://www.utc.fr/ovac#Olympia_Rheaume"/>
         <ovac:fuelType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diesel</ovac:fuelType>
         <ovac:hasModelName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Opel Grandland X</ovac:hasModelName>
@@ -4628,13 +4623,13 @@
     
 
 
-    <!-- http://www.utc.fr/ovac#4x4_Opel_Grandland_X_GeoInfo -->
+    <!-- http://www.utc.fr/ovac#suv_Opel_Grandland_X_GeoInfo -->
 
-    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#4x4_Opel_Grandland_X_GeoInfo">
+    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#suv_Opel_Grandland_X_GeoInfo">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#GeographicInformation"/>
         <ovac:hasCoordinates rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.399489457709905, 2.8056357981517834</ovac:hasCoordinates>
         <ovac:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.399489457709905</ovac:hasLatitude>
-        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26 Av. des Martyrs de la Liberté, 60200 Compiègne</ovac:hasLocationName>
+        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26 Av. des Martyrs de la Liberte, 60200 Compiegne</ovac:hasLocationName>
         <ovac:hasLongtitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.8056357981517834</ovac:hasLongtitude>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
         <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T15:03:08Z</elements:date>
@@ -4642,11 +4637,11 @@
     
 
 
-    <!-- http://www.utc.fr/ovac#4x4_Peugeot_2008_2e -->
+    <!-- http://www.utc.fr/ovac#suv_Peugeot_2008_2e -->
 
-    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#4x4_Peugeot_2008_2e">
-        <rdf:type rdf:resource="http://www.utc.fr/ovac#4x4_SUV_Crossover"/>
-        <ovac:hasGeographicalInformation rdf:resource="http://www.utc.fr/ovac#4x4_Peugeot_2008_2e_GeoInfo"/>
+    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#suv_Peugeot_2008_2e">
+        <rdf:type rdf:resource="http://www.utc.fr/ovac#SUV"/>
+        <ovac:hasGeographicalInformation rdf:resource="http://www.utc.fr/ovac#suv_Peugeot_2008_2e_GeoInfo"/>
         <ovac:isDrivenBy rdf:resource="http://www.utc.fr/ovac#Marjolaine_Rossignol"/>
         <ovac:fuelType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Essence</ovac:fuelType>
         <ovac:hasModelName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peugeot 2008 2e</ovac:hasModelName>
@@ -4662,11 +4657,11 @@
     
 
 
-    <!-- http://www.utc.fr/ovac#4x4_Peugeot_2008_2e_02 -->
+    <!-- http://www.utc.fr/ovac#suv_Peugeot_2008_2e_02 -->
 
-    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#4x4_Peugeot_2008_2e_02">
-        <rdf:type rdf:resource="http://www.utc.fr/ovac#4x4_SUV_Crossover"/>
-        <ovac:hasGeographicalInformation rdf:resource="http://www.utc.fr/ovac#4x4_Peugeot_2008_2e_02_GeoInfo"/>
+    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#suv_Peugeot_2008_2e_02">
+        <rdf:type rdf:resource="http://www.utc.fr/ovac#SUV"/>
+        <ovac:hasGeographicalInformation rdf:resource="http://www.utc.fr/ovac#suv_Peugeot_2008_2e_02_GeoInfo"/>
         <ovac:isDrivenBy rdf:resource="http://www.utc.fr/ovac#Brigliador_Goguen"/>
         <ovac:fuelType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Essence</ovac:fuelType>
         <ovac:hasModelName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peugeot 2008 2e</ovac:hasModelName>
@@ -4682,13 +4677,13 @@
     
 
 
-    <!-- http://www.utc.fr/ovac#4x4_Peugeot_2008_2e_02_GeoInfo -->
+    <!-- http://www.utc.fr/ovac#suv_Peugeot_2008_2e_02_GeoInfo -->
 
-    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#4x4_Peugeot_2008_2e_02_GeoInfo">
+    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#suv_Peugeot_2008_2e_02_GeoInfo">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#GeographicInformation"/>
         <ovac:hasCoordinates rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.42474840726039, 2.8374428116452304</ovac:hasCoordinates>
         <ovac:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.42474840726039</ovac:hasLatitude>
-        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">33 Rue Augustin Thierry, 60200 Compiègne</ovac:hasLocationName>
+        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">33 Rue Augustin Thierry, 60200 Compiegne</ovac:hasLocationName>
         <ovac:hasLongtitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.8374428116452304</ovac:hasLongtitude>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
         <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T15:03:08Z</elements:date>
@@ -4696,13 +4691,13 @@
     
 
 
-    <!-- http://www.utc.fr/ovac#4x4_Peugeot_2008_2e_GeoInfo -->
+    <!-- http://www.utc.fr/ovac#suv_Peugeot_2008_2e_GeoInfo -->
 
-    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#4x4_Peugeot_2008_2e_GeoInfo">
+    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#suv_Peugeot_2008_2e_GeoInfo">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#GeographicInformation"/>
         <ovac:hasCoordinates rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.40045605326576, 2.8103256000022765</ovac:hasCoordinates>
         <ovac:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.40045605326576</ovac:hasLatitude>
-        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6 Rue Jean Lhuillier, 60200 Compiègne</ovac:hasLocationName>
+        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6 Rue Jean Lhuillier, 60200 Compiegne</ovac:hasLocationName>
         <ovac:hasLongtitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.8103256000022765</ovac:hasLongtitude>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
         <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T15:03:08Z</elements:date>
@@ -4710,11 +4705,11 @@
     
 
 
-    <!-- http://www.utc.fr/ovac#4x4_Peugeot_3008_2e -->
+    <!-- http://www.utc.fr/ovac#suv_Peugeot_3008_2e -->
 
-    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#4x4_Peugeot_3008_2e">
-        <rdf:type rdf:resource="http://www.utc.fr/ovac#4x4_SUV_Crossover"/>
-        <ovac:hasGeographicalInformation rdf:resource="http://www.utc.fr/ovac#4x4_Peugeot_3008_2e_GeoInfo"/>
+    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#suv_Peugeot_3008_2e">
+        <rdf:type rdf:resource="http://www.utc.fr/ovac#SUV"/>
+        <ovac:hasGeographicalInformation rdf:resource="http://www.utc.fr/ovac#suv_Peugeot_3008_2e_GeoInfo"/>
         <ovac:isDrivenBy rdf:resource="http://www.utc.fr/ovac#Algernon_Lapointe"/>
         <ovac:fuelType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diesel</ovac:fuelType>
         <ovac:hasModelName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peugeot 3008 2e</ovac:hasModelName>
@@ -4730,13 +4725,13 @@
     
 
 
-    <!-- http://www.utc.fr/ovac#4x4_Peugeot_3008_2e_GeoInfo -->
+    <!-- http://www.utc.fr/ovac#suv_Peugeot_3008_2e_GeoInfo -->
 
-    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#4x4_Peugeot_3008_2e_GeoInfo">
+    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#suv_Peugeot_3008_2e_GeoInfo">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#GeographicInformation"/>
         <ovac:hasCoordinates rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.41644319642479, 2.829351128002261</ovac:hasCoordinates>
         <ovac:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.41644319642479</ovac:hasLatitude>
-        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16 Rue de la Sous-Préfecture, 60200 Compiègne</ovac:hasLocationName>
+        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16 Rue de la Sous-Prefecture, 60200 Compiegne</ovac:hasLocationName>
         <ovac:hasLongtitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.829351128002261</ovac:hasLongtitude>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
         <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T15:03:08Z</elements:date>
@@ -4744,11 +4739,11 @@
     
 
 
-    <!-- http://www.utc.fr/ovac#4x4_Renault_Captur_2 -->
+    <!-- http://www.utc.fr/ovac#suv_Renault_Captur_2 -->
 
-    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#4x4_Renault_Captur_2">
-        <rdf:type rdf:resource="http://www.utc.fr/ovac#4x4_SUV_Crossover"/>
-        <ovac:hasGeographicalInformation rdf:resource="http://www.utc.fr/ovac#4x4_Renault_Captur_2_GeoInfo"/>
+    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#suv_Renault_Captur_2">
+        <rdf:type rdf:resource="http://www.utc.fr/ovac#SUV"/>
+        <ovac:hasGeographicalInformation rdf:resource="http://www.utc.fr/ovac#suv_Renault_Captur_2_GeoInfo"/>
         <ovac:isDrivenBy rdf:resource="http://www.utc.fr/ovac#Stephanie_Vadnais"/>
         <ovac:fuelType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Essence</ovac:fuelType>
         <ovac:hasModelName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Renault Captur 2</ovac:hasModelName>
@@ -4764,13 +4759,13 @@
     
 
 
-    <!-- http://www.utc.fr/ovac#4x4_Renault_Captur_2_GeoInfo -->
+    <!-- http://www.utc.fr/ovac#suv_Renault_Captur_2_GeoInfo -->
 
-    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#4x4_Renault_Captur_2_GeoInfo">
+    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#suv_Renault_Captur_2_GeoInfo">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#GeographicInformation"/>
         <ovac:hasCoordinates rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.39904210547061, 2.8085907558233543</ovac:hasCoordinates>
         <ovac:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.39904210547061</ovac:hasLatitude>
-        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8 Av. des Peupliers, 60200 Compiègne</ovac:hasLocationName>
+        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8 Av. des Peupliers, 60200 Compiegne</ovac:hasLocationName>
         <ovac:hasLongtitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.8085907558233543</ovac:hasLongtitude>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
         <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T15:03:08Z</elements:date>
@@ -4778,11 +4773,11 @@
     
 
 
-    <!-- http://www.utc.fr/ovac#4x4_Renault_Kadjar -->
+    <!-- http://www.utc.fr/ovac#suv_Renault_Kadjar -->
 
-    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#4x4_Renault_Kadjar">
-        <rdf:type rdf:resource="http://www.utc.fr/ovac#4x4_SUV_Crossover"/>
-        <ovac:hasGeographicalInformation rdf:resource="http://www.utc.fr/ovac#4x4_Renault_Kadjar_GeoInfo"/>
+    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#suv_Renault_Kadjar">
+        <rdf:type rdf:resource="http://www.utc.fr/ovac#SUV"/>
+        <ovac:hasGeographicalInformation rdf:resource="http://www.utc.fr/ovac#suv_Renault_Kadjar_GeoInfo"/>
         <ovac:isDrivenBy rdf:resource="http://www.utc.fr/ovac#Gaston_Lamarre"/>
         <ovac:fuelType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diesel</ovac:fuelType>
         <ovac:hasModelName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Renault Kadjar</ovac:hasModelName>
@@ -4798,13 +4793,13 @@
     
 
 
-    <!-- http://www.utc.fr/ovac#4x4_Renault_Kadjar_GeoInfo -->
+    <!-- http://www.utc.fr/ovac#suv_Renault_Kadjar_GeoInfo -->
 
-    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#4x4_Renault_Kadjar_GeoInfo">
+    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#suv_Renault_Kadjar_GeoInfo">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#GeographicInformation"/>
         <ovac:hasCoordinates rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.42051917880236, 2.830434740480871</ovac:hasCoordinates>
         <ovac:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.42051917880236</ovac:hasLatitude>
-        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1 Rue du Four, 60200 Compiègne</ovac:hasLocationName>
+        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1 Rue du Four, 60200 Compiegne</ovac:hasLocationName>
         <ovac:hasLongtitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.830434740480871</ovac:hasLongtitude>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
         <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T15:03:08Z</elements:date>
@@ -4812,11 +4807,11 @@
     
 
 
-    <!-- http://www.utc.fr/ovac#4x4_Seat_Arona -->
+    <!-- http://www.utc.fr/ovac#suv_Seat_Arona -->
 
-    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#4x4_Seat_Arona">
-        <rdf:type rdf:resource="http://www.utc.fr/ovac#4x4_SUV_Crossover"/>
-        <ovac:hasGeographicalInformation rdf:resource="http://www.utc.fr/ovac#4x4_Seat_Arona_GeoInfo"/>
+    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#suv_Seat_Arona">
+        <rdf:type rdf:resource="http://www.utc.fr/ovac#SUV"/>
+        <ovac:hasGeographicalInformation rdf:resource="http://www.utc.fr/ovac#suv_Seat_Arona_GeoInfo"/>
         <ovac:isDrivenBy rdf:resource="http://www.utc.fr/ovac#Joseph_Boisvert"/>
         <ovac:fuelType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diesel</ovac:fuelType>
         <ovac:hasModelName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seat Arona</ovac:hasModelName>
@@ -4832,13 +4827,13 @@
     
 
 
-    <!-- http://www.utc.fr/ovac#4x4_Seat_Arona_GeoInfo -->
+    <!-- http://www.utc.fr/ovac#suv_Seat_Arona_GeoInfo -->
 
-    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#4x4_Seat_Arona_GeoInfo">
+    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#suv_Seat_Arona_GeoInfo">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#GeographicInformation"/>
         <ovac:hasCoordinates rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.39735705634819, 2.8025029697539274</ovac:hasCoordinates>
         <ovac:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.39735705634819</ovac:hasLatitude>
-        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7 Rue de Stalingrad, 60200 Compiègne</ovac:hasLocationName>
+        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7 Rue de Stalingrad, 60200 Compiegne</ovac:hasLocationName>
         <ovac:hasLongtitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.8025029697539274</ovac:hasLongtitude>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
         <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T15:03:08Z</elements:date>
@@ -4846,13 +4841,13 @@
     
 
 
-    <!-- http://www.utc.fr/ovac#4x4_Toyota_C-HR -->
+    <!-- http://www.utc.fr/ovac#suv_Toyota_C-HR -->
 
-    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#4x4_Toyota_C-HR">
-        <rdf:type rdf:resource="http://www.utc.fr/ovac#4x4_SUV_Crossover"/>
-        <ovac:hasGeographicalInformation rdf:resource="http://www.utc.fr/ovac#4x4_Toyota_C-HR_GeoInfo"/>
+    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#suv_Toyota_C-HR">
+        <rdf:type rdf:resource="http://www.utc.fr/ovac#SUV"/>
+        <ovac:hasGeographicalInformation rdf:resource="http://www.utc.fr/ovac#suv_Toyota_C-HR_GeoInfo"/>
         <ovac:isDrivenBy rdf:resource="http://www.utc.fr/ovac#Ferragus_Godin"/>
-        <ovac:fuelType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hybride essence électrique</ovac:fuelType>
+        <ovac:fuelType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hybride essence electrique</ovac:fuelType>
         <ovac:hasModelName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Toyata C_HR</ovac:hasModelName>
         <ovac:hasNbofAvailableSeats rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</ovac:hasNbofAvailableSeats>
         <ovac:hasSpeed rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40 km/h</ovac:hasSpeed>
@@ -4866,13 +4861,13 @@
     
 
 
-    <!-- http://www.utc.fr/ovac#4x4_Toyota_C-HR_GeoInfo -->
+    <!-- http://www.utc.fr/ovac#suv_Toyota_C-HR_GeoInfo -->
 
-    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#4x4_Toyota_C-HR_GeoInfo">
+    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#suv_Toyota_C-HR_GeoInfo">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#GeographicInformation"/>
         <ovac:hasCoordinates rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.42563365552992, 2.8356129846599347</ovac:hasCoordinates>
         <ovac:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.42563365552992</ovac:hasLatitude>
-        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7 Rue de la Bannière du Roi, 60200 Compiègne</ovac:hasLocationName>
+        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7 Rue de la Banniere du Roi, 60200 Compiegne</ovac:hasLocationName>
         <ovac:hasLongtitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.8356129846599347</ovac:hasLongtitude>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
         <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T15:03:08Z</elements:date>
@@ -4880,11 +4875,11 @@
     
 
 
-    <!-- http://www.utc.fr/ovac#4x4_Volkswagen_T-roc_02 -->
+    <!-- http://www.utc.fr/ovac#suv_Volkswagen_T-roc_02 -->
 
-    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#4x4_Volkswagen_T-roc_02">
-        <rdf:type rdf:resource="http://www.utc.fr/ovac#4x4_SUV_Crossover"/>
-        <ovac:hasGeographicalInformation rdf:resource="http://www.utc.fr/ovac#4x4_Volkswagen_T-roc_02_GeoInfo"/>
+    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#suv_Volkswagen_T-roc_02">
+        <rdf:type rdf:resource="http://www.utc.fr/ovac#SUV"/>
+        <ovac:hasGeographicalInformation rdf:resource="http://www.utc.fr/ovac#suv_Volkswagen_T-roc_02_GeoInfo"/>
         <ovac:isDrivenBy rdf:resource="http://www.utc.fr/ovac#Talbot_DuLin"/>
         <ovac:fuelType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diesel</ovac:fuelType>
         <ovac:hasModelName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Volkswagen T-roc</ovac:hasModelName>
@@ -4900,13 +4895,13 @@
     
 
 
-    <!-- http://www.utc.fr/ovac#4x4_Volkswagen_T-roc_02_GeoInfo -->
+    <!-- http://www.utc.fr/ovac#suv_Volkswagen_T-roc_02_GeoInfo -->
 
-    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#4x4_Volkswagen_T-roc_02_GeoInfo">
+    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#suv_Volkswagen_T-roc_02_GeoInfo">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#GeographicInformation"/>
         <ovac:hasCoordinates rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.42023303355751, 2.8270551572101117</ovac:hasCoordinates>
         <ovac:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.42023303355751</ovac:hasLatitude>
-        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17 Rue de la 8éme Division, 60200 Compiègne</ovac:hasLocationName>
+        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17 Rue de la 8eme Division, 60200 Compiegne</ovac:hasLocationName>
         <ovac:hasLongtitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.8270551572101117</ovac:hasLongtitude>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
         <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T15:03:08Z</elements:date>
@@ -4914,11 +4909,11 @@
     
 
 
-    <!-- http://www.utc.fr/ovac#4x4_Wolkswagen_T-cross -->
+    <!-- http://www.utc.fr/ovac#suv_Wolkswagen_T-cross -->
 
-    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#4x4_Wolkswagen_T-cross">
-        <rdf:type rdf:resource="http://www.utc.fr/ovac#4x4_SUV_Crossover"/>
-        <ovac:hasGeographicalInformation rdf:resource="http://www.utc.fr/ovac#4x4_Wolkswagen_T-cross_GeoInfo"/>
+    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#suv_Wolkswagen_T-cross">
+        <rdf:type rdf:resource="http://www.utc.fr/ovac#SUV"/>
+        <ovac:hasGeographicalInformation rdf:resource="http://www.utc.fr/ovac#suv_Wolkswagen_T-cross_GeoInfo"/>
         <ovac:isDrivenBy rdf:resource="http://www.utc.fr/ovac#Ormazd_Brasseur"/>
         <ovac:fuelType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Essence</ovac:fuelType>
         <ovac:hasModelName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wolkswagen T-cross</ovac:hasModelName>
@@ -4934,13 +4929,13 @@
     
 
 
-    <!-- http://www.utc.fr/ovac#4x4_Wolkswagen_T-cross_GeoInfo -->
+    <!-- http://www.utc.fr/ovac#suv_Wolkswagen_T-cross_GeoInfo -->
 
-    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#4x4_Wolkswagen_T-cross_GeoInfo">
+    <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#suv_Wolkswagen_T-cross_GeoInfo">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#GeographicInformation"/>
         <ovac:hasCoordinates rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.40133049800265, 2.7995115423307557</ovac:hasCoordinates>
         <ovac:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49.40133049800265</ovac:hasLatitude>
-        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18 Rue Marcel Proust, 60200 Compiègne</ovac:hasLocationName>
+        <ovac:hasLocationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18 Rue Marcel Proust, 60200 Compiegne</ovac:hasLocationName>
         <ovac:hasLongtitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.7995115423307557</ovac:hasLongtitude>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
         <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T15:03:08Z</elements:date>
