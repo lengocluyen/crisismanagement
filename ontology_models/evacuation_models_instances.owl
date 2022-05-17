@@ -1517,9 +1517,11 @@
         <ovac:fuelType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Essence</ovac:fuelType>
         <ovac:hasModelName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Valiant 690 Sport</ovac:hasModelName>
         <ovac:hasNbofAvailablePlace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</ovac:hasNbofAvailablePlace>
+        <ovac:hasNbofAvailableSeats rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</ovac:hasNbofAvailableSeats>
         <ovac:hasSpeed rdf:datatype="http://www.w3.org/2001/XMLSchema#string">35 km/h</ovac:hasSpeed>
         <ovac:hasState rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is available</ovac:hasState>
         <ovac:hasTotalNbofPlace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</ovac:hasTotalNbofPlace>
+        <ovac:hasTotalNbofSeats rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</ovac:hasTotalNbofSeats>
         <ovac:moveInTheSky rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ovac:moveInTheSky>
         <ovac:moveOnWater rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ovac:moveOnWater>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
@@ -2123,6 +2125,7 @@
     <owl:NamedIndividual rdf:about="http://www.utc.fr/ovac#Gymnase_Tainturier">
         <rdf:type rdf:resource="http://www.utc.fr/ovac#Shelter"/>
         <ovac:hasGeographicalInformation rdf:resource="http://www.utc.fr/ovac#Gymnase_Tainturier_GeoInfo"/>
+        <ovac:hasCapacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">240</ovac:hasCapacity>
         <elements1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengocluyen</elements1:creator>
         <elements:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-16T12:52:00Z</elements:date>
     </owl:NamedIndividual>
