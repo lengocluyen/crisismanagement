@@ -1,5 +1,5 @@
 from owlready2 import *
-from .geoinfo import GeographicInformation
+from .geoinfo import Geolocalisation
 
 
     
@@ -8,7 +8,7 @@ class Shelter:
     def __init__(self, shelter_instance):
         self.name = shelter_instance.name
         self.capacity = shelter_instance.hasCapacity
-        self.geo_info = GeographicInformation(shelter_instance.hasGeographicalInformation)
+        self.geo_info = Geolocalisation(shelter_instance.hasGeolocalisationInformation)
     
     def __repr__(self):
         return f'Shelter(name:"{self.name}",capacity:"{self.capacity}",{self.geo_info})'
