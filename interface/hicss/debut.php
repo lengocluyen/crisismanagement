@@ -150,7 +150,7 @@ $_SESSION['verif']['decr_question']=0;
 <link rel="stylesheet" href="style_sheet.css">
 <div class="div-body">   
     <body>
-                <a href="https://www.lamsade.dauphine.fr/" target=_blank>
+                <a href="https://www.utc.fr/" target=_blank>
 		<img src='../img/download.jpeg'  height='80px' style="position: relative;top: -40px;left:-40px;"></a>
                 <a href="https://dauphine.psl.eu/" target=_blank>
                 <img src='../img/dauphine.png'  height='80px' style="position: relative;top: -40px;left:700px;"></a>
