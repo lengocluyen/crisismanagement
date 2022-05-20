@@ -48,33 +48,25 @@ class CSPSolver:
         for i in data['all_vehicles']:
             for b in data['all_securepoints']:
                 x[i, b] = solver.BoolVar(f'x_{i}_{b}')
-                
         # Constraints.
         # Each vehilce is assigned to at most one securepoint.
         for i in data['all_vehicles']:
             solver.Add(sum(x[i, b] for b in data['all_securepoints']) <= 1)
 
-
         # The amount seat of vehicle allocated in each securepoint cannot exceed its total of persons .
         for b in data['all_securepoints']:
             solver.Add(
                 sum(x[i, b] * data['vehicles'][i]
-                    for i in data['all_vehicles']) <= data['securepoints'][b])
-
+                    for i in data['all_vehicles']) >= data['securepoints'][b] + 3)
+        
         # Objective.
-        # Maximize total value of packed items.
+        # Minimize total dstances from vehicles and secure points
         objective = solver.Objective()
         for i in data['all_vehicles']:
-            #print("truoc day")
             for b in data['all_securepoints']:
-                #print("self.find_min_distance(data['distances'][i])", self.find_min_distance(data['distances'][i]))
-                #print("data['distances'][i])", data['distances'][i])
                 value = data['distances'][i]
                 objective.SetCoefficient(x[i, b], float(value[b][0]))
-                ##
-                #print("gidayday: ", data['vehicles'][i])
-                #objective.SetCoefficient(x[i, b], data['vehicles'][i])
-        objective.SetMaximization()
+        objective.SetMinimization()
         
         status = solver.Solve()
 

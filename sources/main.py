@@ -30,6 +30,7 @@ if __name__ == "__main__":
     print("====List of Shelter====")
     print(repr(list_of_shelters))
 
+    print("")
 
     print("====List of Vehicle Resources====")
     list_of_boat_ins = kb.Boat.instances()
