@@ -4,10 +4,10 @@
 <script>
 function validateForm()
 {
-var x=document.forms["my_form"]["interest"].value;
+var x=document.forms["my_form"]["number"].value;
 if (x==null || x=="")
   {
-  alert("Merci de répondre à cette question.");
+  alert("Please specify the number");
   return false;
   }
 }
@@ -25,41 +25,25 @@ if (x==null || x=="")
 		<h1 align="center"> First step  </h1>
 		
 		        <h2 align="left">
-				Please specify the information of the place to be evacuated
+				Please specify the the number of places to be evacuated
 				</h2>
 				
 
 
-<?php
-
-echo '<b>The adresse of the place? </b>';
-echo '<form method="POST" action="request.php">';
-echo '<br>';
-
-echo '<b>The number of people to be rescued?</b>';
-echo '<br>';
-
-echo '<br>';
-
-echo '<b>Is the place accessible by ground vehicle?</b>';
-echo '<br>';
-
-echo '<br>';
-
-echo '<b>The number of people disabled??</b>';
-echo '<br>';
-				
-				
-
-?>	
 
 
-<p class='submit'>
+
+<form method="POST" name="my_form" action="traite_interest.php" onsubmit="return validateForm()">
+				The numebr of places to be evacuated: <input type = "number" min = 1 name="number">
+				<br />
+				<br />
+				<br />
+				<p class='submit'>
 				<center>
-				<input type="submit" value="Suivant"/>
+				<input type="submit" value="Next"/>
 				</center>
 				</p>
-				</form>			
+				</form>		
 </div>
 				
 </body>

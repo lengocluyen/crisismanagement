@@ -1,88 +1,61 @@
-<?php session_start() ; 
+<?php
+session_start ();
+//determine le numero de l'etape en fonction de l'ordre
+
+
 if ($_SESSION['alerte']==true){
-	echo "<script>alert(\"Merci de répondre à toutes les questions.\")</script>"; 
-}?>
+	echo "<script>alert(\"Please answer the questions\")</script>"; 
+}
+else { 
+
+$images_repas ="<form method='post' action='traite_csp.php'>";
+
+for($i = 1;$i <= $_SESSION['number']; $i ++){
+$images_repas .="
+		<b>The information of place $i</b>
+<br></br>
+Adress: <input type = 'text' name='adress".$i."'>		
+<br></br>
+The number of people to be evacuated in this place: <input type = 'number' min = 1 name='num_p".$i."'>		
+<br></br>
+The number of people disabled in this place: <input type = 'number' min = 0 name='num_dis".$i."'>		
+<br></br>
+
+Please specify the level of danger: <input type = 'number' min = 1 name='danger_p".$i."'>		
+<br></br>
+Is the place accessible by ground vehicle?
+<input type='radio' class='form-radio'  name='acc".$i."' value='2'>Yes
+<input type='radio' class='form-radio'  name='acc".$i."' value='1'>No
+<br></br>
+
+";}
+	
+
+	$images_repas .="
+					<p class='submit'>	
+					<input type='submit' value='Next'/>
+					</p>
+					</form>
+					</center>";	
+	}
+
+
+?> 
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="fr" xml:lang="fr">
+<head>
+	<title>Vehicle recommender systems</title>
+	<meta http-equiv="content-Language" content="fr" />
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <link rel="stylesheet" href="style_sheet.css">
-<body>
+</head>
 <div class="div-body">
-	<h1>Etape 1/4:</h1>
-        <h2>Quelques questions sur vous...</h2>
-	<h3>Les réponses seront traitées de manière anonyme.</h3> 
-
-<?php
-
-$serveur = "localhost";
-$base = "Recsys";
-$user = "root";
-$pass = "110119zjf";
-$mysqli = new mysqli($serveur, $user, $pass, $base);
-$mysqli->set_charset("utf8");
-if ($mysqli->connect_error) {
-    die('Erreur de connexion ('.$mysqli->connect_errno.')'. $mysqli->connect_error);
-}
-
-//selection des genres
-$_SESSION['t3'] = date('d/m/Y G:i:s');
-$select = 'SELECT id_gender,gender_text FROM Gender where id_gender != 4';
-$result = mysqli_query($mysqli,$select) or die('Erreur de connexion ('.$mysqli->connect_errno.')'. $mysqli->connect_error);
-
-echo '<b>Votre sexe : </b>';
-echo '<form method="POST" action="traite_csp.php">';
-while($row = mysqli_fetch_array($result)) {	
-	echo '<input type="radio" class="form-radio" name="gender" value="'.$row['id_gender'].'">'.$row['gender_text'].'<br>';
-}
-
-// selection des tranches d age
-$select = 'SELECT id_age,age_text FROM Age where id_age != 10';
-$result = mysqli_query($mysqli,$select) or die('Erreur de connexion ('.$mysqli->connect_errno.')'. $mysqli->connect_error);
-$total = mysqli_num_rows($result);
-//checkbox
-echo '<br>';
-echo '<b>Votre âge :</b>';
-echo '<br>';
-while($row = mysqli_fetch_array($result)) {	
-	echo '<input type="radio" class="form-radio" name="age" value="'.$row['id_age'].'">'.$row['age_text'].'<br>';
-}
-//echo '</form>';
-
-
-// selection de l education
-$select = 'SELECT id_education,education_text FROM Education where id_education != 10';
-$result = mysqli_query($mysqli,$select) or die('Erreur de connexion ('.$mysqli->connect_errno.')'. $mysqli->connect_error);
-$total = mysqli_num_rows($result);
-//checkbox
-echo '<br>';
-echo '<b>Votre niveau scolaire : </b>';
-echo '<br>';
-while($row = mysqli_fetch_array($result)) {	
-	echo '<input type="radio" class="form-radio" name="education" value="'.$row['id_education'].'">'.$row['education_text'].'<br>';
-}
-
-
-
-// selection des CSP
-$select = 'SELECT id_csp,text_csp FROM Categorie_social where id_csp != 10';
-$result = mysqli_query($mysqli,$select) or die('Erreur de connexion ('.$mysqli->connect_errno.')'. $mysqli->connect_error);
-$total = mysqli_num_rows($result);
-//checkbox
-echo '<br>';
-echo '<b>Votre profession : </b>';
-echo '<br>';
-while($row = mysqli_fetch_array($result)) {	
-	echo '<input type="radio" class="form-radio" name="csp" value="'.$row['id_csp'].'">'.$row['text_csp'].'<br>';
-}
-
-
-echo '<br>';
-echo '<center><input type="submit" value="Valider"><center>';
-echo '</form>';
-
-$mysqli->close();
-?>
+<body>
+	<h1>Now: </h1>
+        <h2>Please give more infomration related to each place: </h2>
+	<br />
+	<?php echo ($images_repas); ?>	
 </div>
 </body>
 </html>
-

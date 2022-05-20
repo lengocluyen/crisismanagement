@@ -5,7 +5,7 @@ session_start ();
 // On détruit les variables de notre session
 session_unset ();
 
-// On détruit notre session
+//On détruit notre session
 session_destroy ();
 
 ?>
@@ -20,13 +20,20 @@ session_destroy ();
                                  
 <div class="div-body"> 
  <a href="https://www.lamsade.dauphine.fr/" target=_blank>
-		<img src='../img/lamsade.jpeg'  height='80px' style="position: relative;top: -40px;left:-40px;"></a>
+		<a href="https://www.utc.fr/" target=_blank>
+		<img src='../img/download.jpeg'  height='80px' style="position: relative;top: -40px;left:-40px;"></a>
                 <a href="https://dauphine.psl.eu/" target=_blank>
-                <img src='../img/dauphine.png'  height='80px' style="position: relative;top: -40px;left:600px;"></a>
+                <img src='../img/dauphine.png'  height='80px' style="position: relative;top: -40px;left:700px;"></a>
 
-		<h1 align="center"> Questionnaire sur les explications dans les systèmes de recommandation  </h1>
+		<h1 align="center"> Thanks for using this system  </h1>
 		<center>~ ~ ~</center>
-        <h2 align="center"> C'est la fin! Merci pour votre participation !</h2><br />
+        
+
+<?php
+
+
+echo $_SESSION['adress2'];
+?>
 </div>
 </body>
 </html>
