@@ -13,12 +13,14 @@ class Campervan:
 
     def __init__(self, instance):
         self.name = instance.name
-        self.nb_seats = instance.hasTotalNbofSeats
         self.speed = instance.hasSpeed
         self.state = instance.hasState
-        self.available_lying_places = instance.hasNbofAvailableLyingPlaces
-        self.available_of_seats = int(instance.hasNbofAvailableSeats[0])
-        self.lying_places = instance.hasTotalNbofLyingPlaces
+        self.available_seats = int(instance.hasNbofAvailableSeats[0]) 
+        self.available_lying_places = int(instance.hasNbofAvaiableLyingPlaces[0])
+        self.available_standup_places = int(instance.hasNbOfAvalaileStandupPlace[0])
+        self.total_seats = int(instance.hasTotalNbofSeats[0])
+        self.total_lying_places = int(instance.hasTotalNbofLyingPlaces[0])
+        self.hasTotalNbofStandupPlace = int(instance.hasTotalNbofSeats[0])
         self.model_name = instance.hasModelName
         self.fuel_type = instance.fuelType
         self.geo_info = Geolocalisation(instance.hasGeolocalisationInformation)
@@ -27,7 +29,7 @@ class Campervan:
         self.time_estimate_to_securepoints = []
     
     def __repr__(self):
-        return f'Campervan(name:"{self.name}", state = "{self.state}",alp:"{self.available_lying_places}",as:"{self.available_of_seats}",{self.driver.name})'
+        return f'Campervan(name:"{self.name}", state = "{self.state}",alp:"{self.available_lying_places}",as:"{self.available_seats}",{self.driver.name})'
 
 
 
@@ -35,12 +37,14 @@ class Minivan:
 
     def __init__(self, instance):
         self.name = instance.name
-        self.nb_seats = instance.hasTotalNbofSeats
         self.speed = instance.hasSpeed
         self.state = instance.hasState
-        self.available_lying_places = instance.hasNbofAvailableLyingPlaces
-        self.available_of_seats = int(instance.hasNbofAvailableSeats[0])
-        self.lying_places = instance.hasTotalNbofLyingPlaces
+        self.available_seats = int(instance.hasNbofAvailableSeats[0]) 
+        self.available_lying_places = int(instance.hasNbofAvaiableLyingPlaces[0])
+        self.available_standup_places = int(instance.hasNbOfAvalaileStandupPlace[0])
+        self.total_seats = int(instance.hasTotalNbofSeats[0])
+        self.total_lying_places = int(instance.hasTotalNbofLyingPlaces[0])
+        self.hasTotalNbofStandupPlace = int(instance.hasTotalNbofSeats[0])
         self.model_name = instance.hasModelName
         self.fuel_type = instance.fuelType
         self.geo_info = Geolocalisation(instance.hasGeolocalisationInformation)
@@ -49,7 +53,7 @@ class Minivan:
         self.time_estimate_to_securepoints = []
     
     def __repr__(self):
-        return f'Minivan(name:"{self.name}", state = "{self.state}",alp:"{self.available_lying_places}",as:"{self.available_of_seats}",{self.driver.name})'
+        return f'Minivan(name:"{self.name}", state = "{self.state}",alp:"{self.available_lying_places}",as:"{self.available_seats}",{self.driver.name})'
 
 
 
@@ -58,12 +62,14 @@ class Van:
 
     def __init__(self, instance):
         self.name = instance.name
-        self.nb_seats = instance.hasTotalNbofSeats
         self.speed = instance.hasSpeed
         self.state = instance.hasState
-        self.available_lying_places = 0
-        self.available_of_seats = int(instance.hasNbofAvailableSeats[0])
-        self.lying_places = 0
+        self.available_seats = int(instance.hasNbofAvailableSeats[0]) 
+        self.available_lying_places = int(instance.hasNbofAvaiableLyingPlaces[0])
+        self.available_standup_places = int(instance.hasNbOfAvalaileStandupPlace[0])
+        self.total_seats = int(instance.hasTotalNbofSeats[0])
+        self.total_lying_places = int(instance.hasTotalNbofLyingPlaces[0])
+        self.hasTotalNbofStandupPlace = int(instance.hasTotalNbofSeats[0])
         self.model_name = instance.hasModelName
         self.fuel_type = instance.fuelType
         self.geo_info = Geolocalisation(instance.hasGeolocalisationInformation)
@@ -72,7 +78,7 @@ class Van:
         self.time_estimate_to_securepoints = []
     
     def __repr__(self):
-        return f'Van(name:"{self.name}", state = "{self.state}",alp:"{self.available_lying_places}",as:"{self.available_of_seats}",{self.driver.name})'
+        return f'Van(name:"{self.name}", state = "{self.state}",alp:"{self.available_lying_places}",as:"{self.available_seats}",{self.driver.name})'
 
 
 
@@ -82,12 +88,14 @@ class SUV:
 
     def __init__(self, instance):
         self.name = instance.name
-        self.nb_seats = instance.hasTotalNbofSeats
         self.speed = instance.hasSpeed
         self.state = instance.hasState
-        self.available_lying_places = 0
-        self.available_of_seats = int(instance.hasNbofAvailableSeats[0])
-        self.lying_places = 0
+        self.available_seats = int(instance.hasNbofAvailableSeats[0]) 
+        self.available_lying_places = int(instance.hasNbofAvaiableLyingPlaces[0])
+        self.available_standup_places = int(instance.hasNbOfAvalaileStandupPlace[0])
+        self.total_seats = int(instance.hasTotalNbofSeats[0])
+        self.total_lying_places = int(instance.hasTotalNbofLyingPlaces[0])
+        self.hasTotalNbofStandupPlace = int(instance.hasTotalNbofSeats[0])
         self.model_name = instance.hasModelName
         self.fuel_type = instance.fuelType
         self.geo_info = Geolocalisation(instance.hasGeolocalisationInformation)
@@ -96,7 +104,7 @@ class SUV:
         self.time_estimate_to_securepoints = []
     
     def __repr__(self):
-        return f'SUV(name:"{self.name}", state = "{self.state}",alp:"{self.available_lying_places}",as:"{self.available_of_seats}",{self.driver.name})'
+        return f'SUV(name:"{self.name}", state = "{self.state}",alp:"{self.available_lying_places}",as:"{self.available_seats}",{self.driver.name})'
 
 
 
@@ -104,12 +112,14 @@ class Berline:
 
     def __init__(self, instance):
         self.name = instance.name
-        self.nb_seats = instance.hasTotalNbofSeats
         self.speed = instance.hasSpeed
         self.state = instance.hasState
-        self.available_lying_places = 0
-        self.available_of_seats = int(instance.hasNbofAvailableSeats[0])
-        self.lying_places = 0
+        self.available_seats = int(instance.hasNbofAvailableSeats[0]) 
+        self.available_lying_places = int(instance.hasNbofAvaiableLyingPlaces[0])
+        self.available_standup_places = int(instance.hasNbOfAvalaileStandupPlace[0])
+        self.total_seats = int(instance.hasTotalNbofSeats[0])
+        self.total_lying_places = int(instance.hasTotalNbofLyingPlaces[0])
+        self.hasTotalNbofStandupPlace = int(instance.hasTotalNbofSeats[0])
         self.model_name = instance.hasModelName
         self.fuel_type = instance.fuelType
         self.geo_info = Geolocalisation(instance.hasGeolocalisationInformation)
@@ -118,19 +128,21 @@ class Berline:
         self.time_estimate_to_securepoints = []
     
     def __repr__(self):
-        return f'Berline(name:"{self.name}", state = "{self.state}",alp:"{self.available_lying_places}",as:"{self.available_of_seats}",{self.driver.name})'
+        return f'Berline(name:"{self.name}", state = "{self.state}",alp:"{self.available_lying_places}",as:"{self.available_seats}",{self.driver.name})'
 
 
 class Minibus:
 
     def __init__(self, instance):
         self.name = instance.name
-        self.nb_seats = instance.hasTotalNbofSeats
         self.speed = instance.hasSpeed
         self.state = instance.hasState
-        self.available_lying_places = 0
-        self.available_of_seats = int(instance.hasNbofAvailableSeats[0])
-        self.lying_places = 0
+        self.available_seats = int(instance.hasNbofAvailableSeats[0]) 
+        self.available_lying_places = int(instance.hasNbofAvaiableLyingPlaces[0])
+        self.available_standup_places = int(instance.hasNbOfAvalaileStandupPlace[0])
+        self.total_seats = int(instance.hasTotalNbofSeats[0])
+        self.total_lying_places = int(instance.hasTotalNbofLyingPlaces[0])
+        self.hasTotalNbofStandupPlace = int(instance.hasTotalNbofSeats[0])
         self.model_name = instance.hasModelName
         self.fuel_type = instance.fuelType
         self.geo_info = Geolocalisation(instance.hasGeolocalisationInformation)
@@ -139,19 +151,21 @@ class Minibus:
         self.time_estimate_to_securepoints = []
     
     def __repr__(self):
-        return f'Minibus(name:"{self.name}", state = "{self.state}",alp:"{self.available_lying_places}",as:"{self.available_of_seats}",{self.driver.name})'
+        return f'Minibus(name:"{self.name}", state = "{self.state}",alp:"{self.available_lying_places}",as:"{self.available_seats}",{self.driver.name})'
     
 
 class Boat:
 
     def __init__(self, instance):
         self.name = instance.name
-        self.nb_seats = instance.hasTotalNbofSeats
         self.speed = instance.hasSpeed
         self.state = instance.hasState
-        self.available_lying_places = instance.hasNbofAvailableLyingPlaces
-        self.available_of_seats = int(instance.hasNbofAvailableSeats[0])
-        self.lying_places = instance.hasTotalNbofLyingPlaces
+        self.available_seats = int(instance.hasNbofAvailableSeats[0]) 
+        self.available_lying_places = int(instance.hasNbofAvaiableLyingPlaces[0])
+        self.available_standup_places = int(instance.hasNbOfAvalaileStandupPlace[0])
+        self.total_seats = int(instance.hasTotalNbofSeats[0])
+        self.total_lying_places = int(instance.hasTotalNbofLyingPlaces[0])
+        self.hasTotalNbofStandupPlace = int(instance.hasTotalNbofSeats[0])
         self.model_name = instance.hasModelName
         self.fuel_type = instance.fuelType
         self.geo_info = Geolocalisation(instance.hasGeolocalisationInformation)
@@ -160,18 +174,20 @@ class Boat:
         self.time_estimate_to_securepoints = []
     
     def __repr__(self):
-        return f'Boat(name:"{self.name}", state = "{self.state}",alp:"{self.available_lying_places}",as:"{self.available_of_seats}",{self.driver.name})'
+        return f'Boat(name:"{self.name}", state = "{self.state}",alp:"{self.available_lying_places}",as:"{self.available_seats}",{self.driver.name})'
     
 class Helicopter:
 
     def __init__(self, instance):
         self.name = instance.name
-        self.nb_seats = instance.hasTotalNbofSeats
         self.speed = instance.hasSpeed
         self.state = instance.hasState
-        self.available_lying_places = 0
-        self.available_of_seats = int(instance.hasNbofAvailableSeats[0])
-        self.lying_places = 0
+        self.available_seats = int(instance.hasNbofAvailableSeats[0]) 
+        self.available_lying_places = int(instance.hasNbofAvaiableLyingPlaces[0])
+        self.available_standup_places = int(instance.hasNbOfAvalaileStandupPlace[0])
+        self.total_seats = int(instance.hasTotalNbofSeats[0])
+        self.total_lying_places = int(instance.hasTotalNbofLyingPlaces[0])
+        self.hasTotalNbofStandupPlace = int(instance.hasTotalNbofSeats[0])
         self.model_name = instance.hasModelName
         self.fuel_type = instance.fuelType
         self.geo_info = Geolocalisation(instance.hasGeolocalisationInformation)
@@ -180,7 +196,7 @@ class Helicopter:
         self.time_estimate_to_securepoints = []
     
     def __repr__(self):
-        return f'Helicopter(name:"{self.name}", state = "{self.state}",alp:"{self.available_lying_places}",as:"{self.available_of_seats}",{self.driver.name})'
+        return f'Helicopter(name:"{self.name}", state = "{self.state}",alp:"{self.available_lying_places}",as:"{self.available_seats}",{self.driver.name})'
     
 class VehicleMngmt:
 
@@ -292,7 +308,7 @@ class VehicleMngmt:
         for ins in self.list_of_campervan:
             items.append(ins)
         #for ins in self.list_of_boats:
-        #    items.append([ins.name, ins,  ins.available_of_seats])
+        #    items.append([ins.name, ins,  ins.available_seats])
         return items
 
 
@@ -300,31 +316,31 @@ class VehicleMngmt:
         
         items = [] #name, nb
         for ins in self.list_of_minibus:
-            items.append([ins.name, ins,  ins.available_of_seats, ins.distance_estimate_to_securepoints, ins.time_estimate_to_securepoints])
+            items.append([ins.name, ins,  ins.available_seats, ins.available_lying_places, ins.distance_estimate_to_securepoints, ins.time_estimate_to_securepoints])
         for ins in self.list_of_suv:
-            items.append([ins.name, ins,  ins.available_of_seats, ins.distance_estimate_to_securepoints, ins.time_estimate_to_securepoints])
+            items.append([ins.name, ins,  ins.available_seats, ins.available_lying_places, ins.distance_estimate_to_securepoints, ins.time_estimate_to_securepoints])
         for ins in self.list_of_berlines:
-            items.append([ins.name, ins,  ins.available_of_seats, ins.distance_estimate_to_securepoints, ins.time_estimate_to_securepoints])
+            items.append([ins.name, ins,  ins.available_seats, ins.available_lying_places, ins.distance_estimate_to_securepoints, ins.time_estimate_to_securepoints])
         for ins in self.list_of_van:
-            items.append([ins.name, ins,  ins.available_of_seats, ins.distance_estimate_to_securepoints, ins.time_estimate_to_securepoints])
+            items.append([ins.name, ins,  ins.available_seats, ins.available_lying_places, ins.distance_estimate_to_securepoints, ins.time_estimate_to_securepoints])
         for ins in self.list_of_minivan:
-            items.append([ins.name, ins,  ins.available_of_seats, ins.distance_estimate_to_securepoints, ins.time_estimate_to_securepoints])
+            items.append([ins.name, ins,  ins.available_seats, ins.available_lying_places, ins.distance_estimate_to_securepoints, ins.time_estimate_to_securepoints])
         for ins in self.list_of_campervan:
-            items.append([ins.name, ins,  ins.available_of_seats, ins.distance_estimate_to_securepoints, ins.time_estimate_to_securepoints])
+            items.append([ins.name, ins,  ins.available_seats, ins.available_lying_places, ins.distance_estimate_to_securepoints, ins.time_estimate_to_securepoints])
         #for ins in self.list_of_boats:
-        #    items.append([ins.name, ins,  ins.available_of_seats])
+        #    items.append([ins.name, ins,  ins.available_seats])
         return items
     
     def list_of_vehicles_by_distance_to_secure_points(self):
         result = []
         for item in self.list_of_vehicles():
-            result.append(item[3])
+            result.append(item[4])
         return result
 
     def list_of_vehicles_by_nb_of_seats(self):
         result = []
         for item in self.list_of_vehicles():
-            result.append(item[2])
+            result.append([item[2],item[3]])
         return result
 
     def binding_to_campervan_instance(self, list_of_campervan_ins):

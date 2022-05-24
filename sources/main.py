@@ -4,7 +4,7 @@ from owlready2 import *
 from models.resources import *
 from models.rescuepoint import *
 from models.shelter import *
-from models.solvers import *
+from models.recommand_engine import *
 
 
 
@@ -53,19 +53,22 @@ if __name__ == "__main__":
     # objective: get distance and time from vehicle to each secure point from OpenStreetMap data
     if os.path.exists(os.path.join(save_path,"distance.csv")) is False: 
         d_table, t_table = list_of_vehicles.add_distances_from_vehicle_to_rescuepoint(list_of_rescue_point.list_of_rescue_point,"Oise, France", save_path)
-        print("d_table:", d_table)
+        #print("d_table:", d_table)
     # objective get distance and time estimated  from the secure points to shelter by using OpenStreetMap
     # results are saved in distance_estimate_securepoint_to_shelters.csv and time_estimate_securepoint_to_shelters.csv
     if os.path.exists(os.path.join(save_path,"distance_estimate_securepoint_to_shelters.csv")) is False: 
-        sp_d_table, sp_t_table = list_of_rescue_point.add_distances_from_rescuepoint_to_shelter(list_of_shelters.binding_to_shelter_instance,"Oise, France", save_path)
-        print("sp_d_table:", sp_d_table)
+        sp_d_table, sp_t_table = list_of_rescue_point.add_distances_from_rescuepoint_to_shelter(list_of_shelters.list_of_shelters,"Oise, France", save_path)
+        #print("sp_d_table:", sp_d_table)
+    else:
+        print("Distance estimated are loaded from files")
 
 
-    # case 1: Full vehicle for each secure point: total number of seats of all vehicle >= total person at all secure points
+    #  for each secure point: total number of seats of all vehicle >= total person at all secure points
     # the priority level isn't used. it is not necessary.
     print("====Vehicle Recommendation====")
-    csp_solver = CSPSolver(list_of_vehicles, list_of_rescue_point)
-    csp_solver.csp_solver()
-    # case 2: Limited vehicle: total number of seats of all vehicle < total person at all secure points
-    # The priority is used to decide the ordre of secure points
+    recommand_engine = RecommandEngine(list_of_vehicles, list_of_rescue_point)
+    generateur, x, objective = recommand_engine.generating_recommand(dynamic_resource=True)
+    recommand_engine.best_optimal_recommand(generateur,x, objective)
+    nb_of_recommend = 2
+    recommand_engine.vehicle_resource_recommand(generateur, x, objective, nb_of_recommend)
 

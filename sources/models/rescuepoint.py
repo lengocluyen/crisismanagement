@@ -8,6 +8,7 @@ class RescuePoint:
     def __init__(self, rescue_point_instance):
         self.name = rescue_point_instance.name
         self.nb_of_person = int(rescue_point_instance.hasNbOfPerson[0])
+        self.nb_of_disable_person = int(rescue_point_instance.hasNbofDisablePerson[0])
         self.priority_level = rescue_point_instance.hasPriorityLevel
         self.geo_info = Geolocalisation(rescue_point_instance.hasGeolocalisationInformation)
         self.distance_estimate_to_shelters = []
@@ -70,7 +71,7 @@ class RescuePointMngmt:
     def list_of_securepoint_by_nb_of_person(self):
         result = []
         for item in self.list_of_rescue_point:
-            result.append(item.nb_of_person)
+            result.append([item.nb_of_person, item.nb_of_disable_person])
         return result
 
     def __repr__(self):
