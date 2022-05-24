@@ -20,7 +20,8 @@ if __name__ == "__main__":
     print("###########")
     kb = load_models_and_data_from_file(kb_path)
     list_of_rescue_point_instance = kb.RescuePoint.instances()
-    list_of_rescue_point = RescuePointMngmt(list_of_rescue_point_instance)
+    time_distance_files = [os.path.join(save_path, "distance_estimate_securepoint_to_shelters.csv"), os.path.join(save_path, "time_estimate_securepoint_to_shelters.csv")]
+    list_of_rescue_point = RescuePointMngmt(list_of_rescue_point_instance, time_distance_files=time_distance_files)
 
     print("====List of Rescue point====")
     print(repr(list_of_rescue_point))
@@ -53,6 +54,12 @@ if __name__ == "__main__":
     if os.path.exists(os.path.join(save_path,"distance.csv")) is False: 
         d_table, t_table = list_of_vehicles.add_distances_from_vehicle_to_rescuepoint(list_of_rescue_point.list_of_rescue_point,"Oise, France", save_path)
         print("d_table:", d_table)
+    # objective get distance and time estimated  from the secure points to shelter by using OpenStreetMap
+    # results are saved in distance_estimate_securepoint_to_shelters.csv and time_estimate_securepoint_to_shelters.csv
+    if os.path.exists(os.path.join(save_path,"distance_estimate_securepoint_to_shelters.csv")) is False: 
+        sp_d_table, sp_t_table = list_of_rescue_point.add_distances_from_rescuepoint_to_shelter(list_of_shelters.binding_to_shelter_instance,"Oise, France", save_path)
+        print("sp_d_table:", sp_d_table)
+
 
     # case 1: Full vehicle for each secure point: total number of seats of all vehicle >= total person at all secure points
     # the priority level isn't used. it is not necessary.

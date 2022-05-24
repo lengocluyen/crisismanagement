@@ -53,11 +53,11 @@ class CSPSolver:
         for i in data['all_vehicles']:
             solver.Add(sum(x[i, b] for b in data['all_securepoints']) <= 1)
 
-        # The amount seat of vehicle allocated in each securepoint cannot exceed its total of persons .
+        # The amount seat of vehicle allocated in each securepoint cannot exceed its total of persons . (plus )
         for b in data['all_securepoints']:
             solver.Add(
                 sum(x[i, b] * data['vehicles'][i]
-                    for i in data['all_vehicles']) >= data['securepoints'][b] + 3)
+                    for i in data['all_vehicles']) >= data['securepoints'][b])
         
         # Objective.
         # Minimize total dstances from vehicles and secure points
@@ -69,8 +69,11 @@ class CSPSolver:
         objective.SetMinimization()
         
         status = solver.Solve()
-
+        k = 0
         if status == pywraplp.Solver.OPTIMAL:
+        #while solver.NextSolution() and k < 5:
+            print('k: ', k)
+            k = k + 1
             print(f'Total distances: {objective.Value()}')
             total_vehicle_seats = 0
             for b in data['all_securepoints']:

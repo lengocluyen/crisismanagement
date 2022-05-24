@@ -1,5 +1,6 @@
 from owlready2 import *
 from .geoinfo import Geolocalisation
+from .person import Driver
 from .distance_map import *
 from .utils import *
 import os.path
@@ -21,11 +22,12 @@ class Campervan:
         self.model_name = instance.hasModelName
         self.fuel_type = instance.fuelType
         self.geo_info = Geolocalisation(instance.hasGeolocalisationInformation)
-        self.distance_estimate = []
-        self.time_estimate = []
+        self.driver = Driver(instance.isDrivenBy)
+        self.distance_estimate_to_securepoints = []
+        self.time_estimate_to_securepoints = []
     
     def __repr__(self):
-        return f'Campervan(name:"{self.name}", state = "{self.state}",available_lying_places:"{self.available_lying_places}",available_of_seats:"{self.available_of_seats}",{self.geo_info})'
+        return f'Campervan(name:"{self.name}", state = "{self.state}",alp:"{self.available_lying_places}",as:"{self.available_of_seats}",{self.driver.name})'
 
 
 
@@ -42,11 +44,12 @@ class Minivan:
         self.model_name = instance.hasModelName
         self.fuel_type = instance.fuelType
         self.geo_info = Geolocalisation(instance.hasGeolocalisationInformation)
-        self.distance_estimate = []
-        self.time_estimate = []
+        self.driver = Driver(instance.isDrivenBy)
+        self.distance_estimate_to_securepoints = []
+        self.time_estimate_to_securepoints = []
     
     def __repr__(self):
-        return f'Minivan(name:"{self.name}", state = "{self.state}",available_lying_places:"{self.available_lying_places}",available_of_seats:"{self.available_of_seats}",{self.geo_info})'
+        return f'Minivan(name:"{self.name}", state = "{self.state}",alp:"{self.available_lying_places}",as:"{self.available_of_seats}",{self.driver.name})'
 
 
 
@@ -64,11 +67,12 @@ class Van:
         self.model_name = instance.hasModelName
         self.fuel_type = instance.fuelType
         self.geo_info = Geolocalisation(instance.hasGeolocalisationInformation)
-        self.distance_estimate = []
-        self.time_estimate = []
+        self.driver = Driver(instance.isDrivenBy)
+        self.distance_estimate_to_securepoints = []
+        self.time_estimate_to_securepoints = []
     
     def __repr__(self):
-        return f'Van(name:"{self.name}", state = "{self.state}",available_lying_places:"{self.available_lying_places}",available_of_seats:"{self.available_of_seats}",{self.geo_info})'
+        return f'Van(name:"{self.name}", state = "{self.state}",alp:"{self.available_lying_places}",as:"{self.available_of_seats}",{self.driver.name})'
 
 
 
@@ -87,11 +91,12 @@ class SUV:
         self.model_name = instance.hasModelName
         self.fuel_type = instance.fuelType
         self.geo_info = Geolocalisation(instance.hasGeolocalisationInformation)
-        self.distance_estimate = []
-        self.time_estimate = []
+        self.driver = Driver(instance.isDrivenBy)
+        self.distance_estimate_to_securepoints = []
+        self.time_estimate_to_securepoints = []
     
     def __repr__(self):
-        return f'SUV(name:"{self.name}", state = "{self.state}",available_lying_places:"{self.available_lying_places}",available_of_seats:"{self.available_of_seats}",{self.geo_info})'
+        return f'SUV(name:"{self.name}", state = "{self.state}",alp:"{self.available_lying_places}",as:"{self.available_of_seats}",{self.driver.name})'
 
 
 
@@ -108,11 +113,12 @@ class Berline:
         self.model_name = instance.hasModelName
         self.fuel_type = instance.fuelType
         self.geo_info = Geolocalisation(instance.hasGeolocalisationInformation)
-        self.distance_estimate = []
-        self.time_estimate = []
+        self.driver = Driver(instance.isDrivenBy)
+        self.distance_estimate_to_securepoints = []
+        self.time_estimate_to_securepoints = []
     
     def __repr__(self):
-        return f'Berline(name:"{self.name}", state = "{self.state}",available_lying_places:"{self.available_lying_places}",available_of_seats:"{self.available_of_seats}",{self.geo_info})'
+        return f'Berline(name:"{self.name}", state = "{self.state}",alp:"{self.available_lying_places}",as:"{self.available_of_seats}",{self.driver.name})'
 
 
 class Minibus:
@@ -128,11 +134,12 @@ class Minibus:
         self.model_name = instance.hasModelName
         self.fuel_type = instance.fuelType
         self.geo_info = Geolocalisation(instance.hasGeolocalisationInformation)
-        self.distance_estimate = []
-        self.time_estimate = []
+        self.driver = Driver(instance.isDrivenBy)
+        self.distance_estimate_to_securepoints = []
+        self.time_estimate_to_securepoints = []
     
     def __repr__(self):
-        return f'Minibus(name:"{self.name}", state = "{self.state}",available_lying_places:"{self.available_lying_places}",available_of_seats:"{self.available_of_seats}",{self.geo_info})'
+        return f'Minibus(name:"{self.name}", state = "{self.state}",alp:"{self.available_lying_places}",as:"{self.available_of_seats}",{self.driver.name})'
     
 
 class Boat:
@@ -148,11 +155,12 @@ class Boat:
         self.model_name = instance.hasModelName
         self.fuel_type = instance.fuelType
         self.geo_info = Geolocalisation(instance.hasGeolocalisationInformation)
-        self.distance_estimate = []
-        self.time_estimate = []
+        self.driver = Driver(instance.isDrivenBy)
+        self.distance_estimate_to_securepoints = []
+        self.time_estimate_to_securepoints = []
     
     def __repr__(self):
-        return f'Boat(name:"{self.name}", state = "{self.state}",available_lying_places:"{self.available_lying_places}",available_of_seats:"{self.available_of_seats}",{self.geo_info})'
+        return f'Boat(name:"{self.name}", state = "{self.state}",alp:"{self.available_lying_places}",as:"{self.available_of_seats}",{self.driver.name})'
     
 class Helicopter:
 
@@ -167,11 +175,12 @@ class Helicopter:
         self.model_name = instance.hasModelName
         self.fuel_type = instance.fuelType
         self.geo_info = Geolocalisation(instance.hasGeolocalisationInformation)
-        self.distance_estimate = []
-        self.time_estimate = []
+        self.driver = Driver(instance.isDrivenBy)
+        self.distance_estimate_to_securepoints = []
+        self.time_estimate_to_securepoints = []
     
     def __repr__(self):
-        return f'Helicopter(name:"{self.name}", state = "{self.state}",available_lying_places:"{self.available_lying_places}",available_of_seats:"{self.available_of_seats}",{self.geo_info})'
+        return f'Helicopter(name:"{self.name}", state = "{self.state}",alp:"{self.available_lying_places}",as:"{self.available_of_seats}",{self.driver.name})'
     
 class VehicleMngmt:
 
@@ -193,14 +202,14 @@ class VehicleMngmt:
         for line in d_info:
             if len(line) == len(self.list_of_all_vehicles):
                 for i in range(0,len(self.list_of_all_vehicles)):
-                    self.list_of_vehicles_in_object()[i].distance_estimate.append(line[i])
+                    self.list_of_vehicles_in_object()[i].distance_estimate_to_securepoints.append(line[i])
         t_info = []
         if time_distance_files[1] is not None and os.path.exists(time_distance_files[1]):
             t_info = read_from_csv(time_distance_files[1])
         for line in t_info:
             if len(line) == len(self.list_of_all_vehicles):
                 for i in range(0,len(self.list_of_all_vehicles)):
-                    self.list_of_vehicles_in_object()[i].time_estimate.append(line[i])
+                    self.list_of_vehicles_in_object()[i].time_estimate_to_securepoints.append(line[i])
                     
 
 
@@ -216,8 +225,8 @@ class VehicleMngmt:
                 origine = ins.geo_info.coordinate
                 distance = openstreetmap.get_distance(destination, origine, by="length")
                 time = openstreetmap.get_distance(destination, origine, by="travel_time")
-                ins.distance_estimate.append(distance)
-                ins.time_estimate.append(time)
+                ins.distance_estimate_to_securepoints.append(distance)
+                ins.time_estimate_to_securepoints.append(time)
                 print(res_point.name, ins.name)
                 d_row.append(distance)
                 t_row.append(time)
@@ -225,40 +234,40 @@ class VehicleMngmt:
                 origine = ins.geo_info.coordinate
                 distance = openstreetmap.get_distance(destination, origine, by="length")
                 time = openstreetmap.get_distance(destination, origine, by="travel_time")
-                ins.distance_estimate.append(distance)
-                ins.time_estimate.append(time)
+                ins.distance_estimate_to_securepoints.append(distance)
+                ins.time_estimate_to_securepoints.append(time)
                 d_row.append(distance)
                 t_row.append(time)
             for ins in self.list_of_berlines:
                 origine = ins.geo_info.coordinate
                 distance = openstreetmap.get_distance(destination, origine, by="length")
                 time = openstreetmap.get_distance(destination, origine, by="travel_time")
-                ins.distance_estimate.append(distance)
-                ins.time_estimate.append(time)
+                ins.distance_estimate_to_securepoints.append(distance)
+                ins.time_estimate_to_securepoints.append(time)
                 d_row.append(distance)
                 t_row.append(time)
             for ins in self.list_of_van:
                 origine = ins.geo_info.coordinate
                 distance = openstreetmap.get_distance(destination, origine, by="length")
                 time = openstreetmap.get_distance(destination, origine, by="travel_time")
-                ins.distance_estimate.append(distance)
-                ins.time_estimate.append(time)
+                ins.distance_estimate_to_securepoints.append(distance)
+                ins.time_estimate_to_securepoints.append(time)
                 d_row.append(distance)
                 t_row.append(time)
             for ins in self.list_of_minivan:
                 origine = ins.geo_info.coordinate
                 distance = openstreetmap.get_distance(destination, origine, by="length")
                 time = openstreetmap.get_distance(destination, origine, by="travel_time")
-                ins.distance_estimate.append(distance)
-                ins.time_estimate.append(time)
+                ins.distance_estimate_to_securepoints.append(distance)
+                ins.time_estimate_to_securepoints.append(time)
                 d_row.append(distance)
                 t_row.append(time)
             for ins in self.list_of_campervan:
                 origine = ins.geo_info.coordinate
                 distance = openstreetmap.get_distance(destination, origine, by="length")
                 time = openstreetmap.get_distance(destination, origine, by="travel_time")
-                ins.distance_estimate.append(distance)
-                ins.time_estimate.append(time)
+                ins.distance_estimate_to_securepoints.append(distance)
+                ins.time_estimate_to_securepoints.append(time)
                 d_row.append(distance)
                 t_row.append(time)
             d_table.append(d_row)
@@ -291,17 +300,17 @@ class VehicleMngmt:
         
         items = [] #name, nb
         for ins in self.list_of_minibus:
-            items.append([ins.name, ins,  ins.available_of_seats, ins.distance_estimate, ins.time_estimate])
+            items.append([ins.name, ins,  ins.available_of_seats, ins.distance_estimate_to_securepoints, ins.time_estimate_to_securepoints])
         for ins in self.list_of_suv:
-            items.append([ins.name, ins,  ins.available_of_seats, ins.distance_estimate, ins.time_estimate])
+            items.append([ins.name, ins,  ins.available_of_seats, ins.distance_estimate_to_securepoints, ins.time_estimate_to_securepoints])
         for ins in self.list_of_berlines:
-            items.append([ins.name, ins,  ins.available_of_seats, ins.distance_estimate, ins.time_estimate])
+            items.append([ins.name, ins,  ins.available_of_seats, ins.distance_estimate_to_securepoints, ins.time_estimate_to_securepoints])
         for ins in self.list_of_van:
-            items.append([ins.name, ins,  ins.available_of_seats, ins.distance_estimate, ins.time_estimate])
+            items.append([ins.name, ins,  ins.available_of_seats, ins.distance_estimate_to_securepoints, ins.time_estimate_to_securepoints])
         for ins in self.list_of_minivan:
-            items.append([ins.name, ins,  ins.available_of_seats, ins.distance_estimate, ins.time_estimate])
+            items.append([ins.name, ins,  ins.available_of_seats, ins.distance_estimate_to_securepoints, ins.time_estimate_to_securepoints])
         for ins in self.list_of_campervan:
-            items.append([ins.name, ins,  ins.available_of_seats, ins.distance_estimate, ins.time_estimate])
+            items.append([ins.name, ins,  ins.available_of_seats, ins.distance_estimate_to_securepoints, ins.time_estimate_to_securepoints])
         #for ins in self.list_of_boats:
         #    items.append([ins.name, ins,  ins.available_of_seats])
         return items
