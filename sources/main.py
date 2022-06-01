@@ -15,11 +15,11 @@ kb = get_ontology(kb_path).load()
 
 
 
-def initial_resouces():
+def initial_resouces(number_securepoints, \
+    addresses=[], priority_levels=[],nb_persons=[], nb_disable_persons=[]):
     # get rescue point from user interface
-    list_of_rescue_point = api_get_secure_point_infos(number_securepoints=2, \
-    addresses=["35-39 Quai du Clos des Roses, 60200 Compiegne, France","46 Rue de l'Oise, 60200 Compiegne, France" ], \
-    priority_levels=[1,2],nb_persons=[100, 200], nb_disable_persons=[5, 3])
+    list_of_rescue_point = api_get_secure_point_infos(number_securepoints, \
+    addresses=addresses, priority_levels=priority_levels,nb_persons=nb_persons, nb_disable_persons=nb_disable_persons)
 
     print("====List of Rescue point====")
     print(repr(list_of_rescue_point))
@@ -61,6 +61,7 @@ def initial_resouces():
         print("Distance estimated are loaded from files")
     return list_of_rescue_point, list_of_shelters, list_of_vehicles
 
+
 # [number_securepoints,address, priority_levels, nb_persons, nb_disable_persons]
 # example[number_securepoints=2, addresses=[Ad1, Ad2], priority_levels=[1, 2],nb_persons=[100,200],nb_disable_persons=[5,1]]
 def api_get_secure_point_infos(number_securepoints, \
@@ -79,19 +80,22 @@ def api_get_secure_point_infos(number_securepoints, \
 # return
 # name of vehicles, driver, addresse of the vehicles, 
 # # number of the places availbale of vehicles, distance and time vehicle and securepoint
-def api_post_a_recommenation():
-    list_of_rescue_point, list_of_shelters, list_of_vehicles = initial_resouces()
+def api_post_a_recommenation(number_securepoints, \
+    addresses=[], priority_levels=[],nb_persons=[], nb_disable_persons=[]):
+    list_of_rescue_point, list_of_shelters, list_of_vehicles = initial_resouces(number_securepoints, \
+    addresses, priority_levels,nb_persons, nb_disable_persons)
     print("====Vehicle Recommendation====")
     cityname = "Oise, France"
     recommand_engine = RecommandEngine(list_of_vehicles, list_of_rescue_point, list_of_shelters,cityname)
     generateur, x, objective = recommand_engine.generating_recommand(dynamic_resource=True)
     # print and return la meuilleure proposition
     result = recommand_engine.best_optimal_recommand(generateur,x, objective)
-    print(result)
     return result
 
-def api_post_other_recommends(number=1):
-    list_of_rescue_point, list_of_shelters, list_of_vehicles = initial_resouces()
+def api_post_other_recommends(number=1, number_securepoints=None, \
+    addresses=[], priority_levels=[],nb_persons=[], nb_disable_persons=[]):
+    list_of_rescue_point, list_of_shelters, list_of_vehicles = initial_resouces(number_securepoints,\
+        addresses,priority_levels, nb_persons, nb_disable_persons  )
     print("====Vehicle Recommendation====")
     cityname = "Oise, France"
     recommand_engine = RecommandEngine(list_of_vehicles, list_of_rescue_point, list_of_shelters,cityname)
@@ -104,8 +108,15 @@ def api_post_other_recommends(number=1):
 
 if __name__ == "__main__":
     print("###########")
-    #api_post_a_recommenation()
-    api_post_other_recommends(number=2)
+    number_securepoints=2
+    addresses=["35-39 Quai du Clos des Roses, 60200 Compiegne, France","46 Rue de l'Oise, 60200 Compiegne, France" ]
+    priority_levels=[1,2]
+    nb_persons=[100, 200]
+    nb_disable_persons=[5, 3]
+    results = api_post_a_recommenation(number_securepoints=number_securepoints, addresses=addresses, \
+       priority_levels=priority_levels, nb_persons=nb_persons,nb_disable_persons=nb_disable_persons)
+    
+    #api_post_other_recommends(number=2)
     """
     # from info securepoint from ontology
     list_of_rescue_point_instance = kb.RescuePoint.instances()
