@@ -5,15 +5,16 @@ import osmnx as ox
 np.random.seed(0)
 ox.__version__
 
+
 class OpenStreetMap:
     def __init__(self, city_name):
         self.map_graph = ox.graph_from_place(city_name, network_type="drive")
 
     def get_distance(self, origin_s, destination_s, by="length"):
         map = self.map_graph
-        origin_i = origin_s[0].split(",")
+        origin_i = origin_s.split(",")
         origin = (float(origin_i[0]), float(origin_i[1]))
-        destination_i = destination_s[0].split(",")
+        destination_i = destination_s.split(",")
         destination = (float(destination_i[0]), float(destination_i[1]))
         # impute speed on all edges missing data
         map = ox.add_edge_speeds(map)

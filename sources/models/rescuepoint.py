@@ -5,12 +5,21 @@ from .utils import *
 import os.path
 
 class RescuePoint:
-    def __init__(self, rescue_point_instance):
-        self.name = rescue_point_instance.name
-        self.nb_of_person = int(rescue_point_instance.hasNbOfPerson[0])
-        self.nb_of_disable_person = int(rescue_point_instance.hasNbofDisablePerson[0])
-        self.priority_level = rescue_point_instance.hasPriorityLevel
-        self.geo_info = Geolocalisation(rescue_point_instance.hasGeolocalisationInformation)
+    def __init__(self, rescue_point_instance=None, address=None, priority_level= None, \
+        nb_person=None, nb_disable_person=None):
+        if rescue_point_instance is not None:
+            self.name = rescue_point_instance.name
+            self.nb_of_person = int(rescue_point_instance.hasNbOfPerson[0])
+            self.nb_of_disable_person = int(rescue_point_instance.hasNbofDisablePerson[0])
+            self.priority_level = rescue_point_instance.hasPriorityLevel
+            self.geo_info = Geolocalisation(rescue_point_instance.hasGeolocalisationInformation)
+        else:
+            self.name = address
+            self.nb_of_person = int(nb_person)
+            self.nb_of_disable_person = int(nb_disable_person)
+            self.priority_level = priority_level
+            self.geo_info = Geolocalisation(address=address)
+            
         self.distance_estimate_to_shelters = []
         self.time_estimate_to_shelters = []
     
@@ -20,8 +29,11 @@ class RescuePoint:
 
 
 class RescuePointMngmt:
-    def __init__(self, list_of_rescue_point_instance, time_distance_files=None):
-        self.list_of_rescue_point = self.binding_to_rescue_point_instance(list_of_rescue_point_instance)
+    def __init__(self, list_of_rescue_point_instance, time_distance_files=None, from_user=False):
+        if from_user is False:
+            self.list_of_rescue_point = self.binding_to_rescue_point_instance(list_of_rescue_point_instance)
+        else:
+            self.list_of_rescue_point = list_of_rescue_point_instance
         d_info =[] 
         if time_distance_files[0] is not None and os.path.exists(time_distance_files[0]):
             d_info = read_from_csv(time_distance_files[0])
@@ -43,8 +55,10 @@ class RescuePointMngmt:
         for ins in list_of_rescue_point_instance:
             rl = RescuePoint(ins)
             rl_results.append(rl)
-        return rl_results
-    
+        return rl_results   
+        
+
+
     def add_distances_from_rescuepoint_to_shelter(self, list_of_sheters, city_name, save_path):
         openstreetmap = OpenStreetMap(city_name)
         d_table = []

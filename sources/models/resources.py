@@ -234,11 +234,11 @@ class VehicleMngmt:
         d_table = []
         t_table = []
         for res_point in list_of_rescurepoint:
-            destination = res_point.geo_info.coordinate
+            destination = res_point.geo_info.coordinate[0]
             d_row = []
             t_row = []
             for ins in self.list_of_minibus:
-                origine = ins.geo_info.coordinate
+                origine = ins.geo_info.coordinate[0]
                 distance = openstreetmap.get_distance(destination, origine, by="length")
                 time = openstreetmap.get_distance(destination, origine, by="travel_time")
                 ins.distance_estimate_to_securepoints.append(distance)
@@ -247,7 +247,7 @@ class VehicleMngmt:
                 d_row.append(distance)
                 t_row.append(time)
             for ins in self.list_of_suv:
-                origine = ins.geo_info.coordinate
+                origine = ins.geo_info.coordinate[0]
                 distance = openstreetmap.get_distance(destination, origine, by="length")
                 time = openstreetmap.get_distance(destination, origine, by="travel_time")
                 ins.distance_estimate_to_securepoints.append(distance)
@@ -255,7 +255,7 @@ class VehicleMngmt:
                 d_row.append(distance)
                 t_row.append(time)
             for ins in self.list_of_berlines:
-                origine = ins.geo_info.coordinate
+                origine = ins.geo_info.coordinate[0]
                 distance = openstreetmap.get_distance(destination, origine, by="length")
                 time = openstreetmap.get_distance(destination, origine, by="travel_time")
                 ins.distance_estimate_to_securepoints.append(distance)
@@ -263,7 +263,7 @@ class VehicleMngmt:
                 d_row.append(distance)
                 t_row.append(time)
             for ins in self.list_of_van:
-                origine = ins.geo_info.coordinate
+                origine = ins.geo_info.coordinate[0]
                 distance = openstreetmap.get_distance(destination, origine, by="length")
                 time = openstreetmap.get_distance(destination, origine, by="travel_time")
                 ins.distance_estimate_to_securepoints.append(distance)
@@ -271,7 +271,7 @@ class VehicleMngmt:
                 d_row.append(distance)
                 t_row.append(time)
             for ins in self.list_of_minivan:
-                origine = ins.geo_info.coordinate
+                origine = ins.geo_info.coordinate[0]
                 distance = openstreetmap.get_distance(destination, origine, by="length")
                 time = openstreetmap.get_distance(destination, origine, by="travel_time")
                 ins.distance_estimate_to_securepoints.append(distance)
@@ -279,7 +279,7 @@ class VehicleMngmt:
                 d_row.append(distance)
                 t_row.append(time)
             for ins in self.list_of_campervan:
-                origine = ins.geo_info.coordinate
+                origine = ins.geo_info.coordinate[0]
                 distance = openstreetmap.get_distance(destination, origine, by="length")
                 time = openstreetmap.get_distance(destination, origine, by="travel_time")
                 ins.distance_estimate_to_securepoints.append(distance)
@@ -316,17 +316,17 @@ class VehicleMngmt:
         
         items = [] #name, nb
         for ins in self.list_of_minibus:
-            items.append([ins.name, ins,  ins.available_seats, ins.available_lying_places, ins.distance_estimate_to_securepoints, ins.time_estimate_to_securepoints])
+            items.append([ins.name, ins,  ins.available_seats, ins.available_lying_places, ins.distance_estimate_to_securepoints, ins.time_estimate_to_securepoints, ins.driver.name, ins.geo_info.location_name])
         for ins in self.list_of_suv:
-            items.append([ins.name, ins,  ins.available_seats, ins.available_lying_places, ins.distance_estimate_to_securepoints, ins.time_estimate_to_securepoints])
+            items.append([ins.name, ins,  ins.available_seats, ins.available_lying_places, ins.distance_estimate_to_securepoints, ins.time_estimate_to_securepoints, ins.driver.name, ins.geo_info.location_name])
         for ins in self.list_of_berlines:
-            items.append([ins.name, ins,  ins.available_seats, ins.available_lying_places, ins.distance_estimate_to_securepoints, ins.time_estimate_to_securepoints])
+            items.append([ins.name, ins,  ins.available_seats, ins.available_lying_places, ins.distance_estimate_to_securepoints, ins.time_estimate_to_securepoints, ins.driver.name, ins.geo_info.location_name])
         for ins in self.list_of_van:
-            items.append([ins.name, ins,  ins.available_seats, ins.available_lying_places, ins.distance_estimate_to_securepoints, ins.time_estimate_to_securepoints])
+            items.append([ins.name, ins,  ins.available_seats, ins.available_lying_places, ins.distance_estimate_to_securepoints, ins.time_estimate_to_securepoints, ins.driver.name, ins.geo_info.location_name])
         for ins in self.list_of_minivan:
-            items.append([ins.name, ins,  ins.available_seats, ins.available_lying_places, ins.distance_estimate_to_securepoints, ins.time_estimate_to_securepoints])
+            items.append([ins.name, ins,  ins.available_seats, ins.available_lying_places, ins.distance_estimate_to_securepoints, ins.time_estimate_to_securepoints, ins.driver.name, ins.geo_info.location_name])
         for ins in self.list_of_campervan:
-            items.append([ins.name, ins,  ins.available_seats, ins.available_lying_places, ins.distance_estimate_to_securepoints, ins.time_estimate_to_securepoints])
+            items.append([ins.name, ins,  ins.available_seats, ins.available_lying_places, ins.distance_estimate_to_securepoints, ins.time_estimate_to_securepoints, ins.driver.name, ins.geo_info.location_name])
         #for ins in self.list_of_boats:
         #    items.append([ins.name, ins,  ins.available_seats])
         return items
@@ -335,6 +335,12 @@ class VehicleMngmt:
         result = []
         for item in self.list_of_vehicles():
             result.append(item[4])
+        return result
+    
+    def list_of_vehicles_by_time_to_secure_points(self):
+        result = []
+        for item in self.list_of_vehicles():
+            result.append(item[5])
         return result
 
     def list_of_vehicles_by_nb_of_seats(self):

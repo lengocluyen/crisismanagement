@@ -1,13 +1,18 @@
 """Solve a multiple knapsack problem using a MIP solver."""
 from ortools.linear_solver import pywraplp
+from .distance_map import OpenStreetMap
 #from ortools.sat.python import cp_model
 
 class RecommandEngine:
-    def __init__(self, vehiclemngnt, securepointmngnt):
+    def __init__(self, vehiclemngnt, securepointmngnt, sheltermngt, cityname = ""):
+        self.cityname = cityname
         self.vehiclemngnt = vehiclemngnt
         self.securepointmngnt = securepointmngnt
+        self.sheltermngt = sheltermngt
         self.vehicles = self.vehiclemngnt.list_of_vehicles_by_nb_of_seats()
         self.distance_estimes_to_secure_points = self.vehiclemngnt.list_of_vehicles_by_distance_to_secure_points()
+        self.time_estimes_to_secure_points = self.vehiclemngnt.list_of_vehicles_by_time_to_secure_points()
+
         #print("self.distances", self.distance_estimes_to_secure_points)
         self.securepoint = self.securepointmngnt.list_of_securepoint_by_nb_of_person()
         
@@ -15,9 +20,11 @@ class RecommandEngine:
         self.data = {}
         self.data['vehicle_seats'] = self.vehicles
         self.data['distances'] = self.distance_estimes_to_secure_points
+        self.data['time'] = self.time_estimes_to_secure_points
         self.data['securepoint_capacities'] = self.securepoint
 
         assert len(self.data['vehicle_seats']) == len(self.data['distances'])
+        assert len(self.data['vehicle_seats']) == len(self.data['time'])
         self.data['num_items'] = len(self.data['vehicle_seats'])
         self.data['all_items'] = range(self.data['num_items'])
         self.data['num_securepoint'] = len(self.data['securepoint_capacities'])
@@ -26,7 +33,7 @@ class RecommandEngine:
 
 
     
-    def find_min_distance(self, list_of_distances):
+    def find_min(self, list_of_distances):
         result = 100000
         for item in list_of_distances:
             if item[0]<= result:
@@ -87,7 +94,7 @@ class RecommandEngine:
         return vehicles_seats, distances, securepoint_capacities
 
     def generating_recommand(self, dynamic_resource=False):
-        if dynamic_resource:
+        if dynamic_resource: # based on distance
             _, _, full_resource =  self.computing_nb_of_resource_and_capacity(self.data['vehicle_seats'],self.data['securepoint_capacities'])
             if full_resource == False:
                 self.data['vehicle_seats'], self.data['distances'],_ = self.adding_resource_and_distance_by_reuse(self.data['vehicle_seats'], self.data['distances'], self.data['securepoint_capacities'])
@@ -127,66 +134,105 @@ class RecommandEngine:
         objective = solver.Objective()
         for i in self.data['all_items']:
             for b in self.data['all_securepoint']:
-                value = self.data['distances'][i]
+                value = self.data['time'][i]
                 objective.SetCoefficient(x[i, b], float(value[b][0]))
         objective.SetMinimization()
         return solver, x, objective
 
     def best_optimal_recommand(self, generateur, x, objective):
+        recommand_result = []
         status = generateur.Solve()
         if status == pywraplp.Solver.OPTIMAL:
-            print(f'Total distances: {objective.Value()}')
+            print(f'Total Time: {objective.Value()}')
             total_vehicle_seats = [0,0]
             for b in self.data['all_securepoint']:
                 print(f'Recuse Point: {self.securepointmngnt.list_of_rescue_point[b].name}')
+                #
+                shelter_time_estimated = []
+                openstreetmap = OpenStreetMap(self.cityname)
+                for shelter in self.sheltermngt.list_of_shelters:
+                    destination = shelter.geo_info.coordinate[0]
+                    origine = self.securepointmngnt.list_of_rescue_point[b].geo_info.coordinate
+                    time = openstreetmap.get_distance(destination, origine, by="travel_time")
+                    shelter_time_estimated.append([shelter.name, time])
                 total_person_of_securepoint = [0,0]
                 distance_vehicle_securepoint = 0
+                vehicle_allocated_list = []
                 for i in self.data['all_items']:
                     if x[i, b].solution_value() > 0:
-                        valueee = self.data['distances'][i]
+                        valueee = self.data['time'][i]
                         print(
-                            f"\t\t--{self.vehiclemngnt.list_of_vehicles()[i][0]} - Number of seats: {self.data['vehicle_seats'][i]}, -Minimal Distance: {valueee[b][0]}"
+                            f"\t\t--{self.vehiclemngnt.list_of_vehicles()[i][0]} - {self.vehiclemngnt.list_of_vehicles()[i][-2]}, address: {self.vehiclemngnt.list_of_vehicles()[i][-1]} - Number of seats: {self.data['vehicle_seats'][i]}, -Time: {valueee[b][0]}, shelters: {shelter_time_estimated}"
                         )
+                        # vehicles = [vehicle name, driver name, available places, time]
+                        vehicles = [self.vehiclemngnt.list_of_vehicles()[i][0], self.vehiclemngnt.list_of_vehicles()[i][-2], self.vehiclemngnt.list_of_vehicles()[i][-1], self.data['vehicle_seats'][i], valueee[b][0]]
+                        vehicle_allocated_list.append(vehicles)
                         total_person_of_securepoint[0] += self.data['vehicle_seats'][i][0]
                         total_person_of_securepoint[1] += self.data['vehicle_seats'][i][1]
-                        distance_vehicle_securepoint += self.find_min_distance(self.data['distances'][i])
+                        distance_vehicle_securepoint += self.find_min(self.data['time'][i])
+                # securepoint and its vehicle resources
+                securepoint_vehilce = [self.securepointmngnt.list_of_rescue_point[b].name, shelter_time_estimated,  vehicle_allocated_list]
+                recommand_result.append(securepoint_vehilce)
                 print(f'Total nb of persons: {total_person_of_securepoint}')
-                print(f'Minial Distance of Vehicle and Secure point : {distance_vehicle_securepoint}\n')
+                print(f'Time of Vehicle and Secure point : {distance_vehicle_securepoint}\n')
                 total_vehicle_seats[0] += total_person_of_securepoint[0]
                 total_vehicle_seats[1] += total_person_of_securepoint[1]
+                
             print(f'Total: {total_vehicle_seats}')
+            return recommand_result
         else:
             print('The problem does not have an optimal solution.')
+            return None
 
 
     def vehicle_resource_recommand(self, generateur, x, objective,  nb_of_recommend):
         k = 0
         status = generateur.Solve()
+        result = []
         while generateur.NextSolution() and k < nb_of_recommend:
+            recommand_result = []
             print("Vehicle Resources are allocated for secure points: ", (nb_of_recommend + 1))
             k = k + 1
-            print(f'Total distances: {objective.Value()}')
+            print(f'Total Time: {objective.Value()}')
             total_vehicle_seats = [0,0]
             for b in self.data['all_securepoint']:
                 print(f'Recuse Point: {self.securepointmngnt.list_of_rescue_point[b].name}')
+                #
+                shelter_time_estimated = []
+                openstreetmap = OpenStreetMap(self.cityname)
+                for shelter in self.sheltermngt.list_of_shelters:
+                    destination = shelter.geo_info.coordinate[0]
+                    origine = self.securepointmngnt.list_of_rescue_point[b].geo_info.coordinate
+                    time = openstreetmap.get_distance(destination, origine, by="travel_time")
+                    shelter_time_estimated.append([shelter.name, time])
                 total_person_of_securepoint = [0,0]
                 distance_vehicle_securepoint = 0
+                vehicle_allocated_list = []
                 for i in self.data['all_items']:
                     if x[i, b].solution_value() > 0:
-                        valueee = self.data['distances'][i]
+                        valueee = self.data['time'][i]
                         print(
-                            f"\t\t--{self.vehiclemngnt.list_of_vehicles()[i][0]} - Number of seats: {self.data['vehicle_seats'][i]}, -Minimal Distance: {valueee[b][0]}"
+                            f"\t\t--{self.vehiclemngnt.list_of_vehicles()[i][0]} - {self.vehiclemngnt.list_of_vehicles()[i][-2]}, address: {self.vehiclemngnt.list_of_vehicles()[i][-1]} - Number of seats: {self.data['vehicle_seats'][i]}, -Time: {valueee[b][0]}, shelters: {shelter_time_estimated}"
                         )
+                        # vehicles = [vehicle name, driver name, available places, time]
+                        vehicles = [self.vehiclemngnt.list_of_vehicles()[i][0], self.vehiclemngnt.list_of_vehicles()[i][-2], self.vehiclemngnt.list_of_vehicles()[i][-1], self.data['vehicle_seats'][i], valueee[b][0]]
+                        vehicle_allocated_list.append(vehicles)
                         total_person_of_securepoint[0] += self.data['vehicle_seats'][i][0]
                         total_person_of_securepoint[1] += self.data['vehicle_seats'][i][1]
-                        distance_vehicle_securepoint += self.find_min_distance(self.data['distances'][i])
+                        distance_vehicle_securepoint += self.find_min(self.data['time'][i])
+                # securepoint and its vehicle resources
+                securepoint_vehilce = [self.securepointmngnt.list_of_rescue_point[b].name, shelter_time_estimated,  vehicle_allocated_list]
+                recommand_result.append(securepoint_vehilce)
                 print(f'Total nb of persons: {total_person_of_securepoint}')
-                print(f'Minial Distance of Vehicle and Secure point : {distance_vehicle_securepoint}\n')
+                print(f'Time of Vehicle and Secure point : {distance_vehicle_securepoint}\n')
                 total_vehicle_seats[0] += total_person_of_securepoint[0]
                 total_vehicle_seats[1] += total_person_of_securepoint[1]
+                
             print(f'Total: {total_vehicle_seats}')
-        else:
+            result.append(recommand_result)
+        if len(result)<1:
             print('The problem does not have an optimal solution.')
+        return result
 """
     def csp_solver_SCIP(self):
         data = {}
@@ -257,7 +303,7 @@ class RecommandEngine:
                             f"\t\t--{self.vehiclemngnt.list_of_vehicles()[i][0]} - Number of seats: {data['vehicles'][i]}, -Minimal Distance: {valueee[b][0]} in Distances: {valueee}"
                         )
                         total_person_of_securepoint += data['vehicles'][i]
-                        distance_vehicle_securepoint += self.find_min_distance(data['distances'][i])
+                        distance_vehicle_securepoint += self.find_min(data['distances'][i])
                 print(f'Total nb of persons: {total_person_of_securepoint}')
                 print(f'Minial Distance of Vehicle and Secure point : {distance_vehicle_securepoint}\n')
                 total_vehicle_seats += total_person_of_securepoint

@@ -1,6 +1,18 @@
 import os
 import numpy as np 
 from numpy import genfromtxt
+from urllib.request import urlopen
+import json
+
+def get_coordinate_from_address(address):
+    address = address.replace(" ", "+")
+    #address = "35-39 Quai du Clos des Roses, 60200 Compiegne".replace(" ", "+")
+    url = f"https://nominatim.openstreetmap.org/search?q={address}&format=json&polygon=1&addressdetails=1"
+    response = urlopen(url)
+    data_json = json.loads(response.read())
+    x = data_json[0]["lat"]
+    y = data_json[0]["lon"]
+    return x, y
 
 def save_to_csv(data, save_path):
     np_data = np.asarray(data)
