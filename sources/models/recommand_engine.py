@@ -2,6 +2,8 @@
 from ortools.linear_solver import pywraplp
 from .distance_map import OpenStreetMap
 #from ortools.sat.python import cp_model
+import time as timing
+
 
 class RecommandEngine:
     def __init__(self, vehiclemngnt, securepointmngnt, sheltermngt, cityname = ""):
@@ -140,7 +142,11 @@ class RecommandEngine:
         return solver, x, objective
 
     def best_optimal_recommand(self, generateur, x, objective):
-        recommand_result = []
+        recommand_result = {}
+        t01 = timing.time()
+        openstreetmap = OpenStreetMap(self.cityname)
+        t02 = timing.time()
+        print("Open streetmap loaded time: ", t02 - t01)
         status = generateur.Solve()
         if status == pywraplp.Solver.OPTIMAL:
             print(f'Total Time: {objective.Value()}')
@@ -148,16 +154,21 @@ class RecommandEngine:
             for b in self.data['all_securepoint']:
                 print(f'Recuse Point: {self.securepointmngnt.list_of_rescue_point[b].name}')
                 #
-                shelter_time_estimated = []
-                openstreetmap = OpenStreetMap(self.cityname)
+                shelter_time_estimated = {}
+                
                 for shelter in self.sheltermngt.list_of_shelters:
+                    t1 = timing.time()
                     destination = shelter.geo_info.coordinate[0]
                     origine = self.securepointmngnt.list_of_rescue_point[b].geo_info.coordinate
                     time = openstreetmap.get_distance(destination, origine, by="travel_time")
-                    shelter_time_estimated.append([shelter.name, time])
+                    t2 = timing.time()
+                    print(f"Estimated time form {self.securepointmngnt.list_of_rescue_point[b].name} to {shelter.name}: ", t2 - t1)
+                    #shelter_time_estimated.append([shelter.name, time])
+                    shelter_name = str(shelter.name).replace(" ", "_")
+                    shelter_time_estimated[shelter_name] = time
                 total_person_of_securepoint = [0,0]
                 distance_vehicle_securepoint = 0
-                vehicle_allocated_list = []
+                vehicle_allocated_list = {}
                 for i in self.data['all_items']:
                     if x[i, b].solution_value() > 0:
                         valueee = self.data['time'][i]
@@ -165,14 +176,30 @@ class RecommandEngine:
                             f"\t\t--{self.vehiclemngnt.list_of_vehicles()[i][0]} - {self.vehiclemngnt.list_of_vehicles()[i][-2]}, address: {self.vehiclemngnt.list_of_vehicles()[i][-1]} - Number of seats: {self.data['vehicle_seats'][i]}, -Time: {valueee[b][0]}, shelters: {shelter_time_estimated}"
                         )
                         # vehicles = [vehicle name, driver name, available places, time]
-                        vehicles = [self.vehiclemngnt.list_of_vehicles()[i][0], self.vehiclemngnt.list_of_vehicles()[i][-2], self.vehiclemngnt.list_of_vehicles()[i][-1], self.data['vehicle_seats'][i], valueee[b][0]]
-                        vehicle_allocated_list.append(vehicles)
+                        #vehicles = [self.vehiclemngnt.list_of_vehicles()[i][0], self.vehiclemngnt.list_of_vehicles()[i][-2], self.vehiclemngnt.list_of_vehicles()[i][-1], self.data['vehicle_seats'][i], valueee[b][0]]
+                        #vehicle_allocated_list.append(vehicles)
+                        vehicles = {}
+                        vehicles["vehicle_name"] = self.vehiclemngnt.list_of_vehicles()[i][0]
+                        vehicles["driver_name"] = self.vehiclemngnt.list_of_vehicles()[i][-2]
+                        vehicles["adresse"] = self.vehiclemngnt.list_of_vehicles()[i][-1]
+                        vehicles["available_places"] = self.data['vehicle_seats'][i]
+                        vehicles["estimated_time"] = valueee[b][0] 
+                        driver_name = str(self.vehiclemngnt.list_of_vehicles()[i][0]).replace(" ", "_")
+                        vehicle_allocated_list[driver_name] = vehicles
                         total_person_of_securepoint[0] += self.data['vehicle_seats'][i][0]
                         total_person_of_securepoint[1] += self.data['vehicle_seats'][i][1]
                         distance_vehicle_securepoint += self.find_min(self.data['time'][i])
                 # securepoint and its vehicle resources
-                securepoint_vehilce = [self.securepointmngnt.list_of_rescue_point[b].name, shelter_time_estimated,  vehicle_allocated_list]
-                recommand_result.append(securepoint_vehilce)
+
+                #securepoint_vehilce = [self.securepointmngnt.list_of_rescue_point[b].name, shelter_time_estimated,  vehicle_allocated_list]
+                #recommand_result.append(securepoint_vehilce)
+                securepoint_name = str(self.securepointmngnt.list_of_rescue_point[b].name).replace(" ", "_")
+                securepoint_vehilce = {}
+                securepoint_vehilce["rescure_point_name"] = self.securepointmngnt.list_of_rescue_point[b].name
+                securepoint_vehilce["estimated_time_to_all_shelters"] = shelter_time_estimated
+                securepoint_vehilce["vehicle_allocation_list"] = vehicle_allocated_list
+                recommand_result[securepoint_name] = securepoint_vehilce
+
                 print(f'Total nb of persons: {total_person_of_securepoint}')
                 print(f'Time of Vehicle and Secure point : {distance_vehicle_securepoint}\n')
                 total_vehicle_seats[0] += total_person_of_securepoint[0]

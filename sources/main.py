@@ -6,7 +6,7 @@ from models.rescuepoint import *
 from models.shelter import *
 from models.recommand_engine import *
 
-
+import time 
 
 # Models and Data Path
 kb_path = "/home/lengocluyen/projects/crisis_management/crisismanagement/ontology_models/evacuation_models_instancesv1.owl"
@@ -107,15 +107,19 @@ def api_post_other_recommends(number=1, number_securepoints=None, \
     return result
 
 if __name__ == "__main__":
+    t1 = time.time()
     print("###########")
     number_securepoints=2
     addresses=["35-39 Quai du Clos des Roses, 60200 Compiegne, France","46 Rue de l'Oise, 60200 Compiegne, France" ]
     priority_levels=[1,2]
     nb_persons=[100, 200]
     nb_disable_persons=[5, 3]
+    # https://stackoverflow.com/questions/17235467/passing-a-python-list-to-php
     results = api_post_a_recommenation(number_securepoints=number_securepoints, addresses=addresses, \
        priority_levels=priority_levels, nb_persons=nb_persons,nb_disable_persons=nb_disable_persons)
-    
+    print(results)
+    t2 = time.time()
+    print("Estimated time: ", (t2-t1))
     #api_post_other_recommends(number=2)
     """
     # from info securepoint from ontology
